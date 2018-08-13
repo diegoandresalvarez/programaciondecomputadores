@@ -1,6 +1,6 @@
 # 4101708 - G1 - Programación de computadores
 
-![Image](../imagenes/steve_jobs_on_computer_programming.jpg)
+![Image](imagenes/steve_jobs_on_computer_programming.jpg)
 Fuente: https://www.youtube.com/watch?v=mCDkxUbalCw
 
 - Profesor: [Diego Andrés Alvarez Marín](https://sites.google.com/site/diegoandresalvarezmarin/alvarezCV_internet.pdf) (daalvarez@unal.edu.co)

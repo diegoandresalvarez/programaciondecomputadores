@@ -1,6 +1,6 @@
 # Observaciones generales y temario del curso
 
-![Caricatura](../../imagenes/programmer_vs_nonprogrammer.jpg)
+![Caricatura](../imagenes/programmer_vs_nonprogrammer.jpg)
 
 ## Citas para preguntas
 Únicamente solicitándolas previamente, ya sea por correo electrónico o antes/después de la clase.
