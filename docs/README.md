@@ -1,4 +1,4 @@
-# 4101708 - G2 - Programación de computadores</span>
+# 4101708 - G2 - Programación de computadores
 
 ![Image](../imagenes/steve_jobs_on_computer_programming.jpg)
 Fuente: https://www.youtube.com/watch?v=mCDkxUbalCw
@@ -14,7 +14,13 @@ Fuente: https://www.youtube.com/watch?v=mCDkxUbalCw
 - Créditos: 3
 
 ## Tabla de contenido PYTHON 3:
+- [Temario y observaciones generales del curso](python3/temario_y_observaciones_generales.md)
 - [Códigos y diapositivas](python3/codigos_y_diapositivas.md)
+
+
+
+
+
 
 ## Programación de computadores
 
