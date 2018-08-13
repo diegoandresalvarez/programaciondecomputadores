@@ -8,8 +8,8 @@ Fuente: http://xkcd.com/353/
 
 
 ## 01 - Introducción al lenguaje Python 3
-[Diapositivas](../../codigo/python3/01_-_Introduccion_a_Python_3.pdf]]
-- [01_hello.asm](../../codigo/otros/01_hello.asm]]
-- [01_hello.c](../../codigo/C/01_hello.c]]
-- [01_hola_mundo.py](../../codigo/python3/01_hola_mundo.py]]
+[Diapositivas](../../codigo/python3/01_-_Introduccion_a_Python_3.pdf)
+- [01_hello.asm](../../codigo/otros/01_hello.asm)
+- [01_hello.c](../../codigo/C/01_hello.c)
+- [01_hola_mundo.py](../../codigo/python3/01_hola_mundo.py)
 
