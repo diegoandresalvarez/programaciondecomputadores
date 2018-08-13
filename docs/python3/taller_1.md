@@ -10,11 +10,9 @@ Fuente: <http://xkcd.com/323/>
 * Parte 4 (opcional): Noviembre 14, 2017 a las 11:59pm. La parte 4 de este taller es opcional y reemplaza la nota más baja de las entregas, 1, 2 y 3.
 Enviar a daalvarez@unal.edu.co. Sin excepción, por cada día de retraso en la entrega, se rebajarán 3 décimas de la nota de la entrega del Taller 1. 
 
-# Los ejercicios a realizar=
-
-## collapsible markdown?
-
-<details><summary>CLICK ME</summary>
+# Los ejercicios a realizar
+## Parte 1
+<details><summary>Haga click para ver la parte 1</summary>
 <p>
 
 #### yes, even hidden code blocks!
@@ -25,6 +23,47 @@ print("hello world!")
 
 </p>
 </details>
+
+## Parte 2
+<details><summary>Haga click para ver la parte 2</summary>
+<p>
+
+#### yes, even hidden code blocks!
+
+```python
+print("hello world!")
+```
+
+</p>
+</details>
+
+## Parte 3
+<details><summary>Haga click para ver la parte 3</summary>
+<p>
+
+#### yes, even hidden code blocks!
+
+```python
+print("hello world!")
+```
+
+</p>
+</details>
+
+## Parte 4
+<details><summary>Haga click para ver la parte 4</summary>
+<p>
+
+#### yes, even hidden code blocks!
+
+```python
+print("hello world!")
+```
+
+</p>
+</details>
+
+
 
 =Forma de presentación=
 * Individual
