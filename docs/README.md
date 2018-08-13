@@ -1,4 +1,4 @@
-## Programación de computadores2
+## Programación de computadores
 
 Aquí irán los códigos y las diapositivas You can use the [editor on GitHub](https://github.com/diegoandresalvarez/programaciondecomputadores/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
