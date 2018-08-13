@@ -124,9 +124,9 @@ Este tutorial está basado en los capítulos 17, 18, 19 y 20 de https://inventwi
 Y en los videotutoriales de Código Facilito: https://codigofacilito.com/videos/curso_pygame_configuracion_de_python_y_pygame
 
 - Tutoriales PYGAME en YOUTUBE:
-  - Código Facilito: https://www.youtube.com/watch?v## PGRhWuYjPdw&listPLpOqH6AE0tNherBf6bzGiDM1uIy_E0WJH
-  - Chelín Tutorials: https://www.youtube.com/watch?v## MrJD4GJuRVo&listPL46E99FE946C1C946
-  - Hackers e Ingenieros: https://www.youtube.com/watch?v## TgbkumbP9Lg&listPLPOv7bTzpLUsHikz39jnTnL0DYMVFiVt4
+  - [Código Facilito](https://www.youtube.com/watch?v## PGRhWuYjPdw&listPLpOqH6AE0tNherBf6bzGiDM1uIy_E0WJH)
+  - [Chelín Tutorials](https://www.youtube.com/watch?v## MrJD4GJuRVo&listPL46E99FE946C1C946)
+  - [Hackers e Ingenieros](https://www.youtube.com/watch?v## TgbkumbP9Lg&listPLPOv7bTzpLUsHikz39jnTnL0DYMVFiVt4)
 
 * Un buen lugar para aprender es http://programarcadegames.com/
 - [12_a_formas_geometricas.py](../../codigo/python3/12_a_formas_geometricas.py)
