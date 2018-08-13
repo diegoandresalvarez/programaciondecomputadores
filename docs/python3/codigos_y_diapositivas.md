@@ -15,7 +15,6 @@ Fuente: http://xkcd.com/353/
 
 ## 02 - Tipos de datos escalares en Python 3
 [Diapositivas](../../diapositivas/python3/02_-_Tipos_de_datos_escalares_en_Python_3.pdf)
-- [02_compara_reales.py](../../codigo/python3/02_compara_reales.py)
 - [02_epsilon.py](../../codigo/python3/02_epsilon.py)
 - [02_round_half_away_from_zero.py](../../codigo/python3/02_round_half_away_from_zero.py)
 - [02_no_compare_floats_con_igual_igual.py](../../codigo/python3/02_no_compare_floats_con_igual_igual.py)
@@ -118,29 +117,27 @@ Juegos:
 ## 12 - El módulo Pygame
 [Diapositivas](../../diapositivas/python3/12_-_Pygame.pdf)
 - [Instalación de PYGAME en ANACONDA](https://anaconda.org/CogSci/pygame)
-- [Instalación de PYGAME en CPYTHON](http://programarcadegames.com/index.php?chapter## foreword&langes)
+- <a href="http://programarcadegames.com/index.php?chapter## foreword&langes">Instalación de PYGAME en CPYTHON</a>
 
 Este tutorial está basado en los capítulos 17, 18, 19 y 20 de https://inventwithpython.com/chapters
 Y en los videotutoriales de Código Facilito: https://codigofacilito.com/videos/curso_pygame_configuracion_de_python_y_pygame
 
 - Tutoriales PYGAME en YOUTUBE:
-  - [Código Facilito](https://www.youtube.com/watch?v## PGRhWuYjPdw&listPLpOqH6AE0tNherBf6bzGiDM1uIy_E0WJH)
-  - [Chelín Tutorials](https://www.youtube.com/watch?v## MrJD4GJuRVo&listPL46E99FE946C1C946)
-  - [Hackers e Ingenieros](https://www.youtube.com/watch?v## TgbkumbP9Lg&listPLPOv7bTzpLUsHikz39jnTnL0DYMVFiVt4)
+  - [Código Facilito](https://codigofacilito.com/cursos/pygame)
+  - [Chelín Tutorials](http://chelintutorials.blogspot.com/p/pygame.html)
+  - <a href="https://www.youtube.com/playlist?list=PLPOv7bTzpLUsHikz39jnTnL0DYMVFiVt4">Hackers e Ingenieros</a>
 
-* Un buen lugar para aprender es http://programarcadegames.com/
-- [12_a_formas_geometricas.py](../../codigo/python3/12_a_formas_geometricas.py)
-- [12_b_animaciones.py](../../codigo/python3/12_b_animaciones.py)
-- [12_c_pelota.zip](../../codigo/python3/12_c_pelota.zip)
-- [12_d_collision_detection.py](../../codigo/python3/12_d_collision_detection.py)
-- [12_e_events.py](../../codigo/python3/12_e_events.py)
-- [12_f_fuentes.zip](../../codigo/python3/12_f_fuentes.zip)
-- [12_g_sprites_and_sounds.zip](../../codigo/python3/12_g_sprites_and_sounds.zip)
-- [12_h_dodger.zip](../../codigo/python3/12_h_dodger.zip)
-- [12_rotar3d_pygame.zip](../../codigo/python3/12_rotar3d_pygame.zip)
-
-Ejemplos de Pygame con **programación orientada a objetos**:
-- [12_i_moveit_OOP.zip](../../codigo/python3/12_i_moveit_OOP.zip)
+- Un buen lugar para aprender es http://programarcadegames.com/
+  - [12_a_formas_geometricas.py](../../codigo/python3/12_a_formas_geometricas.py)
+  - [12_b_animaciones.py](../../codigo/python3/12_b_animaciones.py)
+  - [12_c_pelota.zip](../../codigo/python3/12_c_pelota.zip)
+  - [12_d_collision_detection.py](../../codigo/python3/12_d_collision_detection.py)
+  - [12_e_events.py](../../codigo/python3/12_e_events.py)
+  - [12_f_fuentes.zip](../../codigo/python3/12_f_fuentes.zip)
+  - [12_g_sprites_and_sounds.zip](../../codigo/python3/12_g_sprites_and_sounds.zip)
+  - [12_h_dodger.zip](../../codigo/python3/12_h_dodger.zip)
+  - [12_i_moveit_OOP.zip](../../codigo/python3/12_i_moveit_OOP.zip): ejemplos que utilizan **programación orientada a objetos**.
+  - [12_rotar3d_pygame.zip](../../codigo/python3/12_rotar3d_pygame.zip)  
 
 ## 13 _ Programación orientada a objetos en Python 3
 [Diapositivas](../../diapositivas/python3/13_-_Programacion_orientada_a_objetos_en_Python_3.pdf)
