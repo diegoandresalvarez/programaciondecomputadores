@@ -1,3 +1,21 @@
+# 4101708 - G2 - Programación de computadores</span>
+
+![Image](../imagenes/steve_jobs_on_computer_programming.jpg)
+Fuente: https://www.youtube.com/watch?v=mCDkxUbalCw
+
+- Profesor: [Diego Andrés Alvarez Marín](http://diegoandresalvarezmarin.googlepages.com/alvarezCV.pdf) (daalvarez@unal.edu.co)
+- Intensidad horaria semanal presencial: 4 horas
+- Grupo 2:
+-- Lunes 14:00-16:00 C308
+-- Jueves 14:00-16:00 C408
+
+- Tiempo de actividad autónoma por semana: 8 horas
+- Semanas: 16
+- Créditos: 3
+
+## Tabla de contenido PYTHON 3:
+- [Códigos y diapositivas](python3/codigos_y_diapositivas.md)
+
 ## Programación de computadores
 
 Aquí irán los códigos y las diapositivas You can use the [editor on GitHub](https://github.com/diegoandresalvarez/programaciondecomputadores/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
