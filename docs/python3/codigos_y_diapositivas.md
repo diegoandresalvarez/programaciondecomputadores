@@ -4,7 +4,7 @@
 
 NOTA: esto es Python 2; Python 3 se supone que es aún más fácil. Intenta adicionalmente escribir  `import antigravity` en Python y mira que pasa :-)
 
-Fuente: http://xkcd.com/353/
+Fuente: <http://xkcd.com/353/>
 
 
 ## 01 - Introducción al lenguaje Python 3
@@ -119,15 +119,17 @@ Juegos:
 - [Instalación de PYGAME en ANACONDA](https://anaconda.org/CogSci/pygame)
 - <a href="http://programarcadegames.com/index.php?chapter## foreword&langes">Instalación de PYGAME en CPYTHON</a>
 
-Este tutorial está basado en los capítulos 17, 18, 19 y 20 de https://inventwithpython.com/chapters
-Y en los videotutoriales de Código Facilito: https://codigofacilito.com/videos/curso_pygame_configuracion_de_python_y_pygame
+Este tutorial está basado en los capítulos 17, 18, 19 y 20 de [Invent with Python](https://inventwithpython.com/chapters).
+Y en los videotutoriales de [Código Facilito](https://codigofacilito.com/videos/curso_pygame_configuracion_de_python_y_pygame).
 
 - Tutoriales PYGAME en YOUTUBE:
   - [Código Facilito](https://codigofacilito.com/cursos/pygame)
   - [Chelín Tutorials](http://chelintutorials.blogspot.com/p/pygame.html)
   - <a href="https://www.youtube.com/playlist?list=PLPOv7bTzpLUsHikz39jnTnL0DYMVFiVt4">Hackers e Ingenieros</a>
+  
+- Un buen lugar para aprender es [Program Arcade Games](http://programarcadegames.com/).
 
-- Un buen lugar para aprender es http://programarcadegames.com/
+- Códigos:
   - [12_a_formas_geometricas.py](../../codigo/python3/12_a_formas_geometricas.py)
   - [12_b_animaciones.py](../../codigo/python3/12_b_animaciones.py)
   - [12_c_pelota.zip](../../codigo/python3/12_c_pelota.zip)

@@ -83,9 +83,8 @@ Se enseñará Python 3 ya que a diferencia de otros lenguajes de programación c
    - numpy, pygame, sys, etc.
 
 ## Bibliografía
-- Omar Ivan Trejos Buriticá. La Esencia de la Lógica de Programación. Pereira:Papiro, 1999. Disponible en Internet.
-- Luis Joyanes Aguilar. Fundamentos de programación: algoritmos, estructuras de datos y objetos. Madrid:McGraw-Hill 2008.
-- R.C. T. Lee. Introducción al diseño y análisis de algoritmos :un enfoque estratégico. México:McGraw-Hill, 2007.
+* [Trejos, Omar. La esencia de la lógica de programación](http://biblioteca.inu.edu.sv/?wpfb_dl=263)
+* [Marzal Varó, Andrés; Gracia Luengo, Isabel; García Sevilla, Pedro (2014). Introducción a la programación con Python 3](http://dx.doi.org/10.6035/Sapientia93)
 
 ## Otras observaciones que se quieren dejar por escrito:
  
