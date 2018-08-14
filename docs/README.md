@@ -1,4 +1,4 @@
-# 4101708 - G1 - Programación de computadores
+# 4101708 - Grupo 1 - Programación de computadores
 
 ![Image](imagenes/steve_jobs_on_computer_programming.jpg)
 Fuente: <https://www.youtube.com/watch?v=mCDkxUbalCw>
@@ -16,4 +16,4 @@ Fuente: <https://www.youtube.com/watch?v=mCDkxUbalCw>
 - [Códigos y diapositivas](python3/codigos_y_diapositivas.md)
 - [Tema de los exámenes](python3/examenes.md)
 - [Aprendiendo GNU/LINUX](python3/gnu_linux.md)
-- [Recuersos](python3/recursos.md)
+- [Recursos](python3/recursos.md)
