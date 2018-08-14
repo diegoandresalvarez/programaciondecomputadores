@@ -1,4 +1,4 @@
-# 4101708 - Grupo 1 - Programación de computadores
+# 4101708 - G1 - Programación de computadores
 
 ![Image](imagenes/steve_jobs_on_computer_programming.jpg)
 Fuente: <https://www.youtube.com/watch?v=mCDkxUbalCw>
