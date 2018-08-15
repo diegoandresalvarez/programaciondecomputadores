@@ -95,4 +95,7 @@ La puerta se cerrará 10 minutos después de haber iniciado la clase (de acuerdo
 Siempre que usted falte a un examen, debe haber algún documento que lo exonere de dicha inasistencia. Cuando usted por algún motivo de fuerza mayor no pueda asistir al examen, usted debe avisarle al profesor con anterioridad ya sea personalmente o por correo. En esos casos en lo posible, debe demostrarlo. Por ejemplo: si le tocó viajar a su pueblo esa semana porque algo sucedió un evento familiar de trascendencia, entonces una forma de certificar que usted viajó son los tiquetes de ida y vuelta a su pueblo. Sin una excusa o una notificación previa no se repetirán los exámenes y usted tendrá como nota un cero.
 
 ### Fraude en los exámenes o trabajos
-Estos se penalizarán con un cero en la nota y con una carta a la Dirección del Departamento de Ingeniería Civil, reportando el suceso.
+Estos se penalizarán así:
+* Nota cero en el trabajo/examen en cuestión
+* Carta a la Dirección del Departamento de Ingeniería Civil reportando el suceso 
+* Se pierden adicionalmente todos los privilegios que se tienen de una calificación con notas mayores a 5.0 en todas las notas obtenidas en el semestre actual y futuro.

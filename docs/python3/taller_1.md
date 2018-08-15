@@ -213,7 +213,7 @@ Si quieren aprender en verdad a programar intenten ustedes mismos hacer los ejer
 # Nota con respecto al Taller 2
 Para poder presentar el Taller 2 se deberán cumplir el siguiente requisito:
 * Obtener en la sustentación un factor de ponderación por tiempo mayor o igual a 0.8
-En caso que lo anterior no se cumpla se le asignarán 12 nuevos ejercicios; de dicho taller adicional se seleccionarán al azar 3 ejercicios que se computarán con los ejercicios ya presentados. Adicionalmente, se repetirá la sustentación previa entrega de los ejercicios adicionales. Esta acción se repetirá hasta que aprueben ambas condiciones. Si al finalizar el semestre no han aprobado dichas condiciones, no podrá presentar el Taller 2. La nota recibida en el Taller 2 será la misma nota del Taller 1.
+En caso que lo anterior no se cumpla se le asignarán 12 nuevos ejercicios; de dicho taller adicional se seleccionarán al azar 3 ejercicios que se computarán con los ejercicios ya presentados. Adicionalmente, se repetirá la sustentacxión previa entrega de los ejercicios adicionales. Esta acción se repetirá hasta que aprueben ambas condiciones. Si al finalizar el semestre no han aprobado dichas condiciones, no podrá presentar el Taller 2. La nota recibida en el Taller 2 será la misma nota del Taller 1.
 
 # Nota (para Diego)
 Imprimir el taller con el comando de consola de Linux:
