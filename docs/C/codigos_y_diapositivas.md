@@ -6,7 +6,7 @@ Fuente: no fuí capaz de encontrarla... esta caricatura es de FOXTROT (http://ww
 
 ## 01 - Introducción al lenguaje C
 [Diapositivas](../../diapositivas/C/01_-_Introduccion_a_C.pdf)
-- [01_hello.asm](../../codigo/C/01_hello.asm)
+- [01_hello.asm](../../codigo/otros/01_hello.asm)
 - [01_hello.c](../../codigo/C/01_hello.c)
 - [01_miprimerprograma.c](../../codigo/C/01_miprimerprograma.c)
 - [01_mpp.zip](../../codigo/C/01_mpp.zip) (versión que usa `#include" "`)
@@ -228,20 +228,20 @@ Ejemplos con `restrict`:
   - [07_laberinto_ruta_corta.c](../../codigo/C/07_laberinto_ruta_corta.c)
 
 * Buscaminas
-  - [buscaminas_curses.c](../../codigo/C/buscaminas_curses.c) (requiere de: la librería pdcurses - [mingw_pdcurses.zip](../../codigo/C/mingw_pdcurses.zip))
+  - [buscaminas_curses.c](../../codigo/C/juegos/buscaminas_curses.c) (requiere de: la librería pdcurses - [mingw_pdcurses.zip](../../codigo/C/mingw_pdcurses.zip))
 
 * Pong
 
 * Snake
-  - [snake.c](../../codigo/C/snake.c) (requiere de: la librería pdcurses - [mingw_pdcurses.zip](../../codigo/C/mingw_pdcurses.zip))
+  - [snake.c](../../codigo/C/juegos/snake.c) (requiere de: la librería pdcurses - [mingw_pdcurses.zip](../../codigo/C/mingw_pdcurses.zip))
 
 * Pacman
-  - [pacman.c](../../codigo/C/pacman.c) (requiere de: la librería pdcurses - [mingw_pdcurses.zip](../../codigo/C/mingw_pdcurses.zip))
+  - [pacman.c](../../codigo/C/juegos/pacman/pacman.c) (requiere de: la librería pdcurses - [mingw_pdcurses.zip](../../codigo/C/mingw_pdcurses.zip))
 [[image:pacman.png]]
 
 * Sokoban + FBS
 
-* [rotar3d (SDL)](../../codigo/C/rotar3d.zip)
+* [rotar3d (SDL)](../../codigo/C/juegos/rotar3d/rotar3d.zip)
 
-![Imagen](../imagenes/rotar3d.gif)
+![Imagen](../../codigo/C/juegos/rotar3d/rotar3d.gif)
 
