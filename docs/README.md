@@ -14,6 +14,9 @@ Fuente: <https://www.youtube.com/watch?v=mCDkxUbalCw>
 ## Tabla de contenido:
 - [Temario y observaciones generales del curso](python3/temario_y_observaciones_generales.md)
 - [Códigos y diapositivas](python3/codigos_y_diapositivas.md)
-- [Tema de los exámenes](python3/examenes.md)
 - [Aprendiendo GNU/LINUX](python3/gnu_linux.md)
 - [Recursos](python3/recursos.md)
+
+# Examenes y talleres
+- [Tema de los exámenes](python3/examenes.md)
+- [Taller 1 de programación](python3/taller_1.md)

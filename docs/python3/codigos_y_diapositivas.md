@@ -2,7 +2,7 @@
 
 ![Caricatura](http://imgs.xkcd.com/comics/python.png)
 
-NOTA: esto es Python 2; Python 3 se supone que es aún más fácil. Intenta adicionalmente escribir  `import antigravity` en Python y mira que pasa :-)
+NOTA: esto es Python 2; Python 3 se supone que es aún más fácil. Intenta adicionalmente escribir  `import antigravity` en Python y mira que pasa :smile:
 
 Fuente: <http://xkcd.com/353/>
 
@@ -162,9 +162,10 @@ Y en los videotutoriales de [Código Facilito](https://codigofacilito.com/videos
 - [13_staticmethods_classmethods.py](../../codigo/python3/13_staticmethods_classmethods.py)
 
 ## 14 - Programación científica en Python
+- [Scipy Lecture Notes](https://www.scipy-lectures.org/): documento principal de aprendizaje
 - [Numpy](../../codigo/python3/jupyter/tutorial_numpy.ipynb)
 - [Matplotlib](../../codigo/python3/jupyter/tutorial_matplotlib.ipynb)
 - [Jupyter](../../codigo/python3/jupyter/tutorial_jupyter.ipynb)
-- Pandas
-- Ver: www.scipy-lectures.org
+- [Pandas](https://pandas.pydata.org/)
+
 

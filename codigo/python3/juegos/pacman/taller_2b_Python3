@@ -1,0 +1,154 @@
+<span style="font-size: 300%;">TALLER DE PROGRAMACION 2: (20% de la nota final)</span>
+
+
+* **<span style="color: #ff0000; font-size: 150%;">Fecha y hora límite de entrega: jueves 30 de noviembre de 2017 a las 7:00 am; enviar a daalvarez@unal.edu.co. Sin excepción, por cada <span style="color: #0000ff;">HORA</span> de retraso en la entrega se rebajará 1 unidad de la nota.</span>**
+* **<span style="color: #ff0000; font-size: 150%;">Sustentación, jueves 30 de noviembre y viernes 1 de diciembre de 2017 a partir de las 7:00 am</span>**
+
+
+<span style="font-size: 200%;">Se requiere elaborar una versión del legendario juego PACMAN, utilizando como base el archivo [[file:pacman_python.zip]] y la librería PYGAME.</span>
+
+[[image:http://1.bp.blogspot.com/-meRDcB-or8E/Tl_dbFADdlI/AAAAAAAAAUA/M2I9uGGZaCI/s1600/Pacman.gif]]
+
+=Forma de presentación= 
+* Individual
+
+=Forma de calificación= 
+El programa se calificará por objetivos; la calificación será la suma de los puntos obtenidos, sin embargo después de sumar 10, los puntos obtenidos se les afectará por un coeficiente de reducción del 50%.
+
+El juego únicamente lo podrán elaborar aquellas personas que hayan conseguido un factor de ponderación en el taller 1 superior a 0.8.
+
+=Nota MAXIMA: 20 unidades= 
+
+
+==Puntos obligatorios== 
+Los puntos obligatorios no otorgan unidades, solo las quitan, es decir un programa que solo tiene los puntos obligatorios tiene una nota de 0.0; si no se realiza un punto obligatorio, se descontará 1.0 unidad.
+
+* Si el pacman toca el fantasma sin la vitamina, el pacman pierde una vida + sonido. NOTA: esto no incluye la animación de la muerte del pacman.
+* Implementar la vitamina + sonido (dura 5 segundos). NOTA: esto no incluye las animaciones respectivas de los fantasmas.
+* El juego debe cronometrar el tiempo total de juego e imprimirlo en pantalla.
+* Implementar el sonido de los eventos que suceden en el juego.
+* <span style="color: #ff0000;">Debe demostrar durante la sustentación que se sabe manejar el depurador (debugger) (si no se realiza -2.0 unidades).</span>. Ver por ejemplo: https://www.youtube.com/watch?v=nksiGORLDZw
+* El juego debe estar muy bien documentado (comentado).
+* El programa debe tener excelente presentación (el código no debe estar desordenado).
+* Se debe utilizar una identación de 4 espacios (ajustar la configuración en el IDE utilizado).
+* No tildar el nombre de las variables o funciones. Tampoco utilizar la ñ mayúscula o minúscula o las diéresis. Los comentarios si deben ir con toda la ortografía del caso, es decir, en los comentarios si se puede utilizar la eñe, las tildes y las diéresis.
+* Utilizar codificación UTF-8
+* Alinear los comentarios, cuando estos se encuentren en filas consecutivas.
+* Todas las funciones deben tener un docstring asociado. Estas deben estar contenidas entre ''' y '''. Las ''' deben ir en reglones separados y estar perfectamente alineadas.
+* No se deben utilizar comparaciones de variables booleanas contra True o False... es decir, no se deben hacer comparaciones como "if es_primo == True" (asumiendo que es_primo es una variable booleana) ya que son confusas e innecesarias.
+* No se deben utilizar comparaciones contra funciones que retornan True o False... es decir, no se deben hacer comparaciones como "if es_primo(n) == True" (asumiendo que es_primo(n) es una función que retorna True si n es primo, de lo contrario retorna False) ya que son confusas e innecesarias.
+* Código que utilizan nombres de variables sin mucho sentido para quien lo lee (a excepción del programador) y sin comentarios apropiados.
+
+
+
+==Puntos opcionales== 
+**NOTA: si quiere que le de puntos por algo adicional que usted quiere implementar y no está en esta lista, por favor escríbame al correo, para mirar cuantos puntos le otorgaría.**
+
+Implementarlos según lo explicado en:
+* https://www.gamasutra.com/view/feature/132330/the_pacman_dossier.php (**REFERENCIA PRINCIPAL**)
+* http://gameinternals.com/post/2072558330/understanding-pac-man-ghost-behavior
+de forma que el juego se vea similar a:
+* https://www.youtube.com/watch?v=dScq4P5gn4A&t=371s
+* http://www.thepcmanwebsite.com/media/pacman_flash/
+* http://www.jugarpacman.com/
+
+* Convertir el código a programación orientada a objetos (POO) (deben existir constructores y herencia con dos clases hijas: pacman y fantasma; deben existir atributos públicos y privados en las clases). Clases a implementar: class vitamina, class criatura, class fantasma(criatura), class pac_man(criatura). +2 puntos. NOTA: si piensa implementar este código, debe ser lo primero que debe hacer antes de empezar a implementar el resto del juego.
+
+* Hacer una introducción ANIMADA al juego similar a la del juego original (+1 puntos).
+
+* Por hacer la animación entre niveles (ver video) +1 unidad
+
+* Si a el pacman lo toca un fantasma, se pierde una vida (implementar animación + sonido), los fantasmas retornan a su cueva, se coloca un nuevo pacman en la posición inicial. If Pac-Man gets caught by a ghost when he has no extra lives, the game is over. (+1 unidad)
+
+* Animación de la muerte del pacman cuando el fantasma lo toca (0.5 unidades)
+
+* Cuando el pacman se come todas las pepas, titila el tablero azul y el blanco y empieza una nueva ronda. Deben al menos existir 4 niveles. (+1 unidad)
+
+* Cuando un pacman se come una de las cuatro vitaminas, el fantasma reversa su dirección, se activa su comportamiento en "modo aterrorizado" (ver abajo), se pone azul y se mueve aleatoriamente. Hay una pausa de 1 segundo y suena un sonido. Mientras está azul, puede ser comido por el pacman. La primera vitamina da 200 puntos, la segunda 400, la tercera 800 y la cuarta 1600 puntos. En los 2 últimos segundos el fantasma titila azul y blanco. (+1 unidad) Implementar los tiempos de la siguiente tabla:
+[[image:table_A1_pacman.png]]
+
+* Escribir en pantalla el tiempo que falta para terminar el efecto de la vitamina: +0.3 unidades.
+
+* Si se come el fantasma, aparece en dicha posición el número de puntos obtenidos: +0.5 unidades
+
+* En los dos últimos segundos que dura la vitamina los fantasmas cambian a un color diferente: +0.3 unidades
+
+* Hacer que los ojos del fantasma regresen a la cueva cuando el pacman se come al fantasma. Si el pacman se come los cuatro fantasmas se otorgan 12000 puntos. (+1 unidad)
+
+* Si se alcanzan 5000 puntos obtener vida nueva. En la parte de abajo del tablero deben aparecer tantos pacmancitos como vidas queden: +0.7 puntos
+
+* Implementar las frutas. La primera fruta aparece cuando el pacman se ha comido 70 pepas da 1000 puntos. La segunda cuando se ha comido 170 pepas y da 2000 puntos. La pepa dura en el tablero 5 segundos. Debe haber un reloj que marque el tiempo que falta para que la pepa desaparezca. Una vez se ha comido la fruta, esta debe aparecer en el borde inferior derecho del tablero de juego. Con cada nuevo nivel aparece un tipo de fruta nueva, que se va acumulando a medida que avanzan los niveles (+1 unidad)
+
+* Implementación del túnel: tanto el pacman como el fantasma deben ser capaz de atravesarlo. Cuando el fantasma está en el túnel, su velocidad varía de acuerdo a la tabla A1. (+1.0 punto)
+
+* Implementación de la animación del pacman (la figura depende de la dirección de movimiento del mismo). + 0.7 unidades.
+
+* Implementación de la animación de cada uno de los fantasmas (la figura depende de la dirección de movimiento del mismo) incluye movimiento de las paticas y la foto con la dirección de los ojos +0.8 unidades.
+
+* Implementación de los modos de comportamiento de los fantasmas:
+** La dirección hacia el "target" debe hacerse utilizando el algoritmo descrito en https://www.gamasutra.com/view/feature/132330/the_pacman_dossier.php?page=6 (ES MUY FACIL!) o hacerlo usando el algoritmo de la búsqueda ámplia (UN POCO MAS COMPLICADO). Si se implementan ambos algoritmos, debe haber una opción para escoger el uno o el otro al inicio del juego.
+
+** Modo cacería: van a la caza del pacman (En este caso a modo de información, se debe imprimir al lado del tablero "modo cacería activado"). Ver https://www.gamasutra.com/view/feature/132330/the_pacman_dossier.php?page=7 y http://gameinternals.com/post/2072558330/understanding-pac-man-ghost-behavior
+*** Comportamiento de Blinky (rojo) +1.0 punto. Implementar las velocidades de Elroy según la tabla A1 da +1 adicional. En este último caso debe aparecer un mensaje en pantalla "Modo Elroy 1/2 de Blinky activado/desactivado" (según corresponda) y el número de puntos que faltan por comerse para que Elroy 1/2 se active.
+*** Comportamiento de Pinky (rosado) +1.0 punto (nota: corregir el error de programación que tiene Pinky -- ver texto).
+*** Comportamiento de Inky (azul claro) +1.0 punto
+*** Comportamiento de Clyde (naranja) +1.0 punto
+*** NOTA: Cada modo se debe implementar en su propio método (en POO) o función propia.
+
+** Modo dispersión: cada fantasma se va a su rincón. (+1 unidad) En este caso a modo de información, se debe imprimir al lado del tablero "modo dispersión activado" y el tiempo que falta para terminar +1.0 punto Ver https://www.gamasutra.com/view/feature/132330/the_pacman_dossier.php?page=6 (scatter targets)
+
+** Modo aterrorizado: se activa cuando el fantasma se come una vitamina. En este modo el fantasma se mueve aleatoriamente. En este caso a modo de información, se debe imprimir al lado del tablero "modo aterrorizado activado" y el tiempo que falta para terminar. Esta función ya fue dada en el código fuente. Simplemente renombrarla.
+** NOTA: Si se presiona la tecla espacio se hace la pausa y adicionalmente aparecen marcadas con recuadros las posiciones de destino final de cada uno de los fantasmas (en modos cacería y dispersión), el círculo que describe el comportamiento de Clyde y las líneas que describen el comportamiento de Inky similar a lo mostrado en este video https://www.youtube.com/watch?v=sQK7PmR8kpQ +1 punto. Si al presionar la tecla P se hace esta animación de forma continua durante el juego, se tiene +1 adicional.
+
+** Implementación de la tabla de tiempos de duración de estos modos (a la derecha del tablero debe decir el tiempo en el modo que se está jugando):
+(ver https://www.gamasutra.com/view/feature/132330/the_pacman_dossier.php?page=3)
+[[image:tiempo_modos_pacman.png]]
++ 1 punto
+
+* Implementación de la tabla de velocidades (al lado debe aparecer un texto informando la velocidad actual del pacman y de cada uno de los fantasmas (el nombre de los fantasmas deben ir en el mismo color del fantasma):
+(ver https://www.gamasutra.com/view/feature/132330/the_pacman_dossier.php?page=3) 
+[[image:velocidad_pacman.png]]
++ 1 punto
+
+* Los fantasmas no pueden volver a entrar a la cueva una vez salen de ella. Solo pueden entrar en forma de ojitos si el pacman se los come. (+0.3 puntos)
+
+* Por implementar las zonas rojas. En dichas zonas a el fantasma se le prohíbe moverse hacia arriba. No funcionan en el modo aterrorizado (+0.3 puntos) Ver https://www.gamasutra.com/view/feature/132330/the_pacman_dossier.php?page=4
+
+* Implementar el cornering. Ver https://www.gamasutra.com/view/feature/132330/the_pacman_dossier.php?page=4 se simulará aumentando la velocidad del pacman en el giro al 200% por 0.1 segundos. (+0.5 puntos)
+
+* Manejar absolutamente todo el juego con un joystick (sin dañar la funcionalidad del teclado): +1 punto. ​El como manejar el joystick se encuentra en [[@http://programarcadegames.com/index.php?chapter=controllers_and_graphics&lang=en#section_10|aquí]]. Ver adicionalmente los de [[@http://programarcadegames.com/index.php?chapter=example_code&lang=en#section_38|aquí]] los ejemplos "Move an object with the game controller." y "Show how to read everything off a gamepad/controller/joystick."
+
+* Al presionar 'H' o 'h' aparece el manual de instrucciones del juego; adicionalmente hay una pausa en los relojes: +0.5 unidades
+
+* Implementar el TOP 10 de los mejores jugadores del juego, guardarlo a disco y recuperarlo al iniciar el programa: +1.0 unidad
+
+* Al presionar 'T' o 't' se hace una pausa y aparece el top 10 de los mejores jugadores del juego.
+
+* Hacer un GET READY y un PAUSE (encima del tablero tal y como aparece en el juego original) +1.0 punto  Al presionar la tecla ESPACIO se hace una pausa en el juego y se paran los relojes
+
+* El pacman puede disparar misiles cuando se come una cápsula especial (+2 punto). Dicha cápsula se coloca al lado de la entrada de la casa de los fantasmas.
+
+* El pacman puede atravesar muros cuando se come una vitamina especial (+1 punto). Dicha cápsula se coloca al lado de la entrada de la casa de los fantasmas.
+
+
+
+
+==Pérdida del taller== 
+* En caso que se detecte que hay copia en alguno de los puntos presentados se tendrá como nota un CERO en todo el taller (usted y su compañero).
+* Habrá sustentación del programa. La sustentación se hará frente al PC y se pedirá modificar algún punto en particular del programa o explicar que hace un código. Si se hizo el programa, pero no se aprobó la sustentación, se tendrá una nota en el taller de CERO. La nota de la sustentación será APROBADO/NO APROBADO
+
+
+=Notas adicionales= 
+* Si el punto solicitado no corre, funciona incorrectamente o simplemente funciona parcialmente, se tendrá como nota 0.0 en ese punto.
+* Utilización de nombres de variables sin mucho sentido para quien lo lee (a excepción del programador) y sin comentarios apropiados (-1 punto).
+* Si el programa excede en más del 10% del código las 80 columnas se rebajará el 50% de la nota del taller (se sugiere activar la opción que muestra la columna # 80 en su ambiente de desarrollo)
+* Por cada error de ortografía se rebajará 1 décima de la nota final (para evitar esto se sugiere activar el corrector de ortografía de su ambiente de desarrollo).
+
+=Consejos= 
+* Si quieren aprender en verdad a programar intenten ustedes mismos hacer los ejercicios de forma autónoma (sin ayuda de los compañeros de clase o de alguien más). Por lo tanto <span style="color: #ff0000;">eviten en lo posible los grupos de trabajo</span>. Se prohibe cualquier tipo de "colaboración" entre compañeros. Aprender a programar es como aprender a nadar. Uno no aprende a nadar viendo los campeonatos de natación en la TV. Hay que tirarse al agua para en verdad dominar la natación.
+
+* No esperen hasta el último minuto para empezar a trabajar en el proyecto; como ya probablemente se han dado cuenta, el desarrollo de software es una actividad que requiere tiempo. La mejor forma de asegurar un buen trabajo es repasar los conceptos vistos en clase, dar un vistazo general a las diferentes librerías con las que cuenta Python y preguntar bastante.
+
+* Aprendan a manejar el debugger, ya que es una herramienta bastante eficiente para la captura de errores. En youtube hay tutoriales de ello.
+
+* En internet se encuentre el código solicitado, sin embargo, no lo copien (fraude), sino que utilícenlo para adquirir ideas de cómo mejorar el suyo. En internet se encuentran fácilmente códigos del PACMAN en Python y en otros lenguajes de programación.

@@ -1,0 +1,102 @@
+<span style="font-size: 300%;">TALLER DE PROGRAMACION 2: (20% de la nota final)</span>
+
+<span style="font-size: 150%;
+color: #ff0000;">**Fecha y hora límite de entrega: jueves 4 de junio de 2015 a las 7:00 am; enviar a daalvarez@unal.edu.co. Sin excepción, por cada <span style="color: #0000ff;">HORA</span> de retraso en la entrega se rebajará 1 unidad de la nota. Sustentación, jueves 4 y viernes 5 de junio de 2015 a partir de las 7:00 am**</span>
+
+<span style="font-size: 200%;">Se requiere elaborar una versión del tradicional juego de  [[@http://en.wikipedia.org/wiki/Chess|Ajedrez]], utilizando como base el archivo [[file:ajedrez.zip]] y la librería PYGAME. El programa funcionara únicamente como el tablero, es decir, permita el juego persona vs persona. El juego debe realizarse siguiendo todas las [[@http://www.feda.org/pdf_arbitros/leyes.pdf|normas del juego de ajedrez]] (debe tener jugadas tales como enroque, comer al paso, y promoción del peón), etc.</span>
+
+[[image:ajedrez.png]]
+
+=Forma de presentación=
+* Individual
+
+=Nota máxima: 19.2=
+
+
+=Forma de calificación=
+El programa se calificará por objetivos; la calificación será la suma de los puntos obtenidos, sin embargo después de sumar 8, los puntos obtenidos se les afectará por un coeficiente de reducción del 50%. 
+
+El juego únicamente lo podrán elaborar aquellas personas que hayan conseguido un factor de ponderación en el taller 1 superior a 0.8.
+
+NOTA: el juego debe funcionar de acuerdo a las normas del ajedrez. No se otorgarán puntos en un item dado si no se siguen correctamente TODAS las normas del juego (por ejemplo: alguien implementa el enroque; ese se puede hacer así ya haya movido el rey previamente. En este caso no se concederán puntos, ya que la regla es clara: el enroque solo se puede realizar si el rey no ha sido movido previamente).
+
+
+==Puntos obligatorios==
+Los puntos obligatorios no otorgan unidades, solo las quitan, es decir un programa que solo tiene los puntos obligatorios tiene una nota de 0.0; si no se realiza un punto obligatorio, se descontará 1.0 unidad. 
+* El juego debe funcionar con el mouse y con el teclado.
+* El juego debe cronometrar el tiempo total de juego y el tiempo de juego de las blancas y de las negras.
+* <span style="color: #ff0000;">Debe demostrar durante la sustentación que se sabe manejar el depurador (debugger) (si no se realiza -2.0 unidades).</span> Buscar videotutoriales con "python debugger" o "python depurador" en youtube.
+* El juego debe estar muy bien documentado (comentado).
+* El programa debe tener excelente presentación (el código no debe estar desordenado).
+* Se debe utilizar una identación de 4 espacios (ajustar la configuración en el IDE utilizado).
+* No tildar el nombre de las variables o funciones. Tampoco utilizar la ñ mayúscula o minúscula o las diéresis. Los comentarios si deben ir con toda la ortografía del caso, es decir, en los comentarios si se puede utilizar la eñe, las tildes y las diéresis.
+* Utilizar codificación UTF-8
+* Alinear los comentarios, cuando estos se encuentren en filas consecutivas.
+* Todas las funciones deben tener un docstring asociado. Estas deben estar contenidas entre ''' y '''. Las ''' deben ir en reglones separados y estar perfectamente alineadas.
+* No se deben utilizar comparaciones de variables booleanas contra True o False... es decir, no se deben hacer comparaciones como "if es_primo == True" (asumiendo que es_primo es una variable booleana) ya que son confusas e innecesarias.
+* No se deben utilizar comparaciones contra funciones que retornan True o False... es decir, no se deben hacer comparaciones como "if es_primo(n) == True" (asumiendo que es_primo(n) es una función que retorna True si n es primo, de lo contrario retorna False) ya que son confusas e innecesarias.
+
+
+==Puntos opcionales==
+* Movimiento correcto de (utilizando el mouse y el teclado):
+** Torres (+0.3 puntos)
+** Caballos (+0.3 puntos)
+** Alfiles (+0.3 puntos)
+** Dama (+0.3 puntos)
+** Rey (+0.3 puntos) -- sin tener en cuenta si el rey está en jaque o no.
+** Rey (+0.7 puntos) -- teniendo en cuenta que el rey no se puede mover a aquellas casillas donde quede en jaque.
+** Peones (+0.3 puntos) -- sin tener en cuenta los movimientos de comer al paso y la promoción del peón
+
+
+* Jugadas especiales:
+** Peones que [[@http://es.wikipedia.org/wiki/Captura_al_paso|capturan al paso]] (+0.4 puntos) 
+** [[@http://en.wikipedia.org/wiki/Promotion_(chess)|Promoción (o coronación) del peón]] (+0.3 puntos). Si aparece un menú desplegable en el que con el cursor o con el mouse se seleccione la ficha por la cual se quiere cambiar el peón, se tendrá +0.7 puntos adicionales.
+** [[@http://en.wikipedia.org/wiki/Castling|Enroque largo y corto]] (+1.0 punto)
+** [[@http://en.wikipedia.org/wiki/Check_(chess)|Jaque]] (+1.0 punto): debe salir una advertencia que el rey enemigo entró en jaque.
+** El juego califica como inválido un movimiento si al ejecutarlo, el propio rey entra en jaque (+1 punto) Ver: Absolute Pinning en [[http://en.wikipedia.org/wiki/Pin_(chess)]]
+** Visualización de las posibles casillas en las que una ficha se puede mover (+2 puntos). Debe tener en cuenta que el rey no puede mover a aquellas zonas donde quedaría en jaque o que una ficha no se puede mover si el propio rey entre en jaque.
+** Detección del [[@http://en.wikipedia.org/wiki/Checkmate|jaque mate]] (+2 puntos). 
+** Detección que el juego está en tablas por [[@http://en.wikipedia.org/wiki/Stalemate|ahogamiento]] (+1 puntos)
+** Detección que el juego está en tablas por [[@http://en.wikipedia.org/wiki/Threefold_repetition|repetir tres veces la misma posición]] (+0.5 puntos)
+** Detección que el juego está en tablas por [[@http://en.wikipedia.org/wiki/Fifty-move_rule|la regla de los cincuenta movimientos]] (+0.5 puntos)
+** Detección que el juego está en tablas por [[@http://es.wikipedia.org/wiki/Tablas_%28ajedrez%29|insuficiencia de material]] (+0.5 puntos)
+
+
+* Otras situaciones que dan puntaje:
+** Manejar absolutamente todo el juego con un joystick (sin dañar la funcionalidad del teclado y del mouse): +2 puntos. ​El como manejar el joystick se encuentra en [[@http://programarcadegames.com/index.php?chapter=controllers_and_graphics&lang=en#section_10|aquí]]. Ver adicionalmente los de [[@http://programarcadegames.com/index.php?chapter=example_code&lang=en#section_38|aquí]] los ejemplos "Move an object with the game controller." y "Show how to read everything off a gamepad/controller/joystick."
+** Programa que realiza anotación de la partida en [[@http://es.wikipedia.org/wiki/Notaci%C3%B3n_algebraica|notación algebráica]] (+2 puntos). A un lado del tablero se debe visualizar el número del turno y los movimientos de las blancas y las negras para los últimos cinco turnos.
+** Programa que puede devolver las jugadas (+2 puntos). PISTA: el tablero de juego se inserta en un pila.
+** Programa que escribe a un archivo de texto una partida y la recupera sin problemas en una [[@http://en.wikipedia.org/wiki/Chess_notation|notación]] que sea aceptada en el ajedrez (+2 puntos)
+** Visualización de las fichas comidas (+1 punto)
+** Implementación de la variante del [[@http://en.wikipedia.org/wiki/Chess960|ajedrez aleatoria de Fischer]] (+1 puntos). Ver también este [[@http://en.wikipedia.org/wiki/Chess960_starting_position|enlace]]. Implementación del enroque en esta modalidad da +1 puntos.
+** Hacer una introducción ANIMADA al juego (+1 punto)
+** Se puede realizar movimiento de las fichas arrastrando (con el mouse) estas desde su posición inicial hasta su posición final. Es decir, la figura aparece moviéndose junto con el mouse hasta llegar a su posición final. (+2 punto)
+** Implementación de un menú al principio del juego que permita escoger al jugador el color con el cual quiere jugar. Este menú debe ser desplegable (es decir, una barra que ilumine opción por opción, que se mueva con las flechas y que permita con ENTER seleccionar la opción deseada): +0.5 unidad
+** Implementación de un menú al principio del juego que permita escoger los gráficos que representan los tableros de fichas con las que el jugador quiere jugar. Este menú debe ser desplegable (es decir, una barra que ilumine opción por opción, que se mueva con las flechas y que permita con ENTER seleccionar la opción deseada): +1.0 unidad
+** Aparece una marca en las figuras del bando contrario que están desprotegidas: +1.0 unidad
+** Implementación de juego rápido (3 minutos por jugador). Ver: http://en.wikipedia.org/wiki/Fast_chess. En este caso el reloj de ajedrez debe contabilizar el número de segundos restantes para terminar el juego, y el tiempo que le queda a cada jugador. Además se debe incluir un menú al principio del juego que permita decidir al jugador si jugar ajedrez normalmente o ajedrez rápido. (+1 punto).
+
+* Situaciones que quitan puntos:
+** Código que utilizan nombres de variables sin mucho sentido para quien lo lee (a excepción del programador) y sin comentarios apropiados (-1 punto).
+
+
+==Pérdida del taller== 
+* En caso que se detecte que hay copia en alguno de los puntos presentados se tendrá como nota un CERO en todo el taller (usted y su compañero).
+* Habrá sustentación del programa. La sustentación se hará frente al PC y se pedirá modificar algún punto en particular del programa o explicar que hace un código. Si se hizo el programa, pero no se aprobó la sustentación, se tendrá una nota en el taller de CERO. La nota de la sustentación será APROBADO/NO APROBADO
+
+
+=Notas adicionales=
+* Si el programa no corre o funciona incorrectamente, se tendrá como nota 0.0 en ese punto.
+* Utilización de nombres de variables sin mucho sentido para quien lo lee (a excepción del programador) y sin comentarios apropiados (-1 punto).
+* Si el programa excede en más del 10% del código las 80 columnas se rebajará el 50% de la nota del taller (se sugiere activar la opción que muestra la columna # 80 en su ambiente de desarrollo)
+* Por cada error de ortografía se rebajará 1 décima de la nota final (para evitar esto se sugiere activar el corrector de ortografía de su ambiente de desarrollo).
+
+
+
+
+=Consejos=
+* Si quieren aprender en verdad a programar intenten ustedes mismos hacer los ejercicios de forma autónoma (sin ayuda de los compañeros de clase o de alguien más). Por lo tanto <span style="color: #ff0000;">eviten en lo posible los grupos de trabajo</span>. Se prohibe cualquier tipo de "colaboración" entre compañeros. Aprender a programar es como aprender a nadar. Uno no aprende a nadar viendo los campeonatos de natación en la TV. Hay que tirarse al agua para en verdad dominar la natación.
+
+* No esperen hasta el último minuto para empezar a trabajar en el proyecto; como ya probablemente se han dado cuenta, el desarrollo de software es una actividad que requiere tiempo. La mejor forma de asegurar un buen trabajo es repasar los conceptos vistos en clase, dar un vistazo general a las diferentes librerías con las que cuenta el lenguaje C (curses.h, stdlib.h, stdio.h, etc), y preguntar bastante.
+
+* Aprendan a manejar el debugger, ya que es una herramienta bastante eficiente para la captura de errores. En youtube hay tutoriales de ello.

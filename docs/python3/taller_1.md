@@ -5,10 +5,10 @@
 Fuente: <http://xkcd.com/323/>
 
 # Fecha y hora límite de entrega:
-* Parte 1: Septiembre 23, 2018 a las 11:59pm 
-* Parte 2: Octubre 21, 2018 a las 11:59pm
-* Parte 3: Noviembre 11, 2018 a las 11:59pm
-* Parte 4 (opcional): Noviembre 18, 2017 a las 11:59pm. La parte 4 de este taller es opcional y reemplaza la nota más baja de las entregas, 1, 2 y 3.
+* **Parte 1**: Septiembre 23, 2018 a las 11:59pm 
+* **Parte 2**: Octubre 21, 2018 a las 11:59pm
+* **Parte 3**: Noviembre 11, 2018 a las 11:59pm
+* **Parte 4 (opcional)**: Noviembre 18, 2017 a las 11:59pm. La parte 4 de este taller es opcional y reemplaza la nota más baja de las entregas, 1, 2 y 3.
 
 Cada entrega del taller debe enviarse a <daalvarez@unal.edu.co>. Sin excepción, por cada día de retraso en la entrega, se rebajarán 3 décimas de la nota de esa entrega del Taller 1. 
 
@@ -78,7 +78,7 @@ print("hello world!")
 # Forma de presentación 
 Si lo escrito a continuación no se cumple EXACTAMENTE se rebajará una unidad en la entrega. Seré estricto con respecto a esto.
 
-* Se deben entregar archivos `.py` empaquetados en un solo archivo `.zip` (no `.rar` u otro formato) y en una única carpeta
+* Se deben entregar archivos `.py` empaquetados en un solo archivo `.zip` (no `.rar` u otro formato) y en una única carpeta.
 * La forma de nombrar los archivos será por ejemplo `09_03.py`, lo cual quiere decir que se está entregando el ejercicio 3 del capítulo 9 (observe los ceros). Todos los archivos deben ir en una carpeta cuyo nombre es su código+nombre; algo así como:
 ```
 107011_Pepito_Perez (nombre de la carpeta con guión bajo en vez de espacio)
@@ -128,7 +128,7 @@ Si lo escrito a continuación no se cumple EXACTAMENTE se rebajará una unidad e
   * Se debe colocar un comentario informativo al principio de cada programa que indique la misión que debe realizar el programa que se muestra a continuación.
   * En los bloques `try-except` o se debe solicitar de nuevo una entrada o se debe corregir el error hecho por el usuario.
   * Se deben utilizar estructuras `try-except` para evitar que el programa falle debido a entradas no esperadas por parte del usuario.
-  * Todas las funciones deben tener un docstring asociado. Estas deben estar contenidas entre `'''` y `'''`. Las `'''` deben ir en reglones separados y estar perfectamente   lineadas.
+  * Todas las funciones deben tener un docstring asociado. Estas deben estar contenidas entre `'''` y `'''`. Las `'''` deben ir en reglones separados y estar perfectamente lineadas.
   * No se deben utilizar comparaciones de variables booleanas contra `True` o `False`, es decir, no se deben hacer comparaciones como `if es_primo == True` (asumiendo que `es_primo` es una variable booleana) ya que son confusas e innecesarias.
   * No se deben utilizar comparaciones contra funciones que retornan `True` o `False`, es decir, no se deben hacer comparaciones como `if es_primo(n) == True` (asumiendo  que `es_primo(n)` es una función que retorna `True` si `n` es primo, de lo contrario retorna `False`) ya que son confusas e innecesarias.
   * No se debe mezclar o alternar las definiciones de función, importación de módulos y sentencias del programa principal.
@@ -216,6 +216,8 @@ plt.show()
 * La nota del taller estará dada por la siguiente ecuación: 
 ![Ecuación](https://latex.codecogs.com/gif.download?%5Ctext%7BNota%7D%20%3D%20%5Ctext%7BCoeficienteDePonderacion%7D%20%5Ctimes%20%280.3%5Ctext%7BNota%7D_%7B%5Ctext%7Bparte%201%7D%7D%20+%200.4%5Ctext%7BNota%7D_%7B%5Ctext%7Bparte%202%7D%7D%20+%200.4%5Ctext%7BNota%7D_%7B%5Ctext%7Bparte%203%7D%7D%29)
 
+>\text{Nota} = CoefPonderación \times (0.3\text{Nota}_{\text{parte 1}} + 0.4\text{Nota}_{\text{parte 2}} + 0.4\text{Nota}_{\text{parte 3}})
+
 Asumiendo que Nota 1, Nota 2 y Nota 3 se evaluan sobre 5.0. Con el factor de ponderación de la sustentación, podría obtenerse una nota mayor.
 
 ## Fecha y hora de la sustentación
@@ -225,7 +227,7 @@ Asumiendo que Nota 1, Nota 2 y Nota 3 se evaluan sobre 5.0. Con el factor de pon
 # Nota con respecto al Taller 2
 Para poder presentar el Taller 2 se deberán cumplir el siguiente requisito:
 * Obtener en la sustentación un factor de ponderación por tiempo mayor o igual a 0.8
-En caso que lo anterior no se cumpla se le asignarán 12 nuevos ejercicios; de dicha entrega extra se seleccionarán al azar 3 ejercicios que se computarán con las entregas ya presentados. Adicionalmente, se repetirá la sustentación, previa entrega de los ejercicios adicionales. Esta acción se repetirá hasta que aprueben ambas condiciones. Si al finalizar el semestre no han aprobado dichas condiciones, no podrá presentar el Taller 2. La nota recibida en el Taller 2 será la misma nota del Taller 1.
+En caso que lo anterior no se cumpla se le asignarán 12 nuevos ejercicios; de dicha entrega extra se seleccionarán al azar 3 ejercicios que se computarán con las entregas ya presentados. Adicionalmente, se repetirá la sustentación, previa entrega de los ejercicios adicionales. Esta acción se repetirá hasta que aprueben ambas condiciones. Si al finalizar el semestre no han aprobado dichas condiciones, no podrá presentar el Taller 2 y en ese caso, la nota recibida en el Taller 2 será la misma nota del Taller 1.
 
 # Nota (para Diego)
 Imprimir el taller con el comando de consola de Linux:
