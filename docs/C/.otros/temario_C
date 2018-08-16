@@ -1,0 +1,213 @@
+<span style="font-size: 300%">4101708 - Programación de computadores</span>
+
+* Profesor: [[http://diegoandresalvarezmarin.googlepages.com/alvarezCV.pdf|Diego Andrés Alvarez Marín]] (daalvarez@unal.edu.co)
+* Intensidad horaria semanal presencial: 4 horas
+
+* Grupo 2:
+** Jueves 10:00-12:00 C208
+** Viernes 10:00-12:00 C306
+* Grupo 3:
+** Martes 16:00-18:00 C201
+** Jueves 16:00-18:00 C308
+
+* Horas de actividad autónoma: 6 horas
+* Semanas: 16
+* Créditos: 3
+
+----
+
+====**Citas para preguntas**====
+* Únicamente solicitándolas previamente, ya sea por correo electrónico o antes/después de la clase.
+
+----
+
+====**Criterio de evaluación**====
+<span style="font-size: 1%;">(la razón de estos porcentajes es que al principio de semestres ustedes tienen mucho más tiempo para estudiar y al final generalmente ustedes deben responder por todas las materias al mismo tiempo)</span>
+* Examen 1: 12%
+* Examen 2: 12%
+* Examen 3: 12%
+* Examen 4: 12%
+* Examen 5: 12%
+* Taller de programación 1 + sustentación: 20% 
+* Taller de programación 2 + sustentación: 20%
+
+----
+----
+
+==Observaciones que se quieren dejar por escrito:==
+ 
+====**Asistencia al curso**====
+Generalmente los exámenes se califican sobre 6.0 o sobre 6.5. Para ganarse esas unidades extra, se deberá garantizar por parte del estudiante una asistencia mínima al 80% de las clases. La puerta se cerrará 10 minutos después de haber iniciado la clase (de acuerdo con el reloj del computador del salón). Si no se cumple la asistencia mínima, los exámenes se calificarán sobre 5.0. y por lo tanto los exámenes presentados se ponderarán con el coeficiente de ajuste correspondiente.
+
+<span style="font-size: 1%;">
+====**Cancelación del curso**====
+NO se le dará el visto bueno a la carta de solicitud de cancelación del curso a quien que tenga inscritos 20 o más créditos.</span>
+====**Falta a los exámenes**====
+Siempre que usted falte a un examen, debe haber algún documento que lo exonere de dicha inasistencia. Cuando usted por algún motivo de fuerza mayor no pueda asistir al examen, usted debe avisarle al profesor con anterioridad ya sea personalmente o por correo. En esos casos en lo posible, debe demostrarlo. Por ejemplo: si le tocó viajar a su pueblo esa semana porque algo sucedió un evento familiar de trascendencia, entonces una forma de certificar que usted viajó son los tiquetes de ida y vuelta a su pueblo. Sin una excusa o una notificación previa no se repetirán los exámenes y usted tendrá como nota un cero.
+
+====**Fraude en los exámenes o trabajos**====
+Estos se penalizarán con un cero en la nota y con una carta a la Dirección del Departamento de Ingeniería Civil, reportando el suceso.
+
+----
+----
+
+=JUSTIFICACIÓN=
+La naturaleza de la profesión del ingeniero requiere hacer cálculos con la ayuda del computador. Si bien el empleo de hojas de cálculo como MS EXCEL es frecuente para esta tarea, dicho tipo de software no es el mejor para realizar tareas complicadas y repetitivas que requieren de toma de decisiones, por lo que se requiere que el estudiante aprenda a utilizar efectivamente un lenguaje de programación. Este es de hecho la única puerta que existe para entender y practicar efectivamente los algoritmos que se encuentran en las teorías de ingeniería modernas.
+
+=OBJETIVOS=
+* Enseñar al estudiante la lógica de programación de modo que pueda resolver problemas prácticos de la vida práctica ingenieril y científica haciendo uso del computador, mediante el uso de lenguajes de programación alto nivel.
+* Analizar y diseñar soluciones algorítmicas construyendo un modelo del problema e identificando sus requerimientos funcionales.
+* Enseñar al estudiante el uso y aplicación de las variables, estructuradas de control, estructuras de datos, comandos y las diferentes librerías y funciones provistas por los lenguajes de alto nivel.
+
+=AL FINALIZAR EL CURSO EL ESTUDIANTE DEBE ESTAR EN CAPACIDAD DE=
+* Utilizar las herramientas adecuadas para resolver un problema simple en términos de un programa de computador.
+* Especificar, diseñar, analizar y elaborar (implementar) un algoritmo a partir de un problema que se le plantee, habiendo estudiado previamente el concepto de algoritmo y sus distintas representaciones.
+* Diseñar e implementar programas, independientemente del lenguaje de programación.
+* Escribir programas correctos, eficientes, bien organizados, bien documentados y legibles.
+* Conocer tipos generales de problemas susceptibles de resolución por computador y las herramientas necesarias para ello.
+
+=METODOLOGÍA=
+El curso se desarrollará teniendo en cuenta diferentes aspectos pedagógicos como son:
+* Clases presenciales: el profesor explica los conceptos relevantes en el salón de clase.
+* Realización de talleres prácticos de programación que faciliten, refuercen y aplique los conocimientos adquiridos en la parte teórica cada vez que el tema lo amerite.
+* Presentación y sustentación de proyectos por parte de los estudiantes.
+* Trabajo dirigido fuera de clase, ya sea individual o por grupo, por parte de los estudiantes con el propósito de afianzar los conceptos aprendidos.
+
+=LENGUAJE DE PROGRAMACIÓN A ENSEÑAR=
+El curso se debe dirigir hacia el aprendizaje de los lenguajes C y C++, ya que como se muestra en el índice TIOBE, el cual mide la popularidad de los lenguajes de programación (http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html), estos dos lenguajes son los más populares en el ámbito de la programación moderna (C 17% C++ 9%, favoritismo conjunto 26%, Enero 2013) y además son los que frecuentemente se utilizan para las tareas de programación científica de alto desempeño por su velocidad y por la gran cantidad de librerías de funciones complementarias que existen. Además con estos lenguajes se pueden enseñar conceptos relativos a la programación que son importantes y que no se pueden enseñar con el lenguaje MATLAB. Una vez se sepa programar en C y en C++, la transición al lenguaje MATLAB sólo toma dos semanas de clase, y esta se puede hacer sin contratiempos en el curso 4101553  "Métodos numéricos aplicados a la ingeniería civil" (de hecho en el programa de esta materia ya se ha especificado utilizar las dos primeras semanas para el aprendizaje de MATLAB).
+
+
+=CONTENIDO=
+**1. La esencia de la lógica de programación**
+* Planteamiento, abordaje de problemas, estrategias de solución, análisis de problemas, entradas y salidas
+* Algoritmos
+* Pseudocódigo
+* Diagramas de flujo
+
+**2. Conceptos fundamentales sobre el tratamiento de datos**
+* Tipos de datos
+* Lógica binaria y álgebra de Boole
+* Variables y constantes
+* Cadenas de texto
+* Asignaciones, operadores y precedencia de operadores, expresiones
+
+**3. Introducción a la programación**
+* Programa "Hola Mundo.c"
+* Entrada salida básica (cin, cout, printf, scanf)
+* Compilación, depuración y ejecución
+* Errores de compilación
+* La importancia de la documentación y los comentarios en el código
+* Entorno de desarrollo
+* Estructura de los programas
+* Palabras reservadas
+
+**4. Sentencias de Control Condicionales y Ciclos**
+* Condicionales (if, if-else, switch)
+* Ciclos (while, do-while, for, break, continue, ciclos anidados)
+   
+**5. Funciones**
+* Declaración
+* Definición
+* Ambito de las variables
+* Llamada a función (paso de parámetros por valor y por referencia)
+* Análisis de la función main()
+* Modificadores de función
+* Recursibilidad
+
+**6. Arrays y matrices**
+
+**7. Tipos definidos por el usuario**
+* struct, union, enum  
+ 
+**8. Punteros y Arrays**
+* Punteros
+* Declaración
+* Operaciones con punteros
+* Punteros a función
+* Arrays Estáticos y Dinámicos
+* Declaración
+* Tratamiento de cadenas de caracteres
+* Como pasarlos como parámetro de funciones
+* Manejo de memoria
+
+**9. Librerias**
+* string.h, math.h, stdlib.h
+
+
+=BIBLIOGRAFIA=
+* Omar Ivan Trejos Buriticá. La Esencia de la Lógica de Programación. Pereira:Papiro, 1999. Disponible en Internet.
+* Luis Joyanes Aguilar. Fundamentos de programación: algoritmos, estructuras de datos y objetos. Madrid:McGraw-Hill 2008.
+* R.C. T. Lee. Introducción al diseño y análisis de algoritmos :un enfoque estratégico. México:McGraw-Hill, 2007.
+* Harvey M. Dietel y Paul J. Deitel. Cómo programar en C/C++ y Java. México:Pearson Educación, 2004.
+* Eduardo Villegas Jaramillo. Informatica basica con enfasis en lenguaje C. Manizales:Universidad Nacional de Colombia, 2000.
+* Bjarne Stroustrup. The C++ Programming Language. Addison-Wesley. 2000.
+* C++ Language Tutorial http://www.cplusplus.com/doc/tutorial/
+
+
+
+
+
+
+
+
+==PROGRAMACION EN LENGUAJE C++==
+* http://www.sstutor.com/cpp/contents.aspx
+
+==EL C STANDARD==
+* [[@http://www.open-std.org/JTC1/SC22/WG14/www/docs/n1570.pdf|Una copia del standard C11]] (PDF). 
+* [[@http://www.knosof.co.uk/cbook/cbook.html|Jones (2009) - The New C Standard - An Economic and Cultural Commentary]]
+
+=PROGRAMACION CON LENGUAJE C=
+* [[@http://repositori.uji.es/xmlui/handle/10234/24306|Andres Marzal, Isabel Gracia. Introducción a la programación con C]]
+* [[@http://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html|The GNU C Reference Manual]]
+* [[@http://www.gnu.org/s/libc/manual/pdf/libc.pdf|The GNU C Library Reference Manual]]
+* [[@http://man7.org/linux/man-pages/dir_section_3.html|Linux programmer's manual]]
+* [[@http://www.c-faq.com/|comp.lang.c Frequently Asked Questions]]
+* [[@http://efytimes.com/e1/fullnews.asp?edid=117539|35 free eBooks on C programming]]
+* http://gribblelab.org/CBootCamp/index.html
+
+Los siguientes libros se encuentran en la base de datos de la universidad E-Libro:
+* Eslava Muñoz, Vicente Javier (2013) - Aprendiendo a programar paso a paso con C. Bubok Publishing S.L.
+* Joyanes Aguilar, Luis; Castillo Sanz, Andrés y Sánchez García, Lucas (2005) - C algoritmos, programación y estructuras de datos. McGraw-Hill España
+* <span style="color: #ff0000;">Joyanes Aguilar, Luis y Zahonero Martínez, Ignacio (2005) - Programación en C: metodología, algortimos y estructura de datos. McGraw-Hill España, 2a. edición</span>
+* Menchaca García, Felipe Rolando (2010) - Fundamentos de programación en Lenguaje C. Instituto Politécnico Nacional
+* Ruiz Rodríguez, Ricardo (2013) - Una Introducción a la Programación Estructurada en C. El Cid Editor
+
+Tutoriales avanzados de lenguaje C:
+*http://www.cs.hunter.cuny.edu/~sweiss/course_materials/csci493.66/csci493.66_lecture_notes.php
+
+<span style="font-size: 0%;">Para el primíparo en el lenguaje se recomienda:
+* Cualquier libro de lenguaje C que se encuentre en la biblioteca o en internet puede servir como libro guía. Tenga en cuenta que durante el curso se hará énfasis en el estándar C99, el cual sólo se encuentra documentado en libros recientes.
+* Libros de fundamentos de programación de computadores/diseño de algoritmos/lógica de programación
+
+En la biblioteca se encuentran los siguientes libros, los cuales pueden ser útiles:
+
+Luis Joyanes Aguilar
+Fundamentos de programación: algoritmos, estructura de datos y objetos
+Madrid McGraw-Hill 2008.
+766 p.
+
+Jorge Villalobos, Ruby Casallas
+Fundamentos de programación :aprendizaje activo basado en casos. Un enfoque moderno usando java, UML, objetos y eclipse /.
+Bogotá : Pearson/educación, 2006.
+359 p. +  1 CD-ROM.
+
+G. Brassard
+Fundamentos de algoritmia
+Madrid Prentice Hall 1997.
+579 p.
+
+Joyce Farrell
+Introducción a la programación :lógica y diseño
+México : Thomson Learning, c2001..
+267 p.
+
+Armando E. de Giusti
+Algoritmos, datos y programas :con aplicaciones en Pascal, Delphi y Visual Da Vinci
+Buenos Aires : Prentice Hall Pearson Educación, 2001..
+449 p.
+</span>
+
+
+=Programa para hacer ASCII ART=
+Este programa se puede utilizar para hacer más ameno el código del proyecto final: http://ascgendotnet.jmsoftware.co.uk/

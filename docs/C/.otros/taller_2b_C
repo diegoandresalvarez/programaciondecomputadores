@@ -1,0 +1,93 @@
+<span style="font-size: 300%;">TALLER DE PROGRAMACION 2: (20% de la nota final)</span>
+
+<span style="font-size: 150%;
+color: #ff0000;">**Fecha y hora límite de entrega: Enero 31 a las 7:00; enviar a daalvarez@unal.edu.co. Sin excepción, por cada <span style="color: #0000ff;">HORA</span> de retraso en la entrega se rebajará 1 unidad de la nota. Sustentación, Enero 31 de 2014**</span>
+
+<span style="font-size: 200%;">Se requiere elaborar una versión del legendario juego [[@http://es.wikipedia.org/wiki/Snake_(videojuego)|SNAKE]]  (también conocido como NIBBLES), utilizando como base el archivo [[file:snake.c]] y la librería "curses.h" [[file:mingw_pdcurses.zip]].</span>
+
+[[image:http://i1.ytimg.com/vi/UmeKHtei0qo/maxresdefault.jpg width="700"]]
+
+=Forma de presentación=
+* Individual
+* Se debe hacer un informe de máximo 10 hojas donde se explique que es lo que se hizo (no es imprimir el código fuente).
+
+=Forma de calificación=
+Lo pedido a continuación debe funcionar de forma similar al juego http://fullscreenflashgames.com/index.php?task=view&id=207
+
+
+El programa se calificará por objetivos de la siguiente forma (máximo 8.0 unidades, teniendo en cuenta que los puntos obligatorios no otorgan unidades, solo las quitan, es decir un programa que solo tiene los puntos oblitatorios tiene una nota de 0.0):
+
+* **Punto obligatorio:** Debe haber al menos 4 niveles de juego (cada tablero es más complejo) y 3 de velocidad (si no se realiza -1.0 unidad).
+
+* **Punto obligatorio:** La serpiente debe conservar su inercia (no se puede detener su movimiento), la serpiente se mueve horizontal/verticalmente utilizando las flechas o las teclas ASDW (si no se realiza -1.0 unidad).
+
+* **Punto obligatorio:** En la parte superior del tablero debe haber un panel donde se muestren las vidas, el puntaje y cualquier otra información de relevancia para el juego (si no se realiza -1.0 unidad). Dicho panel se debe hacer de forma similar a: http://fullscreenflashgames.com/index.php?task=view&id=207
+
+* **Punto obligatorio:** En el diálogo "Perdiste" debe identificarse claramente que serpiente/jugador perdió los puntos (si no se realiza -1.0 unidad).
+
+* **Punto obligatorio:** Debe demostrar durante la sustentación que se sabe manejar el depurador (debugger) (si no se realiza -1.0 unidad).
+
+
+
+* Implementar las opciones:
+** Persona sola (maneja con las flechas y con las teclas ASDW o asdw): (+0.5 unidad)
+** Persona (flechas) vs Persona (maneja con las teclas ASDW o asdw): (+0.5 unidad)
+** **Punto obligatorio:** Persona vs Computador: con una serpiente manejada por la máquina(si no se realiza -1.0 unidad).
+** Persona vs Computador: con dos serpientes manejada por la máquina (1.0 unidad).
+
+
+* Implementar las siguientes cápsulas de poder (las cuales deben aparecer aleatoriamente en el tablero, en las posiciones libres):
+** Capsula que da una vida extra (0.5 unidades)
+** Cápsulas que incrementan/decrementan la velocidad de la serpiente que se la come (0.5 unidades cada una)
+** Cápsula que invierte la serpiente, es decir, la cabeza se vuelve la cola y la cola se vuelve la cabeza (1.0 unidad)
+** **Punto obligatorio:** Cápsula que alarga la serpente en tres cuadros. Al comer 9 de estas frutas termina el nivel y continua al siguiente. El simbolo de esta cápsula es simplemente el número de la fruta 1, 2, ..., 9 (si no se realiza -1.0 unidad).
+** Cápsula que acorta la serpente en tres cuadros (0.5 unidades).
+** Cápsula que congela a las otras serpientes por cinco segundos (1.0 unidad). Escribir en pantalla el tiempo que dura el efecto de esta cápsula de poder: +0.5 unidades
+** Cápsula de poder que se guarda en una bodega y que posteriormente se activa al presionar la tecla "INSERT". Dicha cápsula permitiría a la serpiente atravesar muros durante los 5 segundos siguientes (1.0 unidad). Escribir en pantalla el tiempo que dura el efecto de esta cápsula de poder: +0.5 unidades
+
+* Pueden estar simultáneamente en el tablero hasta dos cápsulas, todas de diferente clase. Estas cápsulas sólo pueden aparecer una vez por nivel (excepto la cápsula de alargamiento).
+
+* Si se come la cápsula debe aparecer en pantalla el número de puntos obtenidos: +0.5 unidades
+* El jugador solo tiene como tiempo máximo un minuto para completar el tablero. En el tablero deben aparecer los segundos faltantes (+1 unidad)
+* Implementación de túneles de modo que la serpiente pase por el borde izquierdo de la pantalla y salga por el derecho y viceversa (similar para los bordes superior e inferior): +0.5 unidades
+* Escribir en pantalla el tiempo de juego: +0.3 unidades
+* Al presionar 'H' o 'h' aparece el manual de instrucciones del juego: +0.5 unidades
+* Implementar el TOP 10 de los mejores jugadores del juego, guardarlo a disco y recuperarlo al iniciar el programa; Al presionar 'T' o 't' se hace una pausa y aparece el top 10 de los mejores jugadores del juego. +1.0 unidad
+* Hacer introducción ANIMADA del juego: +1.0 unidad
+* Hacer un START, un PAUSE, un PERDISTE y un FELICITACIONES, COMPLETASTE EL NIVEL (encima del tablero tal y como aparece en el juego original). Para esto se deben utilizar las funciones de ventanas que suministra la libreria curses.h: +1.0 punto
+
+* En caso que se detecte que hay copia en alguno de los puntos presentados se tendrá como nota un CERO en todo el taller (usted y su compañero).
+* Habrá sustentación del programa. La sustentación se hará frente al PC y se pedirá modificar algún punto en particular del programa o explicar que hace un código. Si se hizo el programa, pero no se aprobó la sustentación, se tendrá una nota en el taller de CERO. La nota de la sustentación será APROBADO/NO APROBADO
+
+
+=Notas adicionales=
+* El programa deberá estar <span style="color: #ff0000;">**super comentado**</span>. La falta de comentarios explicativos le rebajará el 50% de la nota en ese punto.
+* Si el programa está feo o desordenado en su presentación, se rebajará 50% de la nota en ese punto.
+* Se debe utilizar el tipo de identacion ALLMAN (ANSI) http://en.wikipedia.org/wiki/Indent_style#Allman_style, con una identación de 4 espacios . Si no se sigue esta regla, se rebajará el 50% en ese punto. 
+* Si el programa no corre o funciona incorrectamente, se tendrá como nota 0.0 en ese punto.
+* Si se utilizan innecesariamente variables globales: se rebajará 50% de la nota para ese programa (esto pasa por ejemplo si la variable global se puede reemplazar por una static)
+* Por ninguna razón deben aparecer "warnings" en la compilación de los archivos. Se sugiere compilar los archivos utilizando la bandera de compilación **-Wall** (para activar todos 
+los warnings posibles). La aparición de un warning al compilar con -Wall le rebajará el 50% de la nota final.
+* Utilización de nombres de variables sin mucho sentido para quien lo lee (a excepción del programador) y sin comentarios apropiados (-1 punto).
+* Si el programa excede en más del 10% del código las 80 columnas se rebajará el 50% de la nota (se sugiere activar la opción que muestra la columna # 80 en su ambiente de desarrollo)
+* Por cada error de ortografía se rebajará 1 décimas de la nota final (para evitar esto se sugiere activar el corrector de ortografía de su ambiente de desarrollo).
+
+
+
+=Consejos=
+* Si quieren aprender en verdad a programar intenten ustedes mismos hacer los ejercicios de forma autónoma (sin ayuda de los compañeros de clase o de alguien más). Por lo tanto <span style="color: #ff0000;">eviten en lo posible los grupos de trabajo</span>. Se prohibe cualquier tipo de "colaboración" entre compañeros. Aprender a programar es como aprender a nadar. Uno no aprende a nadar viendo los campeonatos de natación en la TV. Hay que tirarse al agua para en verdad dominar la natación.
+
+* No esperen hasta el último minuto para empezar a trabajar en el proyecto; como ya probablemente se han dado cuenta, el desarrollo de software es una actividad que requiere tiempo. La mejor forma de asegurar un buen trabajo es repasar los conceptos vistos en clase, dar un vistazo general a las diferentes librerías con las que cuenta el lenguaje C (curses.h, stdlib.h, stdio.h, etc), y preguntar bastante.
+
+* Aprendan a manejar el debugger, ya que es una herramienta bastante eficiente para la captura de errores. En youtube hay tutoriales de ello.
+
+* En internet se encuentre el código solicitado, sin embargo, no lo copien (fraude), sino que utilícenlo para adquirir ideas de cómo mejorar el suyo. Un par de códigos del NIBBLES en modo texto realizados con C y curses.h son:
+** http://freecode.com/projects/nibbles
+** http://cnibbles.sourceforge.net/
+** http://www.alge.no/index.php/C_Programming
+** http://alexdantas.net/projects/nsnake/
+** http://www.earth.li/projectpurple/progs/nibbles.html
+** http://www.cprogramming.com/cgi-bin/source/source.cgi?action=Detail&LID=20
+** http://es.wikipedia.org/wiki/Snake_(videojuego)
+** http://sourceforge.net/projects/zmiy/
+

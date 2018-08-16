@@ -1,0 +1,71 @@
+<span style="font-size: 300%;">TALLER DE PROGRAMACION 2: (20% de la nota final)</span>
+
+<span style="font-size: 150%;
+color: #ff0000;">**Fecha y hora límite de entrega: jueves 6 a las 4:00, enviar a daalvarez@unal.edu.co. Sin excepción, por cada <span style="color: #0000ff;">HORA</span> de retraso en la entrega se rebajarán 3 décimas de la nota final. Sustentación, jueves junio 6 a las 16:00**</span>
+
+<span style="font-size: 200%;">Se requiere elaborar una versión del legendario juego PACMAN, utilizando como base el archivo [[file:pacman.c]] y la librería "curses.h" [[file:mingw_pdcurses.zip]].</span>
+
+[[image:http://1.bp.blogspot.com/-meRDcB-or8E/Tl_dbFADdlI/AAAAAAAAAUA/M2I9uGGZaCI/s1600/Pacman.gif]]
+
+=Forma de presentación=
+* Individual
+* Se debe hacer un informe de máximo 10 hojas donde se explique que es lo que se hizo (no es imprimir el código fuente).
+
+=Forma de calificación=
+Lo pedido a continuación debe funcionar de forma similar al juego http://www.thepcmanwebsite.com/media/pacman_flash/
+
+El programa se calificará por objetivos de la siguiente forma (máximo 8.0 unidades, teniendo en cuenta que los puntos obligatorios no otorgan unidades, solo las quitan, es decir un programa que solo tiene los puntos oblitatorios tiene una nota de 0.0):
+
+* **Punto obligatorio:** Si el pacman toca el fantasma sin la cápsula de poder, el pacman pierde una vida (si no se realiza -1.0 unidad)
+* **Punto obligatorio:** Implementar la cápsula de poder (dura 10 segundos): (si no se realiza -1.0 unidad).
+* **Punto obligatorio:** Debe haber al menos 4 niveles de juego y 3 de dificultad (si no se realiza -1.0 unidad).
+* **Punto obligatorio:** Debe demostrar durante la sustentación que se sabe manejar el depurador (debugger) (si no se realiza -1.0 unidad).
+
+* Escribir en pantalla el tiempo que dura el efecto de la cápsula de poder: +0.3 unidades
+* Si se come el fantasma, aparece en dicha posición el número de puntos obtenidos: +0.5 unidades
+* Si el pacman se comió la cápsula de poder los fantasmas se mueven lentamente, se muestran con otro color y se representan con el símbolo **^**: +0.5 unidades
+* En los dos ultimos segundos que dura la cápsula de poder los fantasmas cambian a un color diferente: +0.3 unidades
+* Si el pacman se come un fantasma, el espíritu del fantasma (representado por una comilla **"**) regresa a su casa: +1.0 punto.
+* Implementación del pasadizo: +0.5 unidades
+* Implementación de las frutas (cerezas, naranjas); si se come la fruta (cereza, naranja), aparece en dicha posición el número de puntos obtenidos: +0.5 unidades
+* Escribir en pantalla el tiempo de juego: +0.3 unidades
+* Si se alcanzan 1000 puntos obtener vida nueva: +0.3 puntos
+* Al presionar 'H' o 'h' aparece el manual de instrucciones del juego: +0.5 unidades
+* Implementar el TOP 10 de los mejores jugadores del juego, guardarlo a disco y recuperarlo al iniciar el programa: +1.0 unidad
+* Al presionar 'T' o 't' se hace una pausa y aparece el top 10 de los mejores jugadores del juego.
+* Hacer introducción de animación al juego (similar a la original, pero en modo texto): +1.0 unidad
+* Si el pacman come, se vuelve el doble de lento. Si hay espacios, entonces se mueve más rápido: +0.5 unidades
+* Hacer un GET READY y un PAUSE (encima del tablero tal y como aparece en el juego original). Para esto se deben utilizar las funciones de ventanas que suministra la libreriacurses.h: +1.0 punto
+* Implementación de los "algoritmos de inteligencia" de los fantasmas para capturar el pacman (+2 puntos). Este algoritmo debe explicarse en el informe para que sea válido. Ver los algoritmos en: 
+** http://home.comcast.net/~jpittman2/pacman/pacmandossier.html 
+** http://gameinternals.com/post/2072558330/understanding-pac-man-ghost-behavior
+** http://gameai.com/wiki/index.php?title=Pac-Man
+* Programa que escribe a un archivo el juego partida y la recupera, y lleva un registro de los mejores jugadores (+1 punto).
+* El pacman puede disparar misiles cuando se come la cápsula de poder (+1 punto).
+
+* En caso que se detecte que hay copia en alguno de los puntos presentados se tendrá como nota un CERO en todo el taller (usted y su compañero).
+* Habrá sustentación del programa (jueves junio 6 a las 16:00). La sustentación se hará frente al PC y se pedirá modificar algún punto en particular del programa o explicar que hace un código. Si se hizo el programa, pero no se aprobó la sustentación, se tendrá una nota en el taller de CERO. La nota de la sustentación será APROBADO/NO APROBADO
+
+
+=Notas adicionales=
+* El programa deberá estar <span style="color: #ff0000;">**super comentado**</span>. La falta de comentarios explicativos le rebajará el 50% de la nota en ese punto.
+* Si el programa está feo o desordenado en su presentación, se rebajará 50% de la nota en ese punto.
+* Se debe utilizar el tipo de identacion ALLMAN (ANSI) http://en.wikipedia.org/wiki/Indent_style#Allman_style, con una identación de 4 espacios . Si no se sigue esta regla, se rebajará el 50% en ese punto. 
+* Si el programa no corre o funciona incorrectamente, se tendrá como nota 0.0 en ese punto.
+* Por ninguna razón deben aparecer "warnings" en la compilación de los archivos. Se sugiere compilar los archivos utilizando la bandera de compilación **-Wall** (para activar todos 
+los warnings posibles). La aparición de un warning al compilar con -Wall le rebajará el 50% de la nota final.
+* Utilización de nombres de variables sin mucho sentido para quien lo lee (a excepción del programador) y sin comentarios apropiados (-1 punto).
+* Si el programa excede en más del 10% del código las 80 columnas se rebajará el 50% de la nota (se sugiere activar la opción que muestra la columna # 80 en su ambiente de desarrollo)
+* Por cada error de ortografía se rebajará 1 décimas de la nota final (para evitar esto se sugiere activar el corrector de ortografía de su ambiente de desarrollo).
+
+
+
+=Consejos=
+* Si quieren aprender en verdad a programar intenten ustedes mismos hacer los ejercicios de forma autónoma (sin ayuda de los compañeros de clase o de alguien más). Por lo tanto <span style="color: #ff0000;">eviten en lo posible los grupos de trabajo</span>. Se prohibe cualquier tipo de "colaboración" entre compañeros. Aprender a programar es como aprender a nadar. Uno no aprende a nadar viendo los campeonatos de natación en la TV. Hay que tirarse al agua para en verdad dominar la natación.
+
+* No esperen hasta el último minuto para empezar a trabajar en el proyecto; como ya probablemente se han dado cuenta, el desarrollo de software es una actividad que requiere tiempo. La mejor forma de asegurar un buen trabajo es repasar los conceptos vistos en clase, dar un vistazo general a las diferentes librerías con las que cuenta el lenguaje C (curses.h, stdlib.h, stdio.h, etc), y preguntar bastante.
+
+* Aprendan a manejar el debugger, ya que es una herramienta bastante eficiente para la captura de errores. En youtube hay tutoriales de ello.
+
+* En internet se encuentre el código solicitado, sin embargo, no lo copien (fraude), sino que utilícenlo para adquirir ideas de cómo mejorar el suyo. Un par de códigos de PACMANs en modo texto realizados con C y curses.h son: http://myman.sourceforge.net/ y https://sites.google.com/site/doctormike/pacman.html.
+

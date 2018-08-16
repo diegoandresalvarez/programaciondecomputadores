@@ -1,0 +1,104 @@
+<span style="font-size: 300%;">TALLER DE PROGRAMACION 1: (20% de la nota final)</span>
+
+[[image:http://imgs.xkcd.com/comics/ballmer_peak.png]]
+Fuente: [[http://xkcd.com/323/]]
+
+<span style="font-size: 150%;
+color: #ff0000;">**Fecha y hora límite de entrega: Septiembre 29, 2014 a las 23:59 (capítulos 7 y 8), Octubre 20, 2014 a las 23:59 (capítulos 9, 10 y 11), enviar a daalvarez@unal.edu.co**. Sin excepción, por cada día de retraso en la entrega, se rebajará una unidad en la nota final.
+
+Fecha y hora de sustentación: **FECHA Y HORA POR DEFINIR**
+</span>
+
+<span style="font-size: 200%;">Hacer TODOS los ejercicios 4n (es decir 4, 8, 12, 16, 20, 24, etc...) de los capítulos 7 al 11 del libro "La esencia de la lógica de programación".</span>
+
+
+=Forma de presentación=
+* Individual
+
+=Forma de calificación=
+* Una vez entregados los ejercicios por todos los estudiantes, en clase se seleccionarán de cada capítulo dos ejercicios al azar, los cuales serán los únicos calificados. Se calificarán por lo tanto solo 10 ejercicios de los presentados.
+* En caso que no se haya presentado dicho ejercicio, tendrá una nota de 0 en dicho ejercicio (no importa si se olvidó incluirlo en el correo).
+* En caso que se detecte que hay copia en alguno de los ejercicios presentados (seleccionado o no en clase para calificación) se tendrá como nota un CERO en todo el taller (usted y su compañero).
+* Habrá sustentación de los ejercicios. La sustentación será un examen basado en los ejercicios presentados (no necesariamente los seleccionados anteriormente). Incluso si se hizo el ejercicio para el taller y funciona bien, pero no se pudo resolver LA TOTALIDAD de los ejercicios en la sustentación, se tendrá una nota en el taller de CERO. La nota de la sustentación básicamente un coeficiente de ponderación de la nota del trabajo, dado por la siguiente figura:
+[[image:ponderacion_taller1.png]]
+[[code format="matlab"]]
+figure;
+plot([0 60 120 180 240],[1.2 1.2 1 0 0], 'LineWidth', 6);
+hold on;
+axis([0 240 -0.05 1.25]);
+grid on;
+title('Factor de ponderación obtenido en la sustentación', 'FontSize',16);
+xlabel('Tiempo utilizado para resolver la sustentación (minutos)', 'FontSize', 12);
+ylabel('Factor de ponderación', 'FontSize', 12);
+[[code]]
+
+* La nota del taller será 
+[[math]]
+Nota = 0.4\text{Nota}_{\text{parte 1}} + 0.6\text{Nota}_{\text{parte 2}}
+[[math]]
+Asumiendo que Nota 1 y Nota 2 se evaluan sobre 5.0. Con el factor de ponderación de la sustentación, podría obtenerse una nota mayor.
+* Sin excepción alguna, por cada día de retraso en la entrega se rebajarán 3 décimas de la nota final.
+
+=Forma de presentación (si no se cumple EXACTAMENTE les rebajo una unidad en la nota final. Seré estricto con respecto a esto)=
+* Se deben entregar archivos .c empaquetados en un solo archivo .zip y en una única carpeta
+* La forma de nombrar los archivos será por ejemplo 09_03.c, lo cual quiere decir que se está entregando el ejercicio 3 del capítulo 9 (observe los ceros). Todos los archivos deben ir en una carpeta cuyo nombre es su código+nombre; algo así como:
+[[code]]
+107011_Pepito_Perez (nombre de la carpeta con guión bajo en vez de espacio)
+ |
+ |- 07_01.c        (OJO al 0 que antecede al 1)
+ |- 07_03.c 
+ |- 07_05.c 
+ |- 07_07.c
+ |- 07_09.c
+ |- 07_11.c
+ |- 07_13.c
+ |- ...
+ |- 11_47.c
+ \- 11_49.c
+[[code]]
+NOTA: si el correo que ustedes envian les rebota, revisen que no tengan archivos de extensiones diferentes al .c. Si ustedes por ejemplo envían la carpeta con un archivo .exe, el correo de gmail siempre rechazará el archivo adjunto que ustedes tratan de enviar.
+
+
+=Notas adicionales=
+* Independientemente del capítulo del libro, utilizar siempre funciones para realizar actividades como detectar el primer dígito, verificar si un número entero es primo, verificar si un número entero es Fibonacci, etc. Si no se realiza esto, se rebajará en 20% la nota obtenida. **Cuando utilice funciones estas deben retornar algún valor (así sea por referencia) y el main() debe es la única función donde está permitido imprimir los resultados (es decir el main() es la única función que puede usar printf(), puts(), putchar(), etc). Se exceptua el caso que se hace una función que explícitamente está diseñada para imprimir resultados o datos, algo así como imprimir_matriz().**
+* El programa deberá estar <span style="color: #ff0000;">**super comentado**,</span>  explicando las razones del porqué de su código, no las implementaciones de su código. La falta de comentarios explicativos le rebajará en 50% de la nota en ese punto. Se recomienda leer: http://www.variablenotfound.com/2007/12/13-consejos-para-comentar-tu-cdigo.html y http://www.genbetadev.com/trabajar-como-desarrollador/diez-consejos-para-mejorar-tus-comentarios-de-codigo-fuente. Por favor evite comentarios del tipo:
+[[code format="C"]]
+printf("Hola\n");   // imprime Hola y pasa de reglón
+x++;                // incrementa la variable x en 1
+[[code]]
+ya que son obvios!!.
+
+* Si el programa está feo o desordenado en su presentación, se rebajará 50% de la nota en ese punto.
+* Se debe utilizar el tipo de identacion ALLMAN (ANSI) http://en.wikipedia.org/wiki/Indent_style#Allman_style, con una identación de 3 espacios (ajustar la configuración en el IDE utilizado). Si no se sigue esta regla, se rebajará -0.5 unidades en ese punto. 
+* Si el programa no corre o funciona incorrectamente, se tendrá como nota 0.0 en ese punto (así sea porque falta un punto y coma).
+* Si se utilizan innecesariamente variables globales: se rebajará 50% de la nota para ese programa (esto pasa por ejemplo si la variable global se puede reemplazar por una static)
+* Por ninguna razón deben aparecer "warnings" en la compilación de los archivos. Se sugiere compilar los archivos utilizando la bandera de compilación **-Wall** (para activar todos 
+los warnings posibles). La aparición de un warning al compilar con -Wall le rebajará el 50% de la nota final.
+* Utilización de nombres de variables sin mucho sentido para quien lo lee (a excepción del programador) y sin comentarios apropiados (-1.0 unidades).
+* Si el programa excede en más del 10% del código las 80 columnas se rebajará el 50% de la nota (se sugiere activar la opción que muestra la columna # 80 en su ambiente de desarrollo)
+* Por cada error de ortografía se rebajará 1 décima en ese punto (para evitar esto se sugiere activar el corrector de ortografía de su ambiente de desarrollo).
+* Por escribir código innecesario (en el sentido que se pudo haber evitado para ganar velocidad en el tiempo de ejecución) se tendŕa -0.5 unidades.
+* Por no alinear los comentarios, cuando estos se encuentren en filas consecutivas, se tendrá -0.5 unidades.
+* Por escribir o acceder a zonas de memoria no permitidas (esto sucede por ejemplo al no utilizar correctamente los punteros o indexar incorrectamente un array), se tendrá 0 en la nota de ese punto, incluso si el programa aparentemente funciona bien.
+* Revisar las notas de como se debe escribir un buen código de programación (diapositivas 4, después de la mitad...)
+
+=Consejo=
+Si quieren aprender en verdad a programar intenten ustedes mismos hacer los ejercicios de forma autónoma (sin ayuda de los compañeros de clase o de alguien más). Por lo tanto <span style="color: #ff0000;">eviten en lo posible los grupos de trabajo</span>. Se prohibe cualquier tipo de "colaboración" externa. Aprender a programar es como aprender a nadar. Uno no aprende a nadar viendo los campeonatos de natación en la TV. Hay que tirarse al agua para en verdad volverse un nadador. De alguna forma la sustentación es tan estricta porque solo le otorga los puntos obtenidos si usted le muestra al profesor que adquirió la habilidad para programar.
+
+
+
+==Nota (para Diego)==
+Imprimir el taller con el comando:
+[[code]]
+for dir in *; do
+  if test -d "$dir"; then
+    echo "**************************************************************************************************************************"
+    echo "$dir"
+    echo "**************************************************************************************************************************"
+    cd "$dir"
+    a2ps 07_07.c 07_31.c 08_07.c 08_27.c --prologue=gray --landscape --tabsize=3 --file-align=fill --header=%c -DDuplex:true --output="$dir".pdf
+    a2ps 07_07.c 07_31.c 08_07.c 08_27.c --prologue=gray --landscape --tabsize=3 --file-align=fill --header=%c -DDuplex:true 
+    cd ..
+  fi
+done
+[[code]]

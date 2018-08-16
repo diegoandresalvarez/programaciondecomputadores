@@ -1,0 +1,109 @@
+[[image:http://imgs.xkcd.com/comics/tech_support_cheat_sheet.png]]
+Tomado de: http://xkcd.com/627/
+
+
+Durante el curso utilizaremos el entorno de programación Netbeans y el compilador gcc (variante para Windows MinGW)
+
+=Instalación del MinGW (para los que tienen Windows)=
+* Descargue el MinGW (ver http://www.mingw.org/wiki/Getting_Started) desde aquí: http://sourceforge.net/projects/mingw/files/Installer/mingw-get-inst/
+
+* Instale el programa en C:\MinGW (NO LO INSTALE EN ARCHIVOS DE PROGRAMAS o PROGRAM FILES!!)
+* Instale preferiblemente TODO lo ofrecido por MinGW.
+** C Compiler
+** C++ Compiler
+** Fortran
+** ObjC
+** MSYS Basic System
+** MinGW Development Toolkit
+
+* Agregue al PATH:
+** Click derecho en Equipo y seleccione "Propiedades".
+** Click "Configuración avanzada del sistema" (a la izquierda) -> "Variables de entorno" (abajo).
+** En la caja de abajo "Variables del sistema" múevase hasta que encuentre la línea que dice "PATH" y haga doble click.
+** Donde dice valor de variable, váyase hasta el final de lo ya escrito (es muy importante que no borre lo que ya está aquí escrito!!) 
+** agregue al final de dicha línea
+[[code]]
+;C:\MinGW\bin;C:\MinGW\MSYS\1.0\local\bin;C:\MinGW\MSYS\1.0\bin
+[[code]]
+(pilas con el primer punto y coma).
+
+Por ejemplo, mi "Valor de la variable" quedó así:
+[[code]]
+C:\Program Files\Common Files\Microsoft Shared\Windows Live;%SystemRoot%\system32;%SystemRoot%;
+%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\Program Files\Windows Live\Shared;
+C:\Program Files\Intel\OpenCL SDK\2.0\bin\x86;C:\MinGW\bin;C:\MinGW\MSYS\1.0\local\bin;C:\MinGW\msys\1.0\bin
+[[code]]
+a usted le debe quedar algo similar (pero no necesariamente igual).
+** Presione OK -> OK -> OK y listo!
+
+* Finalmente, como en el curso aprenderemos a utilizar la librería curses.h, para instalarla en la línea de comandos (cmd) escriba:
+[[code]]
+mingw-get install mingw32-libpdcurses mingw32-pdcurses
+[[code]]
+Ver:
+** http://www.projectpluto.com/win32a.htm
+** http://pdcurses.sourceforge.net/
+
+=Instalación del Netbeans=
+* Verifique que tiene el Java instalado: http://java.com/en/download/installed.jsp
+* Si no tiene el JAVA, instalelo desde: http://www.java.com/
+* Descargue desde http://netbeans.org/downloads/ el Netbeans (versión C/C++). Instale dicho software.
+
+=Problemas con Windows 7=
+En Windows 7 existe un problema el cual no deja compilar por segunda vez los archivos ya que aparece un error similar a:
+[[code]]
+ld.exe: cannot open output file bin\Debug\proyecto.exe: Permission denied
+[[code]]
+De acuerdo con 
+* http://stackoverflow.com/questions/7655471/ld-exe-cannot-open-output-file-permission-denied
+* http://wiki.codeblocks.org/index.php?title=FAQ-Compiling_%28errors%29
+para solucionear dicho problema, debemos hacer lo siguiente en Windows 7:
+
+* Botón inicio y en el campo "Buscar programas y archivos" escribir "servicio":
+[[image:Win7_serv_1.png]] 
+* Aparece una lista de los programas. Se selecciona el programa "Servicios"
+[[image:Win7_serv_2.png]]
+* Del menú de servicios locales, se selecciona la opción "Experiencia con aplicaciones"
+[[image:Win7_serv_3.png]]
+observe que dicha opción se encuentra "Desactivada". Para activarla, se debe dar doble click en este menú con lo cual aparecerá la ventana mostrada a continuación:
+[[image:Win7_serv_4.png]]
+* Se selecciona la opción "Automático" y se presiona Aceptar.
+* Ya se puede cerrar la ventana de Servicios
+
+----
+
+=Para los que tienen MacOS X=
+
+Según: http://netbeans.org/community/releases/73/cpp-setup-instructions.html
+* Verifique que tiene el Java instalado: http://java.com/en/download/installed.jsp
+* Si no tiene el JAVA, instalelo desde: http://www.java.com/
+* Descargue el NETBEANS desde http://netbeans.org/downloads/ (la versión C/C++). Instale este programa.
+
+* Instale los programas:
+** Xcode
+** X11
+
+Estos se pueden descargar del [[@https://developer.apple.com/devcenter/mac/index.action|Apple Developer Connection]]. Para poder descargar los programas debe crear una cuenta haciendo click en "Register for free today".
+
+Ahora siga las instrucciones de http://forums.netbeans.org/topic46550.html, que a continuación se resumen:
+
+* Una vez instale el Xcode, del menu de la parte superior seleccione Xcode -> Open Developer Tools -> More developer tools. Esto lo dirige a una página de internet que dice Command Line Tools for Xcode.
+* Seleccione el " Command Line Tools for Xcode" correspondiente a su sistema operativo. Es una archivo grande (aproximadamente 130 Mbs).
+* Descargue e instale dicho archivo.
+* Cierre el Xcode. 
+* Abra Netbeans y haga click en Netbeans->Preferences
+
+
+----
+
+
+=Para los que tienen Linux=
+* Descargue el NETBEANS desde http://netbeans.org/downloads/ (la versión C/C++)
+
+Escriba en la línea de comandos:
+[[code]]
+sudo apt-get install gcc manpages-dev manpages-posix-dev glibc-doc
+sudo sh ./netbeans-7.3-cpp-linux.sh
+sudo ln -s /usr/local/netbeans-7.3/bin/netbeans /usr/bin/netbeans
+[[code]]
+

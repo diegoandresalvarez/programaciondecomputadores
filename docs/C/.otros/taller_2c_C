@@ -1,0 +1,91 @@
+<span style="font-size: 300%;">TALLER DE PROGRAMACION 2: (20% de la nota final)</span>
+
+<span style="font-size: 150%;
+color: #ff0000;">**Fecha y hora límite de entrega: jueves 26 de junio de 2014 a partir de las 7:00 am; enviar a daalvarez@unal.edu.co. Sin excepción, por cada <span style="color: #0000ff;">HORA</span> de retraso en la entrega se rebajará 1 unidad de la nota. Sustentación, jueves 26 de junio de 2014 a partir de las 7:00 am**</span>
+
+<span style="font-size: 200%;">Se requiere elaborar una versión del legendario juego [[@http://en.wikipedia.org/wiki/Bomberman|BOMBERMAN]], utilizando como base el archivo [[file:bomberman.c]] y la librería "curses.h" [[file:mingw_pdcurses.zip]].</span>
+
+[[image:http://nintendo.host22.com/images/bomberman_2.jpg width="700"]]
+
+=Forma de presentación=
+* Individual
+
+=Forma de calificación=
+Lo pedido a continuación debe funcionar de forma similar al juego [[http://www.nintendo8.com/game/1/bomberman/]]. Nota: el video https://www.youtube.com/watch?v=3smytj9Bu_E le puede ayudar a entender como funciona el juego. Ver adicionalmente: http://strategywiki.org/wiki/Bomberman 
+
+**NOTA DE INTERES PARA QUIENES SACARON UN FACTOR DE PONDERACION MENOR A 1 EN LA SUSTENTACION DEL TALLER 1**: Si se saca más de 7.0 en este taller, se obtendrá un factor de ponderación en el taller 1 de 1.0.
+
+El programa se calificará por objetivos de la siguiente forma:
+* la calificación será la suma de los puntos obtenidos, sin embargo después de sumar 8.0, los puntos obtenidos se les afectará por un coeficiente de reducción del 50%, excepto en el punto de hacer el TOP 10.
+* los puntos obligatorios no otorgan unidades, solo las quitan, es decir un programa que solo tiene los puntos obligatorios tiene una nota de 0.0; si no se realiza un punto obligatorio, se descontará 1.0 unidad. 
+
+
+
+* **Punto obligatorio:** Debe haber al menos 4 niveles de juego (cada tablero es más complejo).
+
+* **Punto obligatorio:** En la parte SUPERIOR del tablero debe haber un panel donde se muestren las vidas, el puntaje y cualquier otra información de relevancia para el juego (si no se realiza -1.0 unidad). Se recomienda hacer este punto usando las librerías de ventanas que provee el ncurses.h.
+
+* **Punto obligatorio:** Debe demostrar durante la sustentación que se sabe manejar el depurador (debugger) (si no se realiza -2.0 unidades).
+
+* Implementar las siguientes cápsulas de poder (las cuales deben estar distribuídas aleatoriamente en el tablero y deberán tener una letra distintiva). Estas estarán ocultas hasta que se destruya el muro que la protege. En una casilla solo podrá existir una cápsula:
+** **Punto obligatorio:** Cápsula que da una vida extra.
+** **Punto obligatorio:** Cápsula que incrementa la velocidad de movimiento del bomberman.
+** **Punto obligatorio:** Cápsula que incrementa la intensidad de explosión de una bomba en un cuadro a la redonda.
+** **Punto obligatorio:** si el bomberman toca el destello de una bomba o uno de los fantasmas, pierde una vida. Si se pierden todas las vidas se pierde el juego.
+** Si una bomba explota y su onda explosiva toca otra bomba, esta bomba también explotará (+0.5 unidades).
+
+Las siguientes cápsulas se almacenarán en la bodega (implementarla es **obligatorio**). La bodega aparece al presionar la tecla 'B' o 'b', mostrándose un menú que lista las cápsulas disponibles, su cantidad y se preguntará que cápsula se quiere utilizar. (si no se hace -1.0 unidad). También podría ponerse como una ventana al lado del tablero de juego.
+
+Las siguientes cápsulas harán uso de la bodega:
+** Cápsula que congela los globos por 10 segundos (0.5 unidades). Si se escribe en pantalla el tiempo que dura el efecto de esta cápsula de poder se tendrán 0.5 unidades adicionales.
+** Cápsula de invencibilidad por 10 segundos (0.5 unidades). Si se escribe en pantalla el tiempo que dura el efecto de esta cápsula de poder se tendrán 0.5 unidades adicionales.
+** Cápsula que permite al bomberman atravesar muros durante los 10 segundos siguientes (0.5 unidades). Si se escribe en pantalla el tiempo que dura el efecto de esta cápsula de poder se tendrán 0.5 unidades adicionales.
+** Cápsula de que otorga cinco detonadores remotos. Esta permite detonar a voluntad la siguiente bomba colocada en la pantalla con la tecla 'D' o 'd' (1.0 unidades). Si se ponen bombas adicionales (con la cápsula especial), estas no explotarán hasta que se haya detonado la primera bomba. Cada vez que se utilice un detonador, el contador de detonadores disminuye en uno.
+** Cápsula de cinco mega bombas (+0.5 unidades): destruye TODO lo que haya alrededor de cuatro casillas (hasta los muros duros): o sea que con esta cápsula se podrían destruir hasta tres muros en la misma dirección con la misma onda explosiva.
+** Si se ataca por error la puerta de salida (con una bomba), saldrán de esta posición, 10 globos adicionales que pueden atravezar muros y son 30% más veloces que los globos normales. (+1.0 unidad).
+
+** Punto obligatorio: Sólo se pasará de nivel si todos los globos han sido exterminados y si se posa sobre la puerta para pasar niveles.
+
+
+** Implementar una rutina que genere los muros aleatoriamente (+0,5 puntos)
+** Implementar una rutina que genere las cápsulas y la puerta aleatoriamente debajo de los muros suaves (+0,5 puntos)
+** Las cápsulas se ponen rojas 0.5 segundos antes de explotar (+0.5 puntos). 
+** Hay una cápsula que permite incrementa en 1 el número de bombas que se pueden ubicar en el tablero al mismo tiempo (+0.5 puntos)
+** Cuando un muro explota aparece un poder. Si se detona una bomba y esta alcanza el poder, la bomba explosiva debe destruirlo y en la posición del poder aparecerán 5 fantasmas mas(+0.5 puntos). Si el poder no se toma en los próximos 5 segundos este desaparece. En tal caso, debe aparecer en la pantalla el tiempo antes que el poder desaparezca (0.5 puntos)
+** **Punto obligatorio:** Cada muro destruído da un punto adicional. Cada globo eliminado da dos puntos adicionales. Se debe mostrar en la pantalla los puntos obtenidos.
+** (Este punto es opcional, y modifica el anterior): Si se destruyen con una sola explosión n muros, se tendrán 2^n puntos. Si con una explosión se eliminan al mismo tiempo m fantasmas, se obtendrán 3^m puntos. (+0.5 unidades).
+** Muros de acero: (+0.5 unidades). Son muros que requieren mínimo tres explosiones para desaparecer. Estos muros se verán en la pantalla con un color diferente. (+0.5 unidades).
+** El jugador solo tiene como tiempo máximo tres minutos para completar el tablero. En el tablero deben aparecer los segundos faltantes (+1 unidad)
+** Implementación de túneles de modo que el bomberman pase por el borde izquierdo de la pantalla y salga por el derecho y viceversa (similar para los bordes superior e inferior): +0.5 unidades
+** Si los fantasmas pueden ingresar también por los túneles + 0.5 unidades
+** Si la onda explosiva puede ingresar también por los túneles +1.0 unidad
+** Implementar al principio del juego un menú de inicio desplegable (es decir, una barra que ilumine opción por opción, que se mueva con las flechas y que permita con ENTER seleccionar la opción deseada): +1.0 unidad
+** Al presionar 'H' o 'h' aparece el manual de instrucciones del juego: +0.5 unidades
+** Implementar el TOP 10 de los mejores jugadores del juego, guardarlo a disco y recuperarlo al iniciar el programa; Al presionar 'T' o 't' se hace una pausa y aparece el top 10 de los mejores jugadores del juego. +1.0 unidades. (Si se hace este punto extra, se tendrá la posibilidad de calificar el trabajo hasta 9.0).
+* Hacer introducción ANIMADA del juego: +1.0 unidad
+* Hacer un START, un PAUSE, un PERDISTE y un FELICITACIONES, COMPLETASTE EL NIVEL (encima del tablero tal y como aparece en el juego original). Para esto se deben utilizar las funciones de ventanas que suministra la librería curses.h: +1.0 punto
+
+* En caso que se detecte que hay copia en alguno de los puntos presentados se tendrá como nota un CERO en todo el taller (usted y su compañero).
+* Habrá sustentación del programa. La sustentación se hará frente al PC y se pedirá modificar algún punto en particular del programa o explicar que hace un código. Si se hizo el programa, pero no se aprobó la sustentación, se tendrá una nota en el taller de CERO. La nota de la sustentación será APROBADO/NO APROBADO
+
+
+=Notas adicionales=
+* El programa deberá estar <span style="color: #ff0000;">**super comentado**</span>. La falta de comentarios explicativos le rebajará el 50% de la nota en ese punto.
+* Si el programa está feo o desordenado en su presentación, se rebajará 50% de la nota en ese punto.
+* Se debe utilizar el tipo de identacion ALLMAN (ANSI) http://en.wikipedia.org/wiki/Indent_style#Allman_style, con una identación de 4 espacios . Si no se sigue esta regla, se rebajará el 50% en ese punto. 
+* Si el programa no corre o funciona incorrectamente, se tendrá como nota 0.0 en ese punto.
+* Si se utilizan innecesariamente variables globales: se rebajará 50% de la nota para ese programa (esto pasa por ejemplo si la variable global se puede reemplazar por una static)
+* Por ninguna razón deben aparecer "warnings" en la compilación de los archivos. Se sugiere compilar los archivos utilizando la bandera de compilación **-Wall** (para activar todos 
+los warnings posibles). **La aparición de un warning al compilar con -Wall le rebajará el 50% de la nota final**.
+* Utilización de nombres de variables sin mucho sentido para quien lo lee (a excepción del programador) y sin comentarios apropiados (-1 punto).
+* Si el programa excede en más del 10% del código las 80 columnas se rebajará el 50% de la nota (se sugiere activar la opción que muestra la columna # 80 en su ambiente de desarrollo)
+* Por cada error de ortografía se rebajará 1 décima de la nota final (para evitar esto se sugiere activar el corrector de ortografía de su ambiente de desarrollo).
+
+
+
+=Consejos=
+* Si quieren aprender en verdad a programar intenten ustedes mismos hacer los ejercicios de forma autónoma (sin ayuda de los compañeros de clase o de alguien más). Por lo tanto <span style="color: #ff0000;">eviten en lo posible los grupos de trabajo</span>. Se prohibe cualquier tipo de "colaboración" entre compañeros. Aprender a programar es como aprender a nadar. Uno no aprende a nadar viendo los campeonatos de natación en la TV. Hay que tirarse al agua para en verdad dominar la natación.
+
+* No esperen hasta el último minuto para empezar a trabajar en el proyecto; como ya probablemente se han dado cuenta, el desarrollo de software es una actividad que requiere tiempo. La mejor forma de asegurar un buen trabajo es repasar los conceptos vistos en clase, dar un vistazo general a las diferentes librerías con las que cuenta el lenguaje C (curses.h, stdlib.h, stdio.h, etc), y preguntar bastante.
+
+* Aprendan a manejar el debugger, ya que es una herramienta bastante eficiente para la captura de errores. En youtube hay tutoriales de ello.

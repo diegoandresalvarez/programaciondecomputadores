@@ -1,0 +1,96 @@
+<span style="font-size: 300%;">TALLER DE PROGRAMACION 2: (20% de la nota final)</span>
+
+<span style="font-size: 150%;
+color: #ff0000;">**Fecha y hora límite de entrega: viernes 28 de noviembre de 2014 a partir de las 7:00 am; enviar a daalvarez@unal.edu.co. Sin excepción, por cada <span style="color: #0000ff;">HORA</span> de retraso en la entrega se rebajará 1 unidad de la nota. Sustentación, viernes 28 de noviembre de 2014 a partir de las 7:00 am**</span>
+
+<span style="font-size: 200%;">Se requiere elaborar una versión del legendario juego [[@http://en.wikipedia.org/wiki/Battle_City_(video_game)|Battle City]], utilizando como base el archivo [[file:battle_city.c]] y la librería "curses.h" [[file:mingw_pdcurses.zip]].</span>
+
+[[[[image:Battle-City.jpg width="700"]]
+
+=Forma de presentación=
+* Individual
+
+=Forma de calificación=
+Lo pedido a continuación debe funcionar de forma similar al juego [[http://nintendo8.com/game/245/battle_city/]]. Nota: el video https://www.youtube.com/watch?v=MPsA5PtfdL0 le puede ayudar a entender como funciona el juego. Ver adicionalmente: http://strategywiki.org/wiki/Battle_City
+
+El programa se calificará por objetivos de la siguiente forma:
+* la calificación será la suma de los puntos obtenidos, sin embargo después de sumar 8.0, los puntos obtenidos se les afectará por un coeficiente de reducción del 50%, excepto en el punto de hacer el TOP 10.
+
+==Puntos obligatorios==
+Los puntos obligatorios no otorgan unidades, solo las quitan, es decir un programa que solo tiene los puntos obligatorios tiene una nota de 0.0; si no se realiza un punto obligatorio, se descontará 1.0 unidad. 
+* En la parte SUPERIOR del tablero debe haber un panel donde se muestren las vidas, el puntaje, cualquier otra información de relevancia para el juego (si no se realiza -1.0 unidad). Se recomienda hacer este punto usando las librerías de ventanas que provee el ncurses.h.
+* Debe demostrar durante la sustentación que se sabe manejar el depurador (debugger) (si no se realiza -2.0 unidades).
+* El juego termina cuando se destruye el aguila.
+* Algunas cápsulas de poder (ver abajo)
+* Sólo se ganará el nivel si todos los tanques enemigos han sido exterminados.
+* Cuando una bala impacta un muro, lo destruye. El espacio que queda se vuelve un pasillo.
+* Cada muro destruido por el jugador quita un punto. Cada tanque enemigo eliminado da 20 puntos adicionales. Se debe mostrar en la pantalla los puntos obtenidos.
+* Se completa el siguiente nivel cuando se han destruido 18 tanques enemigos por nivel.
+
+
+==Cápsulas de poder==
+Se deben implementar las siguientes cápsulas (las cuales aparecerán aleatoriamente en el tablero) y deberán tener una letra o símbolo distintitivo. En una casilla solo podrá existir una cápsula:
+* **(puntos obligatorio)** Cápsula que da una vida extra.
+* **(puntos obligatorio)** Cápsula que incrementa la velocidad de movimiento del tanque amigo.
+* Cápsula que congela los tanques enemigos por 10 segundos (0.5 unidades). Si se escribe en pantalla el tiempo que dura el efecto de esta cápsula de poder se tendrán 0.5 unidades adicionales.
+* Cápsula de invencibilidad por 10 segundos (0.5 unidades).El tanque deberá aparecer con un color diferente. Si se escribe en pantalla el tiempo que dura el efecto de esta cápsula de poder se tendrán 0.5 unidades adicionales. 
+* Cápsula que recubre la jaula del águila con muros indestructibles durante 10 segundos (0.5 unidades). Si se escribe en pantalla el tiempo que dura el efecto de esta cápsula de poder se tendrán 0.5 unidades adicionales.
+* Cápsula que permite al tanque amigo atravesar muros durante los 10 segundos siguientes (0.5 unidades). Si se escribe en pantalla el tiempo que dura el efecto de esta cápsula de poder se tendrán 0.5 unidades adicionales.
+* Si las cápsulas de poder aparecen aleatoriamente en el tablero, pero cada vez que se destruyan 3 tanques enemigos +0.5 puntos
+* Cápsula que elimina todos los tanques enemigos que hay en la pantalla (+0.5 puntos) 
+* Cápsula que aumenta la velocidad de las balas del tanque amigo, esta propiedad permanece hasta que se pierda una vida  (+0.5 puntos)
+* Cada cápsula tomada suma 10 puntos; este número de puntos aparece en el tablero en la posición de la cápsula por 5 segundos  (+0.5 puntos)
+*  Almacenar las cápsulas en una bodega, de modo que el usuario las pueda extraer cuando más le convenga (+1.0 punto)
+
+==Tanques enemigos==
+Existen 4 clases de tanques enemigos (implementación +0.5 puntos)
+* Enemigo estándar 
+* Enemigo estándar con balas rápidas
+* Enemigo que se desplaza rápido (con velocidad de las balas normal)
+* Enemigo fuerte (requiere 4 ataques en intervalos de tiempo separados al menos 5 segundos para ser destruido). Es decir, después que se impacta el tanque, se debe esperar al menos 5 segundos para volverlo a impactar.
+
+Cambiar el algoritmo para que aparezcan los tanques como un processo estocástico de Poisson. La frecuencia con la que aparecen los tanques aumenta gradualmente con el tiempo (implementación +0.5 puntos). A medida que se incrementa el tiempo, el número de tanques fuertes y/o rápidos también aumenta (implementación +0.5 puntos). En este caso explicar la regla probabilística que se utilizó para este algoritmo
+
+==Otras situaciones que dan puntos== 
+* Debe haber al menos 4 niveles de juego (cada tablero es más complejo). (+1.0 punto)
+* En la parte derecha debe haber una ventana con los tanques que faltan por destruir, como en el juego original (+1.0 punto)
+* Cuando una bala intercepta otra bala, ambas desaparecen (+0.5 puntos).
+* Por únicamente dos veces por nivel, el tanque amigo deja una mina antitanques en el suelo (se activa con la tecla 'm'). Cuando el tanque enemigo toca dicha mina, todo 3 casillas a la redonda desaparece (incluso el propio tanque del jugador. (+1.0 punto). Si se hace una animación de la exploción +0.5 puntos adicionales.
+* Muros de acero: (+0.5 unidades). Son muros que requieren el impacto de mínimo 50 balazos para desaparecer. Estos muros se verán en la pantalla con un color diferente. (+0.5 unidades).
+* Implementación de túneles de modo que el tanque amigo pase por el borde izquierdo de la pantalla y salga por el derecho y viceversa (similar para los bordes superior e inferior): +0.5 unidades
+* Implementar al principio del juego un menú de inicio desplegable (es decir, una barra que ilumine opción por opción, que se mueva con las flechas y que permita con ENTER seleccionar la opción deseada): +1.0 unidad
+* Al presionar 'H' o 'h' aparece el manual de instrucciones del juego: +0.5 unidades
+* Implementar el TOP 10 de los mejores jugadores del juego, guardarlo a disco y recuperarlo al iniciar el programa; Al presionar 'T' o 't' se hace una pausa y aparece el top 10 de los mejores jugadores del juego. +1.0 unidades.
+* Hacer introducción ANIMADA del juego: +1.0 unidad
+* Hacer un START, un PAUSE, un PERDISTE y un FELICITACIONES, COMPLETASTE EL NIVEL (encima del tablero tal y como aparece en el juego original). Para esto se deben utilizar las funciones de ventanas que suministra la librería curses.h: +1.0 punto
+* Implementar los lagos (las balas los pueden travesar pero no los tanques) (0.5 puntos)
+* Implementar los bosques (las balas y los tanques los pueden atravesar, pero no se ven en pantalla dichos elementos) (1.0 punto)
+* Implementar lagos congelados (los tanques resbalan sobre ellos (siguiendo su inercia) y no es posible girarlos o pararlos  (1.0 punto)
+* Al destruir 10 tanques seguidos de cualquier tipo se obtiene una bala con poder para destruir todo a su paso, sólo se puede hacer uso de ésta bala una vez por nivel. La disponibilidad de esta bala debe indicarse en el tablero de información. La bala se carga/descarga del tanque con la letra 'B' (debe aparecer en el tablero de información. "Bomba superpoderosa cargada/descargada". El siguiente disparo lanza dicha bala)  (+1.0 puntos). 
+* Implementar por nivel un tanque que una vez aparezca lo persiga a usted (+1 punto) y y otro que persiga al águila (+0.5 puntos adicionales. Para esto utilizar el algoritmo "Breadth-first search".
+
+==Pérdida del taller== 
+* En caso que se detecte que hay copia en alguno de los puntos presentados se tendrá como nota un CERO en todo el taller (usted y su compañero).
+* Habrá sustentación del programa. La sustentación se hará frente al PC y se pedirá modificar algún punto en particular del programa o explicar que hace un código. Si se hizo el programa, pero no se aprobó la sustentación, se tendrá una nota en el taller de CERO. La nota de la sustentación será APROBADO/NO APROBADO
+
+
+=Notas adicionales=
+* El programa deberá estar <span style="color: #ff0000;">**super comentado**</span>. La falta de comentarios explicativos le rebajará el 50% de la nota en ese punto.
+* Si el programa está feo o desordenado en su presentación, se rebajará 50% de la nota en ese punto.
+* Se debe utilizar el tipo de identacion ALLMAN (ANSI) http://en.wikipedia.org/wiki/Indent_style#Allman_style, con una identación de 3 espacios . Si no se sigue esta regla, se rebajará el 50% en ese punto. 
+* Si el programa no corre o funciona incorrectamente, se tendrá como nota 0.0 en ese punto.
+* Si se utilizan innecesariamente variables globales: se rebajará 50% de la nota para ese programa (esto pasa por ejemplo si la variable global se puede reemplazar por una static)
+* Por ninguna razón deben aparecer "warnings" en la compilación de los archivos. Se sugiere compilar los archivos utilizando la bandera de compilación **-Wall** (para activar todos 
+los warnings posibles). **La aparición de un warning al compilar con -Wall le rebajará el 50% de la nota final**.
+* Utilización de nombres de variables sin mucho sentido para quien lo lee (a excepción del programador) y sin comentarios apropiados (-1 punto).
+* Si el programa excede en más del 10% del código las 80 columnas se rebajará el 50% de la nota (se sugiere activar la opción que muestra la columna # 80 en su ambiente de desarrollo)
+* Por cada error de ortografía se rebajará 1 décima de la nota final (para evitar esto se sugiere activar el corrector de ortografía de su ambiente de desarrollo).
+
+
+
+=Consejos=
+* Si quieren aprender en verdad a programar intenten ustedes mismos hacer los ejercicios de forma autónoma (sin ayuda de los compañeros de clase o de alguien más). Por lo tanto <span style="color: #ff0000;">eviten en lo posible los grupos de trabajo</span>. Se prohibe cualquier tipo de "colaboración" entre compañeros. Aprender a programar es como aprender a nadar. Uno no aprende a nadar viendo los campeonatos de natación en la TV. Hay que tirarse al agua para en verdad dominar la natación.
+
+* No esperen hasta el último minuto para empezar a trabajar en el proyecto; como ya probablemente se han dado cuenta, el desarrollo de software es una actividad que requiere tiempo. La mejor forma de asegurar un buen trabajo es repasar los conceptos vistos en clase, dar un vistazo general a las diferentes librerías con las que cuenta el lenguaje C (curses.h, stdlib.h, stdio.h, etc), y preguntar bastante.
+
+* Aprendan a manejar el debugger, ya que es una herramienta bastante eficiente para la captura de errores. En youtube hay tutoriales de ello.

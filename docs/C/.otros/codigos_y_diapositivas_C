@@ -1,0 +1,259 @@
+<span style="font-size: 200%;">**Códigos y diapositivas de Lenguaje C**</span>
+
+[[image:http://www.jeffpalm.com/fox/fox.jpg]]
+Fuente: no fuí capaz de encontrarla... esta caricatura es de FOXTROT (http://www.foxtrot.com/). Finalmente observe que falta un \n al final del printf(); aun mejor, debió haber utilizado un puts() en vez del printf(), simplemente para hacer el código más veloz.
+
+<span style="font-size: 200%;
+color: #ff0000;">Para descargar los archivos haga click en "**Download**" con el botón derecho del mouse y luego haga click en la opción "**Descargar como ...**" o "**Save link as ...**"</span>
+
+=01 - Introducción al lenguaje C=
+* Diapositivas: [[file:01 - Introduccion a C.pdf]]
+[[file:01_hello.asm]]
+[[file:01_hello.c]]
+[[file:01_miprimerprograma.c]]
+[[file:01_mpp.zip]] (versión que usa #include" ")
+
+
+=02 - Conceptos fundamentales sobre el tratamiento de datos=
+* Diapositivas: [[file:02 - Tipos de datos.pdf]]
+[[file:02_char.c]]
+[[file:02_int.c]]
+[[file:02_ejemplo_bool.c]]
+[[file:02_complemento_a_2.c]]
+[[file:02_evite_usar_float.c]]
+[[file:02_DBL_EPSILON.c]]
+[[file:02_complex.c]]
+[[file:02_pointer.c]]
+[[file:02_imprimir_ASCII.c]]
+[[file:02_big_little_endian.c]]
+[[file:02_limites_para_enteros.c]]
+[[file:02_limites_para_reales.c]]
+[[file:02_wrap.c]]
+[[file:02_compara_reales.c]]
+[[file:02_increm.c]]
+[[file:02_operador_or.c]]
+[[file:02_division.c]]
+[[file:02_casting.c]]
+
+
+=03 - Entrada y salida en lenguaje C=
+* Diapositivas: [[file:03 - Entrada y salida en lenguaje C.pdf]]
+[[file:03_putchar.c]]
+[[file:03_puts.c]]
+[[file:03_printf.c]]
+[[file:03_ejemplo_contador.c]]
+[[file:03_locale.c]]
+[[file:03_scanf.c]]
+[[file:03_unicode.c]]
+[[file:03_getchar.c]]
+[[file:03_gets.c]]
+[[file:03_gets_s.c]]
+[[file:03_fgets.c]]
+[[file:03_problem_scanf.c]]
+[[file:03_sol_problem_scanf.c]]
+
+**Programas con curses.h/ncurses.h:**
+[[file:03_hello_world_ncurses.c]]
+[[file:03_init_func_example.c]]
+[[file:03_scanw_example.c]]
+[[file:03_colores_curses.c]]
+[[file:03_chars_curses.c]]
+[[file:03_keys_curses.c]]
+[[file:03_mouse_curses.c]]
+
+
+=04 - Sentencias de control condicionales y ciclos=
+* Diapositivas: [[file:04_-_Sentencias_de_control_condicionales_y_ciclos.pdf]]
+[[file:04_if_else.c]]
+[[file:04_switch_case_default.c]]
+[[file:04_while.c]]
+[[file:04_do_while.c]]
+[[file:04_for.c]]
+[[file:04_imprimir_binario.c]]
+[[file:04_break.c]]
+[[file:04_continue.c]]
+[[file:04_goto.c]]
+
+
+=05 - Funciones=
+* Diapositivas: [[file:05_-_Funciones.pdf]]
+[[file:05_declaracion_funciones.c]]
+[[file:05_global_vs_local.c]]
+[[file:05_ambito.c]]
+[[file:05_static.c]]
+[[file:05_call_stack.c]]
+[[file:05_par_ref_valor.c]]
+[[file:05_retorna_2_par.c]]
+[[file:05_circulo.c]]
+[[file:05_inline.c]]
+[[file:05_recursion.c]]
+[[file:05_nested_functions.c]]
+[[file:05_salida_main.c]]
+[[file:05_noreturn.c]]
+[[file:05_main_con_par.c]]
+[[file:05_args.c]]
+[[file:05_stdarg.c]]
+[[file:05_agotando_memoria_pila.c]]
+[[file:05_puntero_a_fun1.c]]
+[[file:05_puntero_a_fun2.c]]
+
+Escriba un programa el cual contiene una función que evalúa el coseno de su argumento. Utilice la siguiente serie de funciones para aproximar la respuesta:
+[[math]]
+ \cos \theta = \sum^{\infty}_{m=0} \frac{(-1)^m}{(2m)!} \theta^{2m} = 1 - \frac{\theta^2}{2!} + \frac{\theta^4}{4!} - \cdots\quad\text{ para todo  } \theta
+[[math]]
+La función debe diferir a lo más en 1e-10 del valor verdadero. Cree una función recursiva llamada <span style="font-family: 'Courier New', Courier, monospace;">factorial(n)</span> la cual retorna n! y otra función llamada <span style="font-family: 'Courier New', Courier, monospace;">potencia(x,n)</span> la cual retorna el valor de x^n; utilice ambas funciones en el programa anterior.
+[[file:05_calculo_cos.c]]
+
+=06 - Arrays y matrices=
+* Diapositivas: [[file:06_-_Arrays_y_matrices.pdf]]
+[[file:06_inicializacion.c]]
+[[file:06_array_bound_checking.c]]
+[[file:06_compound_literal.c]]
+[[file:06_ejemplo_compound_literal_arrays.c]]
+[[file:06_array3d.c]]
+[[file:06_filas_matriz.c]]
+[[file:06_compound_literal_matrix.c]]
+[[file:06_loop_interchange.c]]
+[[file:06_cadena.c]]
+[[file:06_array_cadenas.c]]
+[[file:06_array_cadenas2.c]]
+[[file:06_memcpy_vs_for.c]]
+[[file:06_alg_ordenamiento.c]]
+[[file:06_alg_busqueda.c]]
+[[file:06_vector_malloc.c]]
+[[file:06_matrix_malloc.c]]
+[[file:06_big_matrix_crash.c]]
+[[file:06_big_matrix_crash_sol1.c]]
+[[file:06_big_matrix_crash_sol2.c]]
+[[file:06_matrices_par_func.c]]
+[[file:06_casting_array_a_matriz.c]]
+
+* [[@http://home.earthlink.net/~momotuk/pointers.pdf|Ted Jensen (2003) - A tutorial on pointers and arrays in C]] 
+
+Sin invocar a la librería string.h, escriba un programa que contiene una función que reciba como argumento dos cadenas y retorne lo siguiente: si ambas cadenas son iguales, retorne 0; si la primera cadena va antes que la segunda cadena al ordenarlas alfabéticamente, retorne un número negativo. Si la primera cadena va después que la segunda cadena al ordenarlas alfabéticamente, retorne un número positivo.
+[[file:06_compara_cadenas.c]]
+
+Sin invocar a la librería string.h, escriba un programa que contiene una función que reciba como argumento dos cadenas y retorne lo siguiente: si la primera cadena es una subcadena de la segunda, retorne un puntero a la primera ocurrencia de esta en el segundo argumento, de lo contrario retorne el puntero NULL.
+[[file:06_subcadena.c]]
+
+
+=07 - Tipos de datos definidos por el programador=
+* Diapositivas: [[file:07_-_Tipos_de_datos_definidos_por_el_programador.pdf]]
+[[file:07_enum.c]]
+[[file:07_enum_warning.c]]
+[[file:07_for_enum.c]]
+[[file:07_struct.c]]
+[[file:07_igual_igual_struct.c]]
+[[file:07_compound_literals.c]]
+[[file07_funciones_retornando_arrays.c]]
+[[file:07_ej_uniones.c]]
+[[file:07_struct_padding.c]]
+[[file:07_struct_padding2.c]]
+
+
+=08 - Punteros=
+* Diapositivas: [[file:08_-_Punteros.pdf]]
+[[file:02_pointer.c]]
+[[file:08_aritmetica_punteros2.c]]
+[[file:08_aritmetica_punteros1.c]]
+[[file:08_truco_arrays_cadenas.c]]
+[[file:08_puntero_a_constante.c]]
+[[file:08_puntero_a_constante2.c]]
+[[file:08_puntero_constante.c]]
+[[file:08_puntero_constante_a_constante.c]]
+[[file:08_puntero_void.c]]
+[[file:08_puntero_void_aritmetica.c]]
+[[file:08_comparacion_punteros.c]]
+[[file:08_array_punteros.c]]
+[[file:08_array_punteros_vs_puntero_a_array.c]]
+[[file:08_puntero_a_matriz.c]]
+[[file:08_punteros_a_funciones.c]]
+[[file:08_puntero_a_puntero.c]]
+[[file:08_puntero_a_puntero2.c]]
+[[file:06_big_matrix_crash_sol2.c]]
+[[file:08_typedef_con_punteros.c]]
+[[file:08_realloc.c]]
+[[file:08_memcpy.c]]
+[[file:08_memmove.c]]
+[[file:08_memmove2.c]]
+[[file:08_memset.c]]
+
+Ejemplos con restrict:
+[[file:08_mi_memcpy.c]]
+[[file:08_restrict.c]]
+[[file:08_restrict2.c]]
+
+* [[@http://home.earthlink.net/~momotuk/pointers.pdf|Ted Jensen (2003) - A tutorial on pointers and arrays in C]] 
+
+[[file:08_lista_simplemente_enlazada.c]] (NOTA: este código se puede mejorar)
+
+
+=09 - Archivos=
+* Diapositivas: [[file:09_-_Archivos.pdf]]
+[[file:09_crear_archivo.c]]
+[[file:09_fclose.c]]
+[[file:09_feof_ferror.c]]
+[[file:09_fgetc.c]]
+[[file:09_fgets_fputs.c]]
+[[file:09_fprintf_fscanf.c]]
+[[file:09_fread.c]]
+[[file:09_fseek.c]]
+[[file:09_ftell.c]]
+[[file:09_fwrite.c]]
+[[file:09_imprimir_archivo.c]]
+[[file:09_leer_archivo.c]]
+[[file:09_perror.c]]
+[[file:09_reverse.c]]
+[[file:09_rewind.c]]
+[[file:09_stdin_stdout_stderr.c]]
+[[file:09_tmpfile.c]]
+[[file:09_ungetc.c]]
+
+----
+----
+
+
+=Códigos varios de programación=
+* Juego para adivinar un número entre 0 y 100: 
+[[file:04_juego_num_grande_pequeno.c]]
+
+* Mastermind (tambien conocido como "picas y palas")
+[[file:04_mastermind.c]]
+
+* Detector de minas
+[[file:05_detector_de_minas.c]]
+
+* Programa para resolver laberintos (como lo debería hacer alguien que está dentro de uno)
+[[file:05_laberinto.c]]
+
+* Programa para resolver sudokus
+[[file:05_resolver_sudoku.c]]
+
+* Programa para resolver laberintos (encontrando la ruta más corta)
+[[file:07_laberinto_ruta_corta.c]]
+
+* Buscaminas
+[[file:buscaminas_curses.c]] (requiere de: la librería pdcurses [[file:mingw_pdcurses.zip]])
+
+* Pong
+
+* Snake
+[[file:snake.c]] (requiere de: la librería pdcurses [[file:mingw_pdcurses.zip]])
+
+* Pacman
+[[file:pacman.c]] (requiere de: la librería pdcurses [[file:mingw_pdcurses.zip]])
+[[image:pacman.png]]
+
+* Sokoban + FBS
+
+* rotar3d (SDL)
+[[file:rotar3d.zip]]
+[[image:rotar3d.gif]]
+
+* Programa para administrar una video tienda (base de datos)
+
+* Programa para comprimir/descomprimir archivos
+
+
+<span style="font-size: 1%;
+color: #ffffff;">Organizar numeros como el juego de niños ... tuvieron que aprender a ordenar primero</span>
