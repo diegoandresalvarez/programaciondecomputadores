@@ -9,12 +9,12 @@
   - Arquitectura de un computador
   - Sistema Operativo
   - Linux
-  - Qué es un byte, megabyte, terabyte, etc.
-  - Tipos de lenguajes de programación: lenguaje de máquina, lenguaje ensamblador, lenguaje de bajo nivel, lenguaje de nivel intermedio, lenguaje de alto nivel
+  - Qué es un bit, un byte, megabyte, terabyte, etc.
+  - Tipos de lenguajes de programación: lenguaje de máquina, lenguaje ensamblador, lenguaje de bajo nivel, lenguaje de nivel intermedio, lenguaje de alto nivel, comparación entre ellos.
   - Compiladores (en el contexto de lenguajes de programación)
   - Intérpretes (en el contexto de lenguajes de programación)
   - Entorno de desarrollo integrado (IDE Integrated Development Environment)
-  - **NOTA: la pregunta del examen será: escriba todo lo que sabe con respecto a el tema _XXX_.**
+  - **NOTA: la pregunta del examen será: escriba todo lo que sabe con respecto al tema _XXX_.**
 
 ## Examen 2
 * Se escogerán al azar y se promediarán dos de los quiz hechos en las semanas 35 (Ago 26), 36 (Sep 2), 37 (Sep 9), 38 (Sep 16)
