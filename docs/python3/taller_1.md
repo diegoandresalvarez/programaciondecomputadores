@@ -214,9 +214,7 @@ plt.show()
 ```
 
 * La nota del taller estará dada por la siguiente ecuación: 
-![Ecuación](https://latex.codecogs.com/gif.download?%5Ctext%7BNota%7D%20%3D%20%5Ctext%7BCoeficienteDePonderacion%7D%20%5Ctimes%20%280.3%5Ctext%7BNota%7D_%7B%5Ctext%7Bparte%201%7D%7D%20+%200.4%5Ctext%7BNota%7D_%7B%5Ctext%7Bparte%202%7D%7D%20+%200.4%5Ctext%7BNota%7D_%7B%5Ctext%7Bparte%203%7D%7D%29)
-
->\text{Nota} = CoefPonderación \times (0.3\text{Nota}_{\text{parte 1}} + 0.4\text{Nota}_{\text{parte 2}} + 0.4\text{Nota}_{\text{parte 3}})
+<img src="https://latex.codecogs.com/gif.latex?\text{Nota} = CoefPonderación \times (0.3\text{Nota}_{\text{parte 1}} + 0.4\text{Nota}_{\text{parte 2}} + 0.4\text{Nota}_{\text{parte 3}})"/> 
 
 Asumiendo que Nota 1, Nota 2 y Nota 3 se evalúan sobre 5.0. Con el factor de ponderación de la sustentación, podría obtenerse una nota mayor.
 
