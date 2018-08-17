@@ -218,7 +218,7 @@ plt.show()
 
 >\text{Nota} = CoefPonderación \times (0.3\text{Nota}_{\text{parte 1}} + 0.4\text{Nota}_{\text{parte 2}} + 0.4\text{Nota}_{\text{parte 3}})
 
-Asumiendo que Nota 1, Nota 2 y Nota 3 se evaluan sobre 5.0. Con el factor de ponderación de la sustentación, podría obtenerse una nota mayor.
+Asumiendo que Nota 1, Nota 2 y Nota 3 se evalúan sobre 5.0. Con el factor de ponderación de la sustentación, podría obtenerse una nota mayor.
 
 ## Fecha y hora de la sustentación
 * Grupo 1: (POR DEFINIR)

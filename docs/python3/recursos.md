@@ -7,7 +7,7 @@ Muchos de ustedes quisieran aprender a programar, pero lo encuentran muy difíci
 
 Libros recomendados:
 * [Trejos, Omar. La esencia de la lógica de programación](http://biblioteca.inu.edu.sv/?wpfb_dl=263)
-* [Oviedo, Efrain. Lógica de Programación](http://www.uneweb.com/tutoriales/Logica-de-Programacion-Efrain-Oviedo.pdf) (algunas de las gráficas faltantes del libro se encuentran [aquí](http://books.google.co.ve/books?id=Z_n5lbyJfrQC&pg=PR3&hl=es&source=gbs_selected_pages&cad=2#v=onepage&q&f=false))
+* [Oviedo, Efrain. Lógica de Programación](http://www.uneweb.com/tutoriales/Logica-de-Programacion-Efrain-Oviedo.pdf) (algunas de las gráficas que faltan en el libro se encuentran [aquí](http://books.google.co.ve/books?id=Z_n5lbyJfrQC&pg=PR3&hl=es&source=gbs_selected_pages&cad=2#v=onepage&q&f=false))
 
 ## Algunos consejos de cómo programar bien
 * [Wilson, Greg et. al. (2014) - Best Practices for Scientific Computing](http://www.plosbiology.org/article/info%3Adoi%2F10.1371%2Fjournal.pbio.1001745)

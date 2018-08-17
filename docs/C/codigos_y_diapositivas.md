@@ -228,15 +228,15 @@ Ejemplos con `restrict`:
   - [07_laberinto_ruta_corta.c](../../codigo/C/07_laberinto_ruta_corta.c)
 
 * Buscaminas
-  - [buscaminas_curses.c](../../codigo/C/juegos/buscaminas_curses.c) (requiere de: la librería pdcurses - [mingw_pdcurses.zip](../../codigo/C/mingw_pdcurses.zip))
+  - [buscaminas_curses.c](../../codigo/C/juegos/buscaminas_curses.c) (requiere de: la librería pdcurses - [mingw_pdcurses.zip](../../codigo/C/juegos/mingw_pdcurses.zip))
 
 * Pong
 
 * Snake
-  - [snake.c](../../codigo/C/juegos/snake.c) (requiere de: la librería pdcurses - [mingw_pdcurses.zip](../../codigo/C/mingw_pdcurses.zip))
+  - [snake.c](../../codigo/C/juegos/snake.c) (requiere de: la librería pdcurses - [mingw_pdcurses.zip](../../codigo/C/juegos/mingw_pdcurses.zip))
 
 * Pacman
-  - [pacman.c](../../codigo/C/juegos/pacman/pacman.c) (requiere de: la librería pdcurses - [mingw_pdcurses.zip](../../codigo/C/mingw_pdcurses.zip))
+  - [pacman.c](../../codigo/C/juegos/pacman/pacman.c) (requiere de: la librería pdcurses - [mingw_pdcurses.zip](../../codigo/C/juegos/mingw_pdcurses.zip))
 [[image:pacman.png]]
 
 * Sokoban + FBS
