@@ -14,7 +14,10 @@ Cada entrega del taller debe enviarse a <daalvarez@unal.edu.co>. Sin excepción,
 
 # Los ejercicios a realizar
 ## Parte 1
-<details><summary>Haga click para ver la parte 1</summary>
+- [Taller 1, Parte 1](taller_1_parte_1.md)
+
+
+[<details><summary>Haga click para ver la parte 1</summary>
 <p>
 
 #### yes, even hidden code blocks!
@@ -24,7 +27,7 @@ print("hello world!")
 ```
 
 </p>
-</details>
+</details>]
 
 ## Parte 2
 <details><summary>Haga click para ver la parte 2</summary>
@@ -88,8 +91,9 @@ Si lo escrito a continuación no se cumple EXACTAMENTE se rebajará una unidad e
  |- 07_05.py        (observe que son dos dígitos no tres)
  |- 07_07.py
  |- 07_09.py
- |- 07_11.py
- |- 07_13.py
+ |- ...
+ |- OVI_011.py      (Nombrar de esta forma los archivos del libro de Oviedo)
+ |- OVI_013.py
  |- ...
  |- MGG_090.py      (Nombrar de esta forma los archivos del libro de Marzal-Gracia-García)
  |- MGG_091.py      (OJO al 0 que antecede al 9)
