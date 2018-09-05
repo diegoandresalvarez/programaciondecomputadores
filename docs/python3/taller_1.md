@@ -16,19 +16,6 @@ Cada entrega del taller debe enviarse a <daalvarez@unal.edu.co>. Sin excepción,
 ## Parte 1
 - [Taller 1, Parte 1](taller_1_parte_1.md)
 
-
-[<details><summary>Haga click para ver la parte 1</summary>
-<p>
-
-#### yes, even hidden code blocks!
-
-```python
-print("hello world!")
-```
-
-</p>
-</details>]
-
 ## Parte 2
 <details><summary>Haga click para ver la parte 2</summary>
 <p>
