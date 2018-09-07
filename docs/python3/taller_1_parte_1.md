@@ -1,6 +1,6 @@
 # Taller 1, Parte 1: 20 ejercicios
 No convertir los números a cadenas para poderlos descomponer.
-No utilizar la librería numpy.
+No utilizar la librerías *numpy*, *scipy* o similares que provean las funciones que se supone ustedes deben implementar.
 
 ## Del libro de Trejos
 
