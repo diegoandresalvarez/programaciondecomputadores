@@ -1,5 +1,6 @@
 # Taller 1, Parte 1: 20 ejercicios
 No convertir los números a cadenas para poderlos descomponer.
+No utilizar la librerías *numpy*, *scipy* o similares que provean las funciones que se supone ustedes deben implementar.
 
 ## Del libro de Trejos
 
@@ -47,5 +48,5 @@ Número Cuadrado Método
 * 73: Escriba un algoritmo para leer e imprimir un texto de entrada y determinar el número de oraciones y palabras involucradas. Asuma que: 
   * a. Cada oración termina con un punto, y que el carácter punto no es utilizado para ningún otro propósito. 
   * b. Las palabras están conformadas por letras y separadas por blanco. 
-  * Para este ejercicio no utilizar los métodos que tiene el objeto str en python.
+  * Para este ejercicio no utilizar los métodos que tiene el objeto str en python. Solo se puede utilizar indexación y slicing.
 * 75: Elaborar un algoritmo que entre la hora de un día en horas, minutos y segundos; se desea obtener la hora a los 30 segundos siguientes.
