@@ -8,7 +8,7 @@ for intentos in range(1,7):
     # Leer el número desde el teclado
     while True:
         num = int(input("Entre un número entre 1 y 20 = "))
-        if 1 <= num <= 100: break
+        if 1 <= num <= 20: break
 
     if num < num_secreto:
         print('El número entrado es muy pequeño.')
