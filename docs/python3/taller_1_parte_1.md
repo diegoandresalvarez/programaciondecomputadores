@@ -1,13 +1,19 @@
 # Taller 1, Parte 1: 20 ejercicios
-No convertir los números a cadenas para poderlos descomponer.
-No utilizar la librerías *numpy*, *scipy* o similares que provean las funciones que se supone ustedes deben implementar.
+* No convertir los números a cadenas para poderlos descomponer.
+* No utilizar la librerías *numpy*, *scipy* o similares que provean las funciones que se supone ustedes deben implementar.
 
 ## Del libro de Trejos
 
 ### Capítulo 7: Decisiones
 *NOTA*: No utilizar en la solución de estos problemas ciclos o listas.
 
-* 18: Leer un número entero de tres dígitos y determinar si algún dígito es múltiplo de los otros.
+* 18: Leer un número entero de tres dígitos y determinar si algún dígito es múltiplo de los otros. Por ejemplo, si el número ingresado es el `248`, el programa debería imprimir algo similar a:
+```
+El 4 es múltiplo del 2 
+El 8 es múltiplo del 2 
+El 8 es múltiplo del 4
+```
+
 * 23: Leer un número entero de tres dígitos y determinar cuántos dígitos primos tiene.
 * 28: Leer un número entero menor que 50 y positivo y determinar si es un número primo.
 * 38: Leer tres números enteros y determinar si el último dígito de los tres números es igual.
