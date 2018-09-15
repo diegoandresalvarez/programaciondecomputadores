@@ -1,7 +1,7 @@
 # Taller 1, Parte 1: 20 ejercicios
 * No convertir los números a cadenas para poderlos descomponer.
 * No utilizar la librerías *numpy*, *scipy* o similares que provean las funciones que se supone ustedes deben implementar.
-
+* Cuando se pregunta por ejemplo un número entero de tres dígitos, se está refiriendo a los números enteros -999, -998, ..., -2, -1, 0, 1, 2, ..., 998 y 999.
 ## Del libro de Trejos
 
 ### Capítulo 7: Decisiones
