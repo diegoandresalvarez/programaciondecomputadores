@@ -39,7 +39,7 @@ El 8 es múltiplo del 4
 
 ### Capítulo 4. Estructura decisión lógica
 * 42: Hacer un algoritmo que encuentre la suma de los valores mayor y menor entre un grupo de datos positivos. No utilizar las funciones min() y max() o similares que provee Python.
-* 44: En cada uno de una serie de registros se encuentran tres valores que posiblemente representan los tres lados de un triángulo. Hacer un algoritmo que determine cuántos triángulos equiláteros, isósceles y escalenos hay. 
+* 44: Haga un programa que pregunte cuantos triángulos se desean analizar. Para cada triángulo ingrese tres números positivos que representan sus lados. Hacer un algoritmo que determine cuántos triángulos equiláteros, isósceles y escalenos hay. 
 * 47: Varias ambulancias recorren la ciudad y cuando se recibe en la CENTRAL una llamada se informa la ubicación de la emergencia mediante coordenadas, lo mismo que la ubicación de todas las ambulancias. La central es el punto (0,0) u origen de las coordenadas. Se sabe que existen N ambulancias en servicio. Realice un algoritmo que, dada la información necesaria, informe las coordenadas de la ambulancia más cercana al punto de emergencia. 
 * 52: Elaborar un algoritmo que muestre los enteros desde 1 hasta N y sus cuadrados, calculados solamente con sumas y utilizando el método propuesto. 
 ```
