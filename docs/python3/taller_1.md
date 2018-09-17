@@ -183,6 +183,7 @@ Si lo escrito a continuación no se cumple EXACTAMENTE se rebajará una unidad e
   * Se prohíbe expresamente cualquier manipulación de un número convirtiéndolo previamente a una cadena de texto. Todas las operaciones con números deben realizarse utilizando operaciones aritméticas. 
   * Cuando una función que retorna el resultado de un cálculo numérico, dicha función no puede retornar cadenas para indicar que hubo un error. Si la función falla, debe fallar con una excepción que usted lance.
   * Se debe informar al usuario sobre todas las situaciones anómalas posibles. El programa no debe quedarse callado frente a ciertas entradas incorrectas o que no producen los resultados esperados.
+  * Un bloque `try-except` debe estar únicamente protegiendo la línea susceptible al error.
 
 # Consejo
 Si quieren aprender en verdad a programar intenten ustedes mismos hacer los ejercicios de forma autónoma (sin ayuda de los compañeros de clase o de alguien más). Por lo tanto <span style="color: #ff0000;">eviten en lo posible los grupos de trabajo</span>. Se prohíbe cualquier tipo de "colaboración" externa. Aprender a programar es como aprender a nadar. Uno no aprende a nadar viendo los campeonatos de natación en la TV. Hay que tirarse al agua para en verdad volverse un nadador. De alguna forma la sustentación es tan estricta porque solo le otorga los puntos obtenidos si usted le muestra al profesor que adquirió la habilidad para programar.
