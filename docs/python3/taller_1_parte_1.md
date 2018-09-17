@@ -5,7 +5,7 @@
 ## Del libro de Trejos
 
 ### Capítulo 7: Decisiones
-*NOTA*: No utilizar en la solución de estos problemas ciclos o listas.
+*NOTA*: No utilizar en la solución de estos problemas ciclos o listas. Se exceptua el `while True` que acompaña al `try-except` en la lectura de los datos de entrada.
 
 * 18: Leer un número entero de tres dígitos y determinar si algún dígito es múltiplo de los otros. Por ejemplo, si el número ingresado es el `248`, el programa debería imprimir algo similar a:
 ```
