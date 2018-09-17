@@ -2,10 +2,14 @@
 * No convertir los números a cadenas para poderlos descomponer.
 * No utilizar la librerías *numpy*, *scipy* o similares que provean las funciones que se supone ustedes deben implementar.
 * Cuando se pregunta por ejemplo un número entero de tres dígitos, se está refiriendo a los números enteros -999, -998, ..., -2, -1, 0, 1, 2, ..., 998 y 999.
+* Los números primos son los números naturales 2, 3, 5, 7, 11, 13, 17, 19, 23, ...
+* La serie de Fibonacci está dada por: 0, 1, 1, 2, 3, 5, 8, 13, 21, ...
+* Tener en cuenta que muchos de los ejercicios solicitan cálculos sobre los números enteros; no sobre los números naturales; por lo tanto es necesario tener en cuenta los números enteros negativos, cuando sea del caso.
+
 ## Del libro de Trejos
 
 ### Capítulo 7: Decisiones
-*NOTA*: No utilizar en la solución de estos problemas ciclos o listas. Se exceptua el `while True` que acompaña al `try-except` en la lectura de los datos de entrada.
+*NOTA*: No utilizar en la solución de estos problemas ciclos o listas. Se exceptúa el `while True` que acompaña al `try-except` en la lectura de los datos de entrada.
 
 * 18: Leer un número entero de tres dígitos y determinar si algún dígito es múltiplo de los otros. Por ejemplo, si el número ingresado es el `248`, el programa debería imprimir algo similar a:
 ```
@@ -24,7 +28,7 @@ El 8 es múltiplo del 4
 
 * 3: Leer un número entero y mostrar todos los divisores exactos del número comprendidos entre 1 y el número leído.
 * 18: Leer dos números entero y mostrar todos los múltiplos de 5 comprendidos entre el menor y el mayor.
-* 23: Leer un número entero y determinar si la suma de sus dígitos es también un número primo.
+* 23: Leer un número entero y determinar si la suma de sus dígitos es un número primo.
 * 28: Leer dos números enteros y determinar cual de los dos tiene mayor cantidad de dígitos primos.
 * 33: Leer un número entero. Hacer un programa que determine cuál es el número primo más grande menor que dicho número.
 * 43: Leer dos números enteros. Determinar cuántos elementos de la serie de Fibonacci se encuentran entre ellos.
