@@ -37,7 +37,7 @@ El 8 es múltiplo del 4
 
 ### Capítulo 3: Estructura secuencial
 *NOTA*: No utilizar en la solución de estos problemas listas.
-* 26: Hacer un algoritmo que determine la suma del valor menor y mayor en un grupo de 4 datos.
+* 26: Hacer un algoritmo que solicite cuatro números; el algoritmo debe determinar la suma del valor menor y mayor de dichos datos.
 * 28: Dados tres valores positivos determinar si éstos no forman triángulo o si forman triángulo, decir si éste es: equilátero, isósceles o escaleno y obtener el área del triángulo
 * 30: Elaborar un algoritmo que entre un punto (x, y); diga si está, o no, en el área determinada por la parábola Y = 4 - X^2 y la recta Y = X - 3. 
 
