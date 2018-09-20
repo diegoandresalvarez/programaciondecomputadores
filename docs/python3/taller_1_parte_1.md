@@ -59,6 +59,6 @@ Número Cuadrado Método
 ```     
 * 73: Escriba un algoritmo para leer e imprimir un texto de entrada y determinar el número de oraciones y palabras involucradas. Asuma que: 
   * a. Cada oración termina con un punto, y que el carácter punto no es utilizado para ningún otro propósito. 
-  * b. Las palabras están conformadas por letras y separadas por blanco. El algoritmo debe verificar que la frase únicamente está compuesta por letras, espacios y puntos.
+  * b. Las palabras están conformadas por letras y separadas por uno o más espacios. El algoritmo debe verificar que la frase únicamente está compuesta por letras, espacios y puntos.
   * Para este ejercicio no utilizar los métodos que tiene el objeto str en python. Solo se puede utilizar indexación y slicing.
 * 75: Elaborar un algoritmo que entre la hora de un día en horas, minutos y segundos; se desea obtener la hora a los 30 segundos siguientes.
