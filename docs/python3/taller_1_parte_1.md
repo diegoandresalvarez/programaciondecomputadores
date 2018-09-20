@@ -5,6 +5,8 @@
 * Los números primos son los números naturales 2, 3, 5, 7, 11, 13, 17, 19, 23, ...
 * La serie de Fibonacci está dada por: 0, 1, 1, 2, 3, 5, 8, 13, 21, ...
 * Tener en cuenta que muchos de los ejercicios solicitan cálculos sobre los números enteros; no sobre los números naturales; por lo tanto es necesario tener en cuenta los números enteros negativos, cuando sea del caso.
+* Un *triángulo isósceles* es aquel que tiene únicamente dos lados de igual longitud.
+* Se dice que 3, 4, 5 y 6 son los números enteros comprendidos entre el 2 y el 7.
 
 ## Del libro de Trejos
 
@@ -38,13 +40,13 @@ El 8 es múltiplo del 4
 ### Capítulo 3: Estructura secuencial
 *NOTA*: No utilizar en la solución de estos problemas listas.
 * 26: Hacer un algoritmo que solicite cuatro números; el algoritmo debe determinar la suma del valor menor y mayor de dichos datos.
-* 28: Dados tres valores positivos determinar si éstos no forman triángulo o si forman triángulo, decir si éste es: equilátero, isósceles o escaleno y obtener el área del triángulo
+* 28: Dados tres valores positivos determinar si éstos no forman triángulo o si forman triángulo, decir si éste es: equilátero, isósceles o escaleno y obtener el área del triángulo.
 * 30: Elaborar un algoritmo que entre un punto (x, y); diga si está, o no, en el área determinada por la parábola Y = 4 - X^2 y la recta Y = X - 3. 
 
 ### Capítulo 4. Estructura decisión lógica
 * 42: Hacer un algoritmo que encuentre la suma de los valores mayor y menor entre un grupo de datos positivos. No utilizar las funciones min() y max() o similares que provee Python.
-* 44: Haga un programa que pregunte cuantos triángulos se desean analizar. Para cada triángulo ingrese tres números positivos que representan sus lados. Hacer un algoritmo que determine cuántos triángulos equiláteros, isósceles y escalenos hay. 
-* 47: Varias ambulancias recorren la ciudad y cuando se recibe en la CENTRAL una llamada se informa la ubicación de la emergencia mediante coordenadas, lo mismo que la ubicación de todas las ambulancias. La central es el punto (0,0) u origen de las coordenadas. Se sabe que existen N ambulancias en servicio. Realice un algoritmo que, pregunte para cada ambulancia sus coordenadas y las coordenadas del punto de la emergencia, e informe cual ambulancia está más cercana al punto de emergencia. 
+* 44: Haga un programa que pregunte cuantos triángulos se desean analizar. Para cada triángulo ingrese tres números positivos que representan sus lados. Hacer un algoritmo que determine cuántos triángulos equiláteros, isósceles y escalenos hay.
+* 47: Varias ambulancias recorren la ciudad y cuando se recibe en la CENTRAL una llamada se informa la ubicación de la emergencia mediante coordenadas, lo mismo que la ubicación de todas las ambulancias. La central es el punto (0,0) u origen de las coordenadas. Se sabe que existen N ambulancias en servicio. Realice un algoritmo que, pregunte para cada ambulancia sus coordenadas y las coordenadas del punto de la emergencia, e informe cual ambulancia está más cercana al punto de emergencia. Para el cálculo de la distancia, utilizar la distancia euclídea (sugerencia: utilizar la función `hypot()`).
 * 52: Elaborar un algoritmo que muestre los enteros desde 1 hasta N y sus cuadrados, calculados solamente con sumas y utilizando el método propuesto. 
 ```
 Número Cuadrado Método 
