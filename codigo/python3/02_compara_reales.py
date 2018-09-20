@@ -17,8 +17,11 @@ if (x1 == x2):
 else:
    print('x1 != x2')
 
-if (abs(x1-x2) < 1e-6):
+if (abs(x1-x2) < 1e-6):  # esto es decir que abs_tol = 1e-6
    print('x1 == x2')
 else:
-   print('x1 != x2');
-
+   print('x1 != x2')
+   
+print(math.isclose(x1, x2, rel_tol=1e-6))
+print(math.isclose(x1, x2, rel_tol=1e-7))
+print(math.isclose(x1, x2, rel_tol=1e-8))
