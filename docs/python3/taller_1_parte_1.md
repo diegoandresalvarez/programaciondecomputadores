@@ -5,6 +5,7 @@
 * Los números primos son los números naturales 2, 3, 5, 7, 11, 13, 17, 19, 23, ...
 * La serie de Fibonacci está dada por: 0, 1, 1, 2, 3, 5, 8, 13, 21, ...
 * Tener en cuenta que muchos de los ejercicios solicitan cálculos sobre los números enteros; no sobre los números naturales; por lo tanto es necesario tener en cuenta los números enteros negativos, cuando sea del caso.
+* Un *triángulo isósceles* es aquel que tiene únicamente dos lados de igual longitud.
 
 ## Del libro de Trejos
 
@@ -38,7 +39,7 @@ El 8 es múltiplo del 4
 ### Capítulo 3: Estructura secuencial
 *NOTA*: No utilizar en la solución de estos problemas listas.
 * 26: Hacer un algoritmo que solicite cuatro números; el algoritmo debe determinar la suma del valor menor y mayor de dichos datos.
-* 28: Dados tres valores positivos determinar si éstos no forman triángulo o si forman triángulo, decir si éste es: equilátero, isósceles o escaleno y obtener el área del triángulo. Se debe tener en cuenta que un *triángulo isósceles* es aquel que tiene únicamente dos lados de igual longitud.
+* 28: Dados tres valores positivos determinar si éstos no forman triángulo o si forman triángulo, decir si éste es: equilátero, isósceles o escaleno y obtener el área del triángulo.
 * 30: Elaborar un algoritmo que entre un punto (x, y); diga si está, o no, en el área determinada por la parábola Y = 4 - X^2 y la recta Y = X - 3. 
 
 ### Capítulo 4. Estructura decisión lógica
