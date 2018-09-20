@@ -6,6 +6,7 @@
 * La serie de Fibonacci está dada por: 0, 1, 1, 2, 3, 5, 8, 13, 21, ...
 * Tener en cuenta que muchos de los ejercicios solicitan cálculos sobre los números enteros; no sobre los números naturales; por lo tanto es necesario tener en cuenta los números enteros negativos, cuando sea del caso.
 * Un *triángulo isósceles* es aquel que tiene únicamente dos lados de igual longitud.
+* Se dice que 3, 4, 5 y 6 son los números enteros comprendidos entre el 2 y el 7.
 
 ## Del libro de Trejos
 
