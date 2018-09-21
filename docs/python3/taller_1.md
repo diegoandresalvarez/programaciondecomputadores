@@ -13,21 +13,8 @@ Fuente: <http://xkcd.com/323/>
 Cada entrega del taller debe enviarse a <daalvarez@unal.edu.co>. Sin excepción, por cada día de retraso en la entrega, se rebajarán 3 décimas de la nota de esa entrega del Taller 1. 
 
 # Los ejercicios a realizar
-## Parte 1
 - [Taller 1, Parte 1](taller_1_parte_1.md)
-
-## Parte 2
-<details><summary>Haga click para ver la parte 2</summary>
-<p>
-
-#### yes, even hidden code blocks!
-
-```python
-print("hello world!")
-```
-
-</p>
-</details>
+- [Taller 1, Parte 2](taller_1_parte_2_2018b.md)
 
 ## Parte 3
 <details><summary>Haga click para ver la parte 3</summary>
