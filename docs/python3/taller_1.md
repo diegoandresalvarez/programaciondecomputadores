@@ -180,7 +180,7 @@ Si quieren aprender en verdad a programar intenten ustedes mismos hacer los ejer
 # Sustentación
 * Habrá sustentación de los ejercicios. La sustentación será un examen basado en los ejercicios presentados (no necesariamente los seleccionados anteriormente). Incluso si se hizo el ejercicio para el taller y funciona bien, pero no se pudo resolver LA TOTALIDAD de los ejercicios en la sustentación, se tendrá una nota en el Taller 1 de CERO. La nota de la sustentación básicamente un coeficiente de ponderación de la nota del trabajo, dado por la siguiente figura:
 
-![Imagen](https://i.imgur.com/6O1iVTE.png)
+![Imagen](../imagenes/ponderacion_taller1.png)
 
 ```python
 import matplotlib.pyplot as plt
@@ -195,7 +195,7 @@ plt.show()
 ```
 
 * La nota del taller estará dada por la siguiente ecuación: 
-<img src="https://latex.codecogs.com/gif.latex?\text{Nota} = CoefPonderación \times (0.3\text{Nota}_{\text{parte 1}} + 0.4\text{Nota}_{\text{parte 2}} + 0.4\text{Nota}_{\text{parte 3}})"/> 
+![Imagen](https://i.imgur.com/6O1iVTE.png)
 
 Asumiendo que Nota 1, Nota 2 y Nota 3 se evalúan sobre 5.0. Con el factor de ponderación de la sustentación, podría obtenerse una nota mayor.
 
