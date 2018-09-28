@@ -106,17 +106,9 @@ Si lo escrito a continuación no se cumple EXACTAMENTE se rebajará una unidad e
   * Se debe colocar un comentario informativo al principio de cada programa que indique la misión que debe realizar el programa que se muestra a continuación.
   * En los bloques `try-except` o se debe solicitar de nuevo una entrada o se debe corregir el error hecho por el usuario.
   * Se deben utilizar estructuras `try-except` para evitar que el programa falle debido a entradas no esperadas por parte del usuario.
-  * Todas las funciones deben tener un docstring asociado. Estas deben estar contenidas entre `'''` y `'''`. Las `'''` deben ir en reglones separados y estar perfectamente lineadas.
   * No se deben utilizar comparaciones de variables booleanas contra `True` o `False`, es decir, no se deben hacer comparaciones como `if es_primo == True` (asumiendo que `es_primo` es una variable booleana) ya que son confusas e innecesarias.
   * No se deben utilizar comparaciones contra funciones que retornan `True` o `False`, es decir, no se deben hacer comparaciones como `if es_primo(n) == True` (asumiendo  que `es_primo(n)` es una función que retorna `True` si `n` es primo, de lo contrario retorna `False`) ya que son confusas e innecesarias.
-  * No se debe mezclar o alternar las definiciones de función, importación de módulos y sentencias del programa principal.
-  * El programa se debe escribir con secciones perfectamente definidas. Por ejemplo, una sección de entrada de datos, otra de procesamiento de datos y otra de presentación de resultados. Estas secciones se pueden mezclar únicamente cuando la legibilidad del programa se mejore.
   * No se deben crear funciones que lean la información directamente desde el teclado o que la imprima a la pantalla, excepto si la función se crea explícitamente con el objetivo de leer/imprimir dicha información. Por ejemplo es válido crear funciones como `leer_matriz()` o `imprimir_matriz()`, pero no es válido crear funciones como `es_primo()` la cual imprima desde la misma si un valor dado es primo o no.
-  * No se debe usar la palabra reservada `pass` "indiscriminadamente". Si se utiliza en ciertas construcciones con el objeto de mejorar la claridad del código, esa bien.  
-  * REGLAS VALIDAS A PARTIR DE LA TERCERA ENTREGA:
-    * No escribir código innecesario.
-    * No escribir código ineficiente.
-
   * No se pueden utilizar estructuras `if` similares a:
       ```python
       if num%2 == 0:
@@ -154,6 +146,16 @@ Si lo escrito a continuación no se cumple EXACTAMENTE se rebajará una unidad e
   
   * No usar variables con asignaciones enteras (como ```es_primo = 1``` o   ```es_primo = 0```) que podrían perfectamente reemplazarse con variables   booleanas (en tal caso la forma correcta sería ```es_primo = True``` o   ```es_primo = False```).    
   
+  * REGLAS VALIDAS A PARTIR DE LA *SEGUNDA ENTREGA*:
+    * Todas las funciones deben tener un docstring asociado. Estas deben estar contenidas entre `'''` y `'''`. Las `'''` deben ir en reglones separados y estar perfectamente lineadas.  
+    * No se debe mezclar o alternar las definiciones de función, importación de módulos y sentencias del programa principal.
+    * El programa se debe escribir con secciones perfectamente definidas. Por ejemplo, una sección de entrada de datos, otra de procesamiento de datos y otra de presentación de resultados. Estas secciones se pueden mezclar únicamente cuando la legibilidad del programa se mejore.  
+    * No se debe usar la palabra reservada `pass` "indiscriminadamente". Si se utiliza en ciertas construcciones con el objeto de mejorar la claridad del código, esa bien.      
+
+  * REGLAS VALIDAS A PARTIR DE LA *TERCERA ENTREGA*:
+    * No escribir código innecesario.
+    * No escribir código ineficiente.
+
 * Cualquier violación a las siguientes reglas o si el programa hace una de las cosas nombradas a continuación se descontarán **50%** en la nota obtenida del ejercicio:
   * El programa deberá estar **super comentado**, explicando las razones del porqué de su código, no las implementaciones de su código. Se recomienda leer: 
     * <http://www.variablenotfound.com/2007/12/13-consejos-para-comentar-tu-cdigo.html> 
