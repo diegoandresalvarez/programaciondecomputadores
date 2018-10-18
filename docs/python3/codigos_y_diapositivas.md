@@ -78,6 +78,13 @@ Juegos:
 - [06_stack_overflow_recursion.py](../../codigo/python3/06_stack_overflow_recursion.py)
 - [06_static_variables.py](../../codigo/python3/06_static_variables.py)
 - [06_variables_globales_locales.py](../../codigo/python3/06_variables_globales_locales.py)
+- [06_decoradores.py](../../codigo/python3/06_decoradores.py)
+- [06_decoradores_02.py](../../codigo/python3/06_decoradores_02.py)
+- [06_decoradores_03.py](../../codigo/python3/06_decoradores_03.py)
+- [06_decoradores_04.py](../../codigo/python3/06_decoradores_04.py)
+- [06_decoradores_05.py](../../codigo/python3/06_decoradores_05.py)
+- [06_type_annotations_1.py](../../codigo/python3/06_type_annotations_1.py)
+- [06_type_annotations_2.py](../../codigo/python3/06_type_annotations_2.py)
 - [prog_11_diccionarios.py](../../codigo/python3/prog_11_diccionarios.py)
 
 Programas varios:
