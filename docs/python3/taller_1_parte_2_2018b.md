@@ -10,7 +10,7 @@
 
 ## Del libro de Trejos
 
-### Capítulo 9: Arreglos (3 ejercicios)
+### Capítulo 9: vectores (3 ejercicios)
 * 23: Leer 10 números enteros, almacenarlos en un vector y determinar si existe al menos un número repetido. Utilizar para tal fin el método `count()`.
 
 * 38: Leer 10 números enteros, almacenarlos en un vector y determinar si la semisuma entre el valor mayor y el valor menor es un número primo.
@@ -60,22 +60,22 @@ Las opciones B. a las G. deben funcionar según lo solicitado. Utilizar para la 
 
 * 121: Una estación climática proporciona un par de temperaturas diarias (máxima, mínima - no es posible que alguna o ambas temperaturas sea 0 grados). La pareja fin de temperaturas es 0, 0. Elabore un algoritmo para determinar el número de días, cuyas temperaturas se han proporcionado, las medidas máxima y mínima, el número de errores (temperaturas de 0 grados) y el porcentaje que representan.
 
-### Capítulo 8: Arreglos (7 ejercicios)
-* 151: Hacer un algoritmo que forme un vector del que no se sabe el número de elementos. Calcule el promedio de los elementos y forme dos nuevos arreglos, uno con los elementos menores o iguales al promedio y otro con los superiores. Imprima los dos nuevos arreglos.
+### Capítulo 8: vectores (7 ejercicios)
+* 151: Hacer un algoritmo que forme un vector del que no se sabe el número de elementos. El programa pregunta por números hasta que se ingrese la palabra FIN. Calcule el promedio de los elementos y forme dos nuevos vectores, uno con los elementos menores o iguales al promedio y otro con los superiores. Imprima los dos nuevos vectores.
 
-* 152: Elaborar un algoritmo que lea dos arreglos unidimensionales de igual tamaño y forme un tercer arreglo mediante el producto de los elementos de los dos arreglos, tomados en orden inverso, es decir, productos del primer elemento del primer arreglo con el último del segundo; del segundo del primer arreglo con el penúltimo del segundo arreglo; hasta llegar
-al último del primer arreglo con el primero del segundo arreglo. Imprimir el arreglo formado.
+* 152: Elaborar un algoritmo que lea dos vectores de igual tamaño y forme un tercer vector mediante el producto de los elementos de los dos vectores, tomados en orden inverso, es decir, productos del primer elemento del primer vector con el último del segundo; del segundo del primer vector con el penúltimo del segundo vector; hasta llegar
+al último del primer vector con el primero del segundo vector. Imprimir el vector formado.
 
-* 157: Elaborar un algoritmo que forme dos arreglos. El primero contiene los M códigos de los estudiantes que perdieron CALCULO y el segundo los N códigos de los estudiantes que perdieron HUMANIDADES. Partiendo de los dos arreglos formar uno nuevo con los códigos de los estudiantes que perdieron ambas materias.
+* 157: Elaborar un algoritmo que forme dos vectores. El primero contiene los M códigos de los estudiantes que perdieron CALCULO y el segundo los N códigos de los estudiantes que perdieron HUMANIDADES. Partiendo de los dos vectores formar uno nuevo con los códigos de los estudiantes que perdieron ambas materias.
 
 * 164: Dados dos vectores A y B de N y M elementos respectivamente, elaborar un algoritmo que encuentre la unión, la intersección y las diferencias de conjuntos (es decir, A\B y B\A). Para recordar los conceptos anteriores, se recomienda este [enlace](https://edu.gcfglobal.org/es/los-conjuntos/operaciones-entre-conjuntos/1/). Elabore dicho programa inicialmente sin utilizar las funcionalidades de conjuntos que ofrece Python y resolverlo utilizando dichas funcionalidades.
 
 * 167: Haga un programa que lea un conjunto N de números reales (x,y) que tienen la tendencia de una línea recta. Elaborar un algoritmo que utilice tres
 funciones para obtener los parámetros m y b de la ecuación de la recta y = mx + b. Las fórmulas para calcular m y b se encuentran en el siguiente [enlace sobre mínimos cuadrados](https://miprofe.com/minimos-cuadrados/). Resolver a continuación dicho problema utilizando las funcionalidades que tiene `numpy`. Adicionalmente graficar con `matplotlib` los puntos y la línea calculada.
 
-* 171: Escribir un algoritmo que dado un arreglo unidimensional y su tamaño, elimine sus elementos repetidos, dejando un elemento en cada caso. No utilizar las funcionalidades de conjuntos que ofrece Python.
+* 171: Escribir un algoritmo que dado un vector y su tamaño, elimine sus elementos repetidos, dejando un elemento en cada caso. No utilizar las funcionalidades de conjuntos que ofrece Python.
 
-* 176: Elaborar un algoritmo que utilice un menú de entrada de datos. El algoritmo debe tener en cuenta dos arreglos relacionados que almacenen los códigos de los N artículos que se venden en un almacén y la existencia (número de, unidades existentes) de cada uno de los artículos, así:
+* 176: Elaborar un algoritmo que utilice un menú de entrada de datos. El algoritmo debe tener en cuenta dos vectores relacionados que almacenen los códigos de los N artículos que se venden en un almacén y la existencia (número de, unidades existentes) de cada uno de los artículos, así:
 ```
 Código Existencia
   101     30
@@ -91,7 +91,7 @@ Se requiere calcular lo siguiente para cada transacción:
 transadas.
 * Si es venta, se resta a las unidades en existencia de ese artículo las unidades vendidas. 
 
-Al final se deben mostrar los códigos de los artículos y las existencias de cada uno de ellos, es decir, el arreglo de códigos y de existencias ya actualizado. Asuma que en ningún momento la cantidad vendida es mayor que la cantidad, en existencia,
+Al final se deben mostrar los códigos de los artículos y las existencias de cada uno de ellos, es decir, el vector de códigos y de existencias ya actualizado. Asuma que en ningún momento la cantidad vendida es mayor que la cantidad, en existencia,
 y por lo tanto no le presentan inconsistencias.
 
 * FALTA EJERCICIO 18
