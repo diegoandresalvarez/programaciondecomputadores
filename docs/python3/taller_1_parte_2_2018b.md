@@ -10,7 +10,7 @@
 
 ## Del libro de Trejos
 
-### Capítulo 9: Arreglos (3 ejercicios)
+### Capítulo 9: Vectores (3 ejercicios)
 * 23: Leer 10 números enteros, almacenarlos en un vector y determinar si existe al menos un número repetido. Utilizar para tal fin el método `count()` de listas.
 
 * 38: Leer 10 números enteros, almacenarlos en un vector y determinar si la semisuma entre el valor mayor y el valor menor es un número primo.
@@ -24,7 +24,7 @@
 
 *NOTA 3:* En cada ejercicio se deben imprimir de forma "bonita" cada matriz una vez entrados los datos, utilizando las funcionalidades de impresión asociadas a la función `print()` que se encuentran en las diapositivas [09_-_Entrada_y_salida_en_Python_3.pdf](../../diapositivas/python3/09_-_Entrada_y_salida_en_Python_3.pdf). Por forma "bonita" me refiero que los números deben estar perfectamente alineados por sus unidades y la impresión debe ser agradable a la vista.
 
-* 13: Leer una matriz 5x3 entera y determinar en qué columna está el mayor número que comienza con el dígito 4. Tenga en cuenta que el número 412378 comienza con el dígito 4. Si el número no tiene un segundo dígito, dicho número no se tendrá en cuenta en la búsqueda.
+* 13: Leer una matriz 5x3 entera y determinar en qué columna está el mayor número que comienza con el dígito 4. Tenga en cuenta que el número 412378 comienza con el dígito 4. Si el número solo tienen un dígito, dicho número no se tendrá en cuenta en la búsqueda.
 
 * 28: Leer una matriz 4x6 entera y determinar en qué posiciones se encuentran los números cuyo segundo dígito sea el 5. Tenga en cuenta que el segundo dígito del número 59352242 es el 9.
 
@@ -38,7 +38,7 @@
 
 ### Capítulo 6: Estructuras adicionales (2 ejercicios)
 * 103:  Hacer un programa con el siguiente menú:
-```  
+```
   Menú principal
   ==============
   A. Entrada de datos
@@ -50,7 +50,7 @@
   G. Total de colombianos menores de 40 años con estatura menor a 160 cm.
 
   Entre su opción: 
-```  
+```
 La opción A permite preguntar el registro de información de personas. De cada persona se suministró la siguiente información:
 * Estatura en centímetros.
 * Nacionalidad (1: Colombiana, 2: Mexicana, 3: Chilena).
@@ -58,18 +58,22 @@ La opción A permite preguntar el registro de información de personas. De cada 
 
 Las opciones B. a las G. deben funcionar según lo solicitado. Utilizar para la solución de este problema diccionarios y la estructura `if-elseif-else`.
 
-* 121: Una estación climática proporciona la temperatura máxima y mínima diaria medida en un lugar determinado. Se considera que una temperatura igual a cero grados es un error del sensor, por lo que se debe descartar. La lectura de datos termina cuando se reporta unas pareja de temperaturas de (0, 0). Elabore un algoritmo para determinar el número de días, cuyas temperaturas se han proporcionado, las medidas máxima y mínima, el número de errores (temperaturas de 0 grados) y el porcentaje que representan.
+* 121: Una estación climática proporciona la temperatura máxima y mínima diaria medida en un lugar determinado. Se considera que una temperatura igual a cero grados es un error del sensor, por lo que se debe descartar. La lectura de datos termina cuando se reporta una pareja de temperaturas de (0, 0). Elabore un algoritmo para determinar el número de días, cuyas temperaturas se han proporcionado, las medidas máxima y mínima, el promedio de las temperaturas mínimas, el promedio de las temperaturas máximas, el número de errores (temperaturas de 0 grados) y el porcentaje que representan.
 
-### Capítulo 8: Arreglos (7 ejercicios)
-* 151: Hacer un algoritmo que forme un vector del que no se sabe el número de elementos. Calcule el promedio de los elementos y forme dos nuevos arreglos, uno con los elementos menores o iguales al promedio y otro con los superiores. Imprima los dos nuevos arreglos.
+### Capítulo 8: vectores (10 ejercicios)
+* 151: Hacer un algoritmo que forme una lista de números del que no se sabe su tamaño. El programa pregunta por números hasta que se ingrese la palabra *FIN*. Calcule el promedio de los elementos y forme dos nuevos vectores, uno con los elementos menores o iguales al promedio y otro con los superiores. Imprima los dos nuevos vectores.
 
-* 152: Elaborar un algoritmo que lea dos arreglos unidimensionales de igual tamaño y forme un tercer arreglo mediante el producto de los elementos de los dos arreglos, tomados en orden inverso, es decir, productos del primer elemento del primer arreglo con el último del segundo; del segundo del primer arreglo con el penúltimo del segundo arreglo; hasta llegar al último del primer arreglo con el primero del segundo arreglo. Imprimir el arreglo formado.
+* 152: Elaborar un algoritmo que lea dos vectores de igual tamaño y forme un tercer vector mediante el producto de los elementos de los dos vectores, tomados en orden inverso, es decir, productos del primer elemento del primer vector con el último del segundo; del segundo del primer vector con el penúltimo del segundo vector; hasta llegar al último del primer vector con el primero del segundo vector. Imprimir el vector formado.
 
-* 164: Dados dos vectores A y B de N>=0 y M>=0 elementos respectivamente, elaborar un algoritmo que encuentre la unión, la intersección y las diferencias de conjuntos (es decir, A\B y B\A). Si N es igual a cero, se asume que el conjunto A es vacío. Una interpretación similar se puede dar a B y M. Para recordar los conceptos anteriores, se recomienda este [enlace](https://edu.gcfglobal.org/es/los-conjuntos/operaciones-entre-conjuntos/1/). Elabore dicho programa inicialmente sin utilizar las funcionalidades de conjuntos que ofrece Python y resolverlo utilizando dichas funcionalidades.
+* 157: Elaborar un algoritmo que forme dos vectores. El primero contiene los M códigos de los estudiantes que perdieron CALCULO y el segundo los N códigos de los estudiantes que perdieron HUMANIDADES. Partiendo de los dos vectores formar uno nuevo con los códigos de los estudiantes que perdieron ambas materias.
+
+* 164: Dados dos vectores A y B de N y M elementos respectivamente, elaborar un algoritmo que encuentre la unión, la intersección y las diferencias de conjuntos (es decir, A\B y B\A). Si N es igual a cero, se asume que el conjunto A es vacío. Una interpretación similar se puede dar a B y M. Para recordar los conceptos anteriores, se recomienda este [enlace](https://edu.gcfglobal.org/es/los-conjuntos/operaciones-entre-conjuntos/1/). Elabore dicho programa inicialmente sin utilizar las funcionalidades de conjuntos que ofrece Python y a continuación resolverlo utilizando dichas funcionalidades.
 
 * 167: Haga un programa que lea un conjunto N de números reales (x,y) que tienen la tendencia de una línea recta. Elaborar un algoritmo que utilice una función para obtener los parámetros m y b de la ecuación de la recta `y = mx + b`. Las fórmulas para calcular m y b se encuentran en el siguiente [enlace sobre mínimos cuadrados](https://miprofe.com/minimos-cuadrados/). Resolver a continuación dicho problema utilizando las funcionalidades que tiene `numpy`, para calcular la misma fórmula. Calcule la regresión utilizando adicionalmente la función `numpy.polyfit`. Compare los resultados y los tiempos de cálculo de cada una de esas tres alternativas. Finalmente, graficar con `matplotlib` los puntos y la línea de regresión calculada.
 
-* 176: Elaborar un algoritmo que utilice un menú de entrada de datos. El algoritmo debe tener en cuenta dos arreglos relacionados que almacenen los códigos de los N artículos que se venden en un almacén y la existencia (número de, unidades existentes) de cada uno de los artículos, así:
+* 171: Escribir un algoritmo que dado un vector y su tamaño, elimine sus elementos repetidos, dejando un elemento en cada caso. No utilizar las funcionalidades de conjuntos que ofrece Python, ni el método `unique()` de `numpy`.
+
+* 176: Elaborar un algoritmo que utilice un menú de entrada de datos. El algoritmo debe tener en cuenta dos vectores relacionados que almacenen los códigos de los N artículos que se venden en un almacén y la existencia (número de, unidades existentes) de cada uno de los artículos, así:
 ```
 Código Existencia
   101     30
@@ -85,15 +89,16 @@ Se requiere calcular lo siguiente para cada transacción:
 transadas.
 * Si es venta, se resta a las unidades en existencia de ese artículo las unidades vendidas. 
 
-Al final se deben mostrar los códigos de los artículos y las existencias de cada uno de ellos, es decir, el arreglo de códigos y de existencias ya actualizado. Asuma que en ningún momento la cantidad vendida es mayor que la cantidad, en existencia,
-y por lo tanto no le presentan inconsistencias.
+Al final se deben mostrar los códigos de los artículos y las existencias de cada uno de ellos, es decir, el vector de códigos y de existencias ya actualizado. 
 
-* FALTA EJERCICIO 16
+Verifique que en ningún momento la cantidad vendida sea mayor que la cantidad en existencia.
 
-* FALTA EJERCICIO 17
+* 182: Elaborar un algoritmo que lea una lista de números enteros positivos entre 0 y 100 y ejecute las siguientes operaciones:
+  * Mostrar los números de la lista en orden creciente.
+  * Calcular e imprimir la mediana.
+  * Calcular e imprimir la moda.
+  * Imprimir tres listas: una con los números menores que 30, otra con los números mayores que 70 y otra con los números entre 30 y 70.
 
-* FALTA EJERCICIO 18
+* 201: Sin utilizar el método de listas`sort()` o la función `sorted()`, haga un programa que lea una matriz; luego pregunte que columna desea ordenar y ordene las filas de dicha matriz de acuerdo al orden ascendente de los elementos de la columna seleccionada.
 
-* FALTA EJERCICIO 19
-
-* FALTA EJERCICIO 20
+* 202: Hacer un programa que pregunte las dimensiones MxN de una matriz. Adicionalmente ingrese un vector de números con un tamaño menor o igual a M*N. Haga un programa que imprima los elementos de dicho vector ordenados y escritos en forma de espiral en la matriz de tamaño MxN. Dicho espiral deberá empezar en la esquina superior izquierda de la matriz y se debe imprimir en sentido antihorario.
