@@ -11,7 +11,7 @@
 ## Del libro de Trejos
 
 ### Capítulo 9: Arreglos (3 ejercicios)
-* 23: Leer 10 números enteros, almacenarlos en un vector y determinar si existe al menos un número repetido. Utilizar para tal fin el método `count()`.
+* 23: Leer 10 números enteros, almacenarlos en un vector y determinar si existe al menos un número repetido. Utilizar para tal fin el método `count()` de listas.
 
 * 38: Leer 10 números enteros, almacenarlos en un vector y determinar si la semisuma entre el valor mayor y el valor menor es un número primo.
 
@@ -22,7 +22,7 @@
 
 *NOTA 2:* Cuando se reporten posiciones dentro de una matriz, considere como si esta se encontrara dentro de una hoja de cálculo. Por ejemplo, si se tiene una matriz de 4x6, las filas se numerarían 1 a 4 y las columnas de A a F.
 
-*NOTA 3:* En cada ejercicio se deben imprimir de forma "bonita" cada matriz una vez entrados los datos, utilizando las funcionalidades de impresión asociadas a la función `print()` que se encuentran en las diapositivas **9**. Por forma "bonita" me refiero que los números deben estar perfectamente alineados por sus unidades y la impresión debe ser agradable a la vista.
+*NOTA 3:* En cada ejercicio se deben imprimir de forma "bonita" cada matriz una vez entrados los datos, utilizando las funcionalidades de impresión asociadas a la función `print()` que se encuentran en las diapositivas [09_-_Entrada_y_salida_en_Python_3.pdf](../../diapositivas/python3/09_-_Entrada_y_salida_en_Python_3.pdf). Por forma "bonita" me refiero que los números deben estar perfectamente alineados por sus unidades y la impresión debe ser agradable a la vista.
 
 * 13: Leer una matriz 5x3 entera y determinar en qué columna está el mayor número que comienza con el dígito 4. Tenga en cuenta que el número 412378 comienza con el dígito 4. Si el número no tiene un segundo dígito, dicho número no se tendrá en cuenta en la búsqueda.
 
@@ -58,22 +58,16 @@ La opción A permite preguntar el registro de información de personas. De cada 
 
 Las opciones B. a las G. deben funcionar según lo solicitado. Utilizar para la solución de este problema diccionarios y la estructura `if-elseif-else`.
 
-* 121: Una estación climática proporciona un par de temperaturas diarias (máxima, mínima - no es posible que alguna o ambas temperaturas sea 0 grados). La pareja fin de temperaturas es 0, 0. Elabore un algoritmo para determinar el número de días, cuyas temperaturas se han proporcionado, las medidas máxima y mínima, el número de errores (temperaturas de 0 grados) y el porcentaje que representan.
+* 121: Una estación climática proporciona la temperatura máxima y mínima diaria medida en un lugar determinado. Se considera que una temperatura igual a cero grados es un error del sensor, por lo que se debe descartar. La lectura de datos termina cuando se reporta unas pareja de temperaturas de (0, 0). Elabore un algoritmo para determinar el número de días, cuyas temperaturas se han proporcionado, las medidas máxima y mínima, el número de errores (temperaturas de 0 grados) y el porcentaje que representan.
 
 ### Capítulo 8: Arreglos (7 ejercicios)
 * 151: Hacer un algoritmo que forme un vector del que no se sabe el número de elementos. Calcule el promedio de los elementos y forme dos nuevos arreglos, uno con los elementos menores o iguales al promedio y otro con los superiores. Imprima los dos nuevos arreglos.
 
-* 152: Elaborar un algoritmo que lea dos arreglos unidimensionales de igual tamaño y forme un tercer arreglo mediante el producto de los elementos de los dos arreglos, tomados en orden inverso, es decir, productos del primer elemento del primer arreglo con el último del segundo; del segundo del primer arreglo con el penúltimo del segundo arreglo; hasta llegar
-al último del primer arreglo con el primero del segundo arreglo. Imprimir el arreglo formado.
+* 152: Elaborar un algoritmo que lea dos arreglos unidimensionales de igual tamaño y forme un tercer arreglo mediante el producto de los elementos de los dos arreglos, tomados en orden inverso, es decir, productos del primer elemento del primer arreglo con el último del segundo; del segundo del primer arreglo con el penúltimo del segundo arreglo; hasta llegar al último del primer arreglo con el primero del segundo arreglo. Imprimir el arreglo formado.
 
-* 157: Elaborar un algoritmo que forme dos arreglos. El primero contiene los M códigos de los estudiantes que perdieron CALCULO y el segundo los N códigos de los estudiantes que perdieron HUMANIDADES. Partiendo de los dos arreglos formar uno nuevo con los códigos de los estudiantes que perdieron ambas materias.
+* 164: Dados dos vectores A y B de N>=0 y M>=0 elementos respectivamente, elaborar un algoritmo que encuentre la unión, la intersección y las diferencias de conjuntos (es decir, A\B y B\A). Si N es igual a cero, se asume que el conjunto A es vacío. Una interpretación similar se puede dar a B y M. Para recordar los conceptos anteriores, se recomienda este [enlace](https://edu.gcfglobal.org/es/los-conjuntos/operaciones-entre-conjuntos/1/). Elabore dicho programa inicialmente sin utilizar las funcionalidades de conjuntos que ofrece Python y resolverlo utilizando dichas funcionalidades.
 
-* 164: Dados dos vectores A y B de N y M elementos respectivamente, elaborar un algoritmo que encuentre la unión, la intersección y las diferencias de conjuntos (es decir, A\B y B\A). Para recordar los conceptos anteriores, se recomienda este [enlace](https://edu.gcfglobal.org/es/los-conjuntos/operaciones-entre-conjuntos/1/). Elabore dicho programa inicialmente sin utilizar las funcionalidades de conjuntos que ofrece Python y resolverlo utilizando dichas funcionalidades.
-
-* 167: Haga un programa que lea un conjunto N de números reales (x,y) que tienen la tendencia de una línea recta. Elaborar un algoritmo que utilice tres
-funciones para obtener los parámetros m y b de la ecuación de la recta y = mx + b. Las fórmulas para calcular m y b se encuentran en el siguiente [enlace sobre mínimos cuadrados](https://miprofe.com/minimos-cuadrados/). Resolver a continuación dicho problema utilizando las funcionalidades que tiene `numpy`. Adicionalmente graficar con `matplotlib` los puntos y la línea calculada.
-
-* 171: Escribir un algoritmo que dado un arreglo unidimensional y su tamaño, elimine sus elementos repetidos, dejando un elemento en cada caso. No utilizar las funcionalidades de conjuntos que ofrece Python.
+* 167: Haga un programa que lea un conjunto N de números reales (x,y) que tienen la tendencia de una línea recta. Elaborar un algoritmo que utilice una función para obtener los parámetros m y b de la ecuación de la recta `y = mx + b`. Las fórmulas para calcular m y b se encuentran en el siguiente [enlace sobre mínimos cuadrados](https://miprofe.com/minimos-cuadrados/). Resolver a continuación dicho problema utilizando las funcionalidades que tiene `numpy`, para calcular la misma fórmula. Calcule la regresión utilizando adicionalmente la función `numpy.polyfit`. Compare los resultados y los tiempos de cálculo de cada una de esas tres alternativas. Finalmente, graficar con `matplotlib` los puntos y la línea de regresión calculada.
 
 * 176: Elaborar un algoritmo que utilice un menú de entrada de datos. El algoritmo debe tener en cuenta dos arreglos relacionados que almacenen los códigos de los N artículos que se venden en un almacén y la existencia (número de, unidades existentes) de cada uno de los artículos, así:
 ```
@@ -93,6 +87,10 @@ transadas.
 
 Al final se deben mostrar los códigos de los artículos y las existencias de cada uno de ellos, es decir, el arreglo de códigos y de existencias ya actualizado. Asuma que en ningún momento la cantidad vendida es mayor que la cantidad, en existencia,
 y por lo tanto no le presentan inconsistencias.
+
+* FALTA EJERCICIO 16
+
+* FALTA EJERCICIO 17
 
 * FALTA EJERCICIO 18
 
