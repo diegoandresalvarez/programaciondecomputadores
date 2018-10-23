@@ -6,7 +6,7 @@ Fuente: <http://xkcd.com/323/>
 
 # Fecha y hora límite de entrega:
 * **Parte 1**: Septiembre 23, 2018 a las 11:59pm 
-* **Parte 2**: Octubre 21, 2018 a las 11:59pm
+* **Parte 2**: Noviembre ***, 2018 a las 11:59pm (dos semanas después de entrar del paro)
 * **Parte 3**: Noviembre 11, 2018 a las 11:59pm
 * **Parte 4 (opcional)**: Noviembre 18, 2017 a las 11:59pm. La parte 4 de este taller es opcional y reemplaza la nota más baja de las entregas, 1, 2 y 3.
 
