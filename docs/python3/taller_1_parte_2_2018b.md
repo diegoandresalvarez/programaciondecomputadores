@@ -24,7 +24,7 @@
 
 *NOTA 3:* En cada ejercicio se deben imprimir de forma "bonita" cada matriz una vez entrados los datos, utilizando las funcionalidades de impresión asociadas a la función `print()` que se encuentran en las diapositivas [09_-_Entrada_y_salida_en_Python_3.pdf](../../diapositivas/python3/09_-_Entrada_y_salida_en_Python_3.pdf). Por forma "bonita" me refiero que los números deben estar perfectamente alineados por sus unidades y la impresión debe ser agradable a la vista.
 
-* 13: Leer una matriz 5x3 entera y determinar en qué columna está el mayor número que comienza con el dígito 4. Tenga en cuenta que el número 412378 comienza con el dígito 4. Si el número solo tienen un dígito, dicho número no se tendrá en cuenta en la búsqueda.
+* 13: Leer una matriz 5x3 entera y determinar en qué columna está el mayor número que comienza con el dígito 4. Tenga en cuenta que el número 412378 comienza con el dígito 4. Si el número solo tiene un dígito, dicho número no se tendrá en cuenta en la búsqueda.
 
 * 28: Leer una matriz 4x6 entera y determinar en qué posiciones se encuentran los números cuyo segundo dígito sea el 5. Tenga en cuenta que el segundo dígito del número 59352242 es el 9.
 
@@ -51,7 +51,7 @@
 
   Entre su opción: 
 ```
-La opción A permite preguntar el registro de información de personas. De cada persona se suministró la siguiente información:
+La opción A permite preguntar el registro de información de personas, la cual debe ser ingresada por el usuario. De cada persona se suministró la siguiente información:
 * Estatura en centímetros.
 * Nacionalidad (1: Colombiana, 2: Mexicana, 3: Chilena).
 * Edad.
