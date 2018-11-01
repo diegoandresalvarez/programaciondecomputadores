@@ -24,7 +24,7 @@
 
 *NOTA 3:* En cada ejercicio se deben imprimir de forma "bonita" cada matriz una vez entrados los datos, utilizando las funcionalidades de impresión asociadas a la función `print()` que se encuentran en las diapositivas [09_-_Entrada_y_salida_en_Python_3.pdf](../../diapositivas/python3/09_-_Entrada_y_salida_en_Python_3.pdf). Por forma "bonita" me refiero que los números deben estar perfectamente alineados por sus unidades y la impresión debe ser agradable a la vista.
 
-* 13: Leer una matriz 5x3 entera y determinar en qué columna está el mayor número que comienza con el dígito 4. Tenga en cuenta que el número 412378 comienza con el dígito 4. Si el número solo tiene un dígito, dicho número no se tendrá en cuenta en la búsqueda.
+* 13: Leer una matriz 5x3 entera y determinar en qué columna está el mayor número que comienza con el dígito 4. Tenga en cuenta que el número 412378 comienza con el dígito 4. Si el número solo tiene un dígito, dicho número no se tendrá en cuenta en la búsqueda. Si el mayor número que comienza con el dígito 4 está repetido en varias columnas, reportar todas esas columnas.
 
 * 28: Leer una matriz 4x6 entera y determinar en qué posiciones se encuentran los números cuyo segundo dígito sea el 5. Tenga en cuenta que el segundo dígito del número 59352242 es el 9.
 
@@ -99,6 +99,6 @@ Verifique que en ningún momento la cantidad vendida sea mayor que la cantidad e
   * Calcular e imprimir la moda.
   * Imprimir tres listas: una con los números menores que 30, otra con los números mayores que 70 y otra con los números entre 30 y 70.
 
-* 201: Sin utilizar el método de listas`sort()` o la función `sorted()`, haga un programa que lea una matriz; luego pregunte que columna desea ordenar y ordene las filas de dicha matriz de acuerdo al orden ascendente de los elementos de la columna seleccionada.
+* 201: Sin utilizar el método de listas `sort()` o la función `sorted()`, haga un programa que lea una matriz; luego pregunte que columna desea ordenar y ordene las filas de dicha matriz de acuerdo al orden ascendente de los elementos de la columna seleccionada.
 
 * 202: Hacer un programa que pregunte las dimensiones MxN de una matriz. Adicionalmente ingrese un vector de números con un tamaño menor o igual a M*N. Haga un programa que imprima los elementos de dicho vector ordenados y escritos en forma de espiral en la matriz de tamaño MxN. Dicho espiral deberá empezar en la esquina superior izquierda de la matriz y se debe imprimir en sentido antihorario.
