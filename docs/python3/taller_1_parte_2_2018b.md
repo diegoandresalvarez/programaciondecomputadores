@@ -56,7 +56,7 @@ La opción A permite preguntar el registro de información de personas, la cual 
 * Nacionalidad (1: Colombiana, 2: Mexicana, 3: Chilena).
 * Edad.
 
-Las opciones B. a las G. deben funcionar según lo solicitado. Utilizar para la solución de este problema diccionarios y la estructura `if-elseif-else`.
+Las opciones B. a las G. deben funcionar según lo solicitado. Utilizar para la solución de este problema diccionarios y la estructura `if-elif-else`.
 
 * 121: Una estación climática proporciona la temperatura máxima y mínima diaria medida en un lugar determinado. Se considera que una temperatura igual a cero grados es un error del sensor, por lo que se debe descartar. La lectura de datos termina cuando se reporta una pareja de temperaturas de (0, 0). Elabore un algoritmo para determinar el número de días, cuyas temperaturas se han proporcionado, las medidas máxima y mínima, el promedio de las temperaturas mínimas, el promedio de las temperaturas máximas, el número de errores (temperaturas de 0 grados) y el porcentaje que representan.
 
