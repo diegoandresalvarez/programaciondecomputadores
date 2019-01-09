@@ -21,13 +21,14 @@
 * El tema de cada quiz son las diapositivas/tema visto en las últimas 2 semanas + el capítulo del libro/diapositivas de clase que se hayan puesto a leer. Duración del quiz: 40 minutos
 
 ## Examen 3
-* Se escogerá al azar y se promediarán dos de los quiz hechos en las semanas 39 (Sep 23), 40 (Sep 30), 41 (Oct 7)
-* El tema de cada quiz son las diapositivas/tema visto en las últimas 2 semanas + el capítulo del libro/diapositivas de clase que se hayan puesto a leer. Duración del quiz: 40 minutos
+* ~~Se escogerá al azar y se promediarán dos de los quiz hechos en las semanas 39 (Sep 23), 40 (Sep 30), 41 (Oct 7)~~
+* ~~El tema de cada quiz son las diapositivas/tema visto en las últimas 2 semanas + el capítulo del libro/diapositivas de clase que se hayan puesto a leer. Duración del quiz: 40 minutos~~
+En Febrero 1 de 2019 se realizará un examen de todo lo estudiado en la materia hasta esa fecha.
 
 ## Examen 4
-* Se escogerá al azar y se promediarán dos de los quiz hechos en las semanas 42 (Oct 14), 43 (Oct 21), 44 (Oct 28)
+* Se escogerá al azar y se promediarán dos de los quiz hechos en las semanas ~~42 (Oct 14), 43 (Oct 21), 44 (Oct 28)~~ 6 (Feb 3), 7 (Feb 10)
 * El tema de cada quiz son las diapositivas/tema visto en las últimas 2 semanas + el capítulo del libro/diapositivas de clase que se hayan puesto a leer. Duración del quiz: 40 minutos
 
 ## Examen 5
-* Se escogerá al azar uno de los quiz hechos en las semanas  45 (Nov 4), 46 (Nov 11), 47 (Nov 18)
+* Se escogerá al azar uno de los quiz hechos en las semanas  ~~45 (Nov 4), 46 (Nov 11), 47 (Nov 18)~~ 8 (Feb 17), 9 (Feb 24), 10 (Mar 3)
 * El tema de cada quiz son las diapositivas/tema visto en las últimas 2 semanas + el capítulo del libro/diapositivas de clase que se hayan puesto a leer. Duración del quiz: 40 minutos
