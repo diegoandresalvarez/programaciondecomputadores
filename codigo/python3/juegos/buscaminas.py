@@ -15,7 +15,7 @@ import curses
 import numpy as np
 import sys
 
-# %% Constantes
+# %% Constantes globales
 ESCAPE = 27
 ENTER  = 10
 
@@ -30,7 +30,7 @@ esmina    = np.zeros((MAXFIL, MAXCOL), dtype=bool)  # = False
 
 # %%
 def suma_alrededor(f, c):
-    i = j = suma = 0
+    suma = 0
 
     # para evitar contar fuera de los bordes de la matriz esmina[][]
     fmin, fmax = max(f-1, 0), min(f+1, MAXFIL-1)
@@ -85,8 +85,6 @@ def destapar(f, c):
     else:
         stdscr.addch(f, c, str(suma))  # imprima numero de minas alrededor
 
-    stdscr.move(f, c)
-
     return True
 
 
@@ -114,7 +112,6 @@ for i in range(MAXFIL):
 
 f, c = MAXFIL//2, MAXCOL//2
 stdscr.addch(f, c, '#')  # este es el cursor
-stdscr.move(f, c)
 stdscr.refresh()
 
 random.seed()  # active la semilla del generador de números aleatorios
@@ -148,19 +145,18 @@ while True:
 
     # graficar de nuevo la casilla donde estaba el cursor después de moverlo
     if protegido[fcur, ccur]:
-        stdscr.addch('*')
+        stdscr.addch(fcur, ccur, '*')
     else:  # no protegido
         if destapado[fcur, ccur]:
             suma = suma_alrededor(fcur, ccur)
             if suma == 0:
-                stdscr.addch(' ')
+                stdscr.addch(fcur, ccur, ' ')
             else:
-                stdscr.addch(str(suma))
+                stdscr.addch(fcur, ccur, str(suma))
         else:
-            stdscr.addch('.')
+            stdscr.addch(fcur, ccur, '.')
 
     stdscr.addch(f, c, '#')  # poner el cursor en la nueva posición
-    stdscr.move(f, c)
     stdscr.refresh()        # actualizar la pantalla
     # verificar si todas las minas están marcadas y no hay casillas limpias
     # incorrectamente marcadas
