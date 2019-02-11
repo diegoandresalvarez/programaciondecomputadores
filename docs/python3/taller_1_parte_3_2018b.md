@@ -2,11 +2,11 @@
 
 Esta parte del taller, a diferencia de las partes anteriores requerirá de ustedes la habilidad de buscar en intenet información sobre librerías, funciones y métodos para realizar las tareas encomendadas y obviamente, aprenderlas a usar. Muchas de las funciones que requerirán para hacer el taller no se verán en clase, por lo que es necesario que complementen su conocimiento en foros, YouTube y tutoriales.
 
-Cada uno de los siguientes ejercicios debe realizarse utilizando las librerías `numpy`, `scipy`, `pandas` y/o `matplotlib`, a menos que se diga lo contrario. Únicamente el ejercicio 11 deberá realizarse utilizando `Jupyter`.
+Cada uno de los siguientes ejercicios debe realizarse utilizando las librerías `NumPy`, `SciPy`, `pandas` y/o `matplotlib`, a menos que se diga lo contrario. Únicamente el ejercicio 11 deberá realizarse utilizando `Jupyter`.
 
 No use las listas de Python en caso que la librería NumPy permita hacer la misma operación con mayor claridad.
 
-En estos ejercicios no se deben utilizar listas de diccionarios, sino las utilidades provistas por las librerías `numpy` (ver arrays estructurados) y `pandas`.
+En estos ejercicios no se deben utilizar listas de diccionarios, sino las utilidades provistas por las librerías `NumPy` (ver arrays estructurados) y `pandas`.
 
 Cuando el nombre del ejercicio termina con `_pd` quiere decir que se debe realizar utilizando `pandas`; si termina con `_np`, quiere decir que se debe realizar utilizando los arrays estructurados de `NumPy`.
 
@@ -93,7 +93,7 @@ Sin alterar el archivo de MS EXCEL original, haga un gráfico que ilustre la ser
 
 ---
 
-Los siguientes dos ejercicios son tomados de:
+Los siguientes dos ejercicios son se inspiran de:
 https://www.physik.uzh.ch/~python/python_2018-06/lecture_analysis/Analytics_ex.pdf
 
 Los archivos requeridos para esta tarea se encuentran en los archivos `.tar.gz` (descomprímalos) que están en:
@@ -103,7 +103,12 @@ https://www.physik.uzh.ch/~python/python_2018-06/lecture_analysis/
 Hacer el ejercicio 4 de https://www.physik.uzh.ch/~python/python_2018-06/lecture_analysis/Analytics_ex.pdf
 
 ## `10.py`
-Hacer el ejercicio 5 de https://www.physik.uzh.ch/~python/python_2018-06/lecture_analysis/Analytics_ex.pdf
+El archivo routes.txt contiene una lista de casi todos las conexiones aereas comerciales conocidas. Esta lista incluye información sobre la aerolínea, el punto de partida y el destino.
+
+Haga un mapa similar a: http://www.paisatours.com/images/avianca_route_map_l.jpg con todas las rutas aéreas en Colombia. Los colores de las líneas estarán asociados a las diferentes aerolíneas que operan en Colombia. 
+
+Ver los archivos airports.txt, airlines.txt and planes.txt. La página https://openflights.org/data.html podría ayudarle a entender los datos.
+
 
 ## `11.ipynb`
 Crear un notebook de `jupyter` que ilustre paso a paso el diseño de una viga de concreto reforzado a flexión y cortante, haciendo las referencias respectivas a la norma NSR-10, colocando ecuaciones, figuras ilustrando la teoría, gráficos y por supuesto, el código de Python que ayude en el diseño mismo.
