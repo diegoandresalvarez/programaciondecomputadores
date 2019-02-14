@@ -18,7 +18,7 @@ Cuando se solicite un gráfico, este debe hacerse con la mayor información posi
 
 ---
 
-## `01_pd.py, 02_np.py`
+## `01_pd.py`
 Se tiene la siguiente información de un grupo de personas: 
    * cédula
    * apellidos
@@ -78,18 +78,11 @@ Finalmente, el programa debe imprimir una tabla en la que muestre para cada clas
 
 ---
 
-## `06_pd.py, 07_np.py`
+## `06_pd.py`
 Utilizando la base de datos de todos los pasajeros del Titanic (https://www.kaggle.com/c/titanic -> usar únicamente `train.csv`) hacer lo siguiente:
 * Cree una torta que muestre la proporción de hombres y mujeres y justo al lado otro  que indique la clase (primera, segunda o tercera clase).
-* Cree un diagrama de dispersión que muestre la tarifa pagada vs la edad. Distinga el sexo mediante un color. Ver por ejemplo [este](https://support.minitab.com/en-us/minitab-express/1/scatterplot_pulse_rates_1_y_with_groups_3col.xml_Graph_cmd2o1.png) gráfico.
+* Cree un diagrama de dispersión que muestre la tarifa pagada vs. la edad. Distinga el sexo mediante un color. Ver por ejemplo [este](https://support.minitab.com/en-us/minitab-express/1/scatterplot_pulse_rates_1_y_with_groups_3col.xml_Graph_cmd2o1.png) gráfico.
 * Cree un histograma con la tarifa pagada.
-
-
-## `08.py`
-Descargar el archivo de MS EXCEL de los índices de precios de vivienda nueva del Banco de la República:
-* https://en.wikipedia.org/wiki/House_price_index
-* http://www.banrep.gov.co/es/indice-precios-vivienda-nueva-ipvnbr
-Sin alterar el archivo de MS EXCEL original, haga un gráfico que ilustre la serie de tiempo contenida en dicha tabla. El eje de las abscisas debe mostrar la fecha cada 4 meses de modo similar a como se muestra [aquí](https://i.stack.imgur.com/MUXMz.png), pero solo colocando el mes y el año.
 
 ---
 
@@ -109,6 +102,23 @@ Determine e imprima cuales son las cuatro aerolíneas con más conexiones aérea
 
 Ver los archivos `airports.txt`, `airlines.txt` y `planes.txt` y la página https://openflights.org/data.html podría ayudarle a entender los datos.
 
+---
+
+# Ejercicios eliminados
+No hacer los siguientes ejercicios:
+
+<strike>
+
+## `02_np.py`
+
+## `07_np.py`
+
+## `08.py`
+Descargar el archivo de MS EXCEL de los índices de precios de vivienda nueva del Banco de la República:
+* https://en.wikipedia.org/wiki/House_price_index
+* http://www.banrep.gov.co/es/indice-precios-vivienda-nueva-ipvnbr
+Sin alterar el archivo de MS EXCEL original, haga un gráfico que ilustre la serie de tiempo contenida en dicha tabla. El eje de las abscisas debe mostrar la fecha cada 4 meses de modo similar a como se muestra [aquí](https://i.stack.imgur.com/MUXMz.png), pero solo colocando el mes y el año.
 
 ## `11.ipynb`
 Crear un notebook de `jupyter` que ilustre paso a paso el diseño de una viga de concreto reforzado a flexión y cortante, haciendo las referencias respectivas a la norma NSR-10, colocando ecuaciones, figuras ilustrando la teoría, gráficos y por supuesto, el código de Python que ayude en el diseño mismo.
+</strike>
