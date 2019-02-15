@@ -1,4 +1,4 @@
-# Taller 1, Parte 3: 11 ejercicios
+# Taller 1, Parte 3: 7 ejercicios
 
 Esta parte del taller, a diferencia de las partes anteriores requerirá de ustedes la habilidad de buscar en intenet información sobre librerías, funciones y métodos para realizar las tareas encomendadas y obviamente, aprenderlas a usar. Muchas de las funciones que requerirán para hacer el taller no se verán en clase, por lo que es necesario que complementen su conocimiento en foros, YouTube y tutoriales.
 
@@ -18,7 +18,7 @@ Cuando se solicite un gráfico, este debe hacerse con la mayor información posi
 
 ---
 
-## `1_pd.py` (se sugiere hacerlo en `pandas`)
+## `1.py` (se sugiere hacerlo en `pandas`)
 Se tiene la siguiente información de un grupo de personas: 
    * cédula
    * apellidos
