@@ -1,4 +1,4 @@
-# Taller 1, Parte 3: 11 ejercicios
+# Taller 1, Parte 3: 7 ejercicios
 
 Esta parte del taller, a diferencia de las partes anteriores requerirá de ustedes la habilidad de buscar en intenet información sobre librerías, funciones y métodos para realizar las tareas encomendadas y obviamente, aprenderlas a usar. Muchas de las funciones que requerirán para hacer el taller no se verán en clase, por lo que es necesario que complementen su conocimiento en foros, YouTube y tutoriales.
 
@@ -18,7 +18,7 @@ Cuando se solicite un gráfico, este debe hacerse con la mayor información posi
 
 ---
 
-## `01_pd.py, 02_np.py`
+## `1.py` (se sugiere hacerlo en `pandas`)
 Se tiene la siguiente información de un grupo de personas: 
    * cédula
    * apellidos
@@ -53,18 +53,18 @@ La opción E debe advertir que no existen personas en caso que no existan los ar
 
 La primera fila de los archivos debe tener el título de la columna. Las columnas de los archivos deben contener la información en el mismo orden que se presenta arriba de modo tal que la columna A contiene la cédula y la columna G contiene el estado laboral.
 
-## `03.py`
+## `2.py`
 Calcule e imprima las coordenadas en 2D de los vértices de un polígono regular de _n_ lados, de modo que el lado inferior siempre sea paralelo al eje _x_ y que cada lado tenga una longitud unitaria. Grafique dicho polígono usando `matplotlib` utilizando el color azul. El programa debe tener una opción para rotar el polígono un ángulo dado (la dirección antihoraria es la positiva). Grafique el polígono rotado en color rojo y en negro con una línea punteada más delgada la circunferencia más pequeña que contiene dicho polígono. Utilice un `.legend()` para identificar el polígono original, el polígono rotado y la circunferencia. Los vértices del polígono deben tener unos puntos de adorno. Póngale nombre a los ejes _x_ y _y_.
 
 ---
 
 Los siguientes ejercicios están basados en unos que aparecen en http://disi.unitn.it/~teso/courses/sciprog/index.html
 
-## `04.py`
+## `3.py`
 Guarde el archivo https://drive.google.com/open?id=0B0wILN942aEVVlk4TS1WaDItVU0 y léalo desde su programa. La primera columna contiene el número de identificación de un experimento, la segunda columna, contiene el caudal medido en m³/s. El intervalo de tiempo entre mediciones es de 1 hora. Se hicieron 10 experimentos en total. Para cada experimento, grafique los valores como una serie de tiempo. Para las 10 series de tiempo, grafique la serie de tiempo media, y una área que indique una desviación estándar (algo similar a lo mostrado [aquí](https://www.arcus.org/files/resize/sio/25738/figure6b-700x555.png)). Muestre el gráfico en pantalla y adicionalmente guárdelo como un archivo `.pdf`.
 
 
-## `05.py`
+## `4.py`
 Utilizando la base de datos IRIS:
 * https://en.wikipedia.org/wiki/Iris_flower_data_set
 * https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset (descárguela de aquí)
@@ -78,18 +78,11 @@ Finalmente, el programa debe imprimir una tabla en la que muestre para cada clas
 
 ---
 
-## `06_pd.py, 07_np.py`
+## `5.py` (se sugiere hacerlo en `pandas`)
 Utilizando la base de datos de todos los pasajeros del Titanic (https://www.kaggle.com/c/titanic -> usar únicamente `train.csv`) hacer lo siguiente:
 * Cree una torta que muestre la proporción de hombres y mujeres y justo al lado otro  que indique la clase (primera, segunda o tercera clase).
-* Cree un diagrama de dispersión que muestre la tarifa pagada vs la edad. Distinga el sexo mediante un color. Ver por ejemplo [este](https://support.minitab.com/en-us/minitab-express/1/scatterplot_pulse_rates_1_y_with_groups_3col.xml_Graph_cmd2o1.png) gráfico.
+* Cree un diagrama de dispersión que muestre la tarifa pagada vs. la edad. Distinga el sexo mediante un color. Ver por ejemplo [este](https://support.minitab.com/en-us/minitab-express/1/scatterplot_pulse_rates_1_y_with_groups_3col.xml_Graph_cmd2o1.png) gráfico.
 * Cree un histograma con la tarifa pagada.
-
-
-## `08.py`
-Descargar el archivo de MS EXCEL de los índices de precios de vivienda nueva del Banco de la República:
-* https://en.wikipedia.org/wiki/House_price_index
-* http://www.banrep.gov.co/es/indice-precios-vivienda-nueva-ipvnbr
-Sin alterar el archivo de MS EXCEL original, haga un gráfico que ilustre la serie de tiempo contenida en dicha tabla. El eje de las abscisas debe mostrar la fecha cada 4 meses de modo similar a como se muestra [aquí](https://i.stack.imgur.com/MUXMz.png), pero solo colocando el mes y el año.
 
 ---
 
@@ -99,10 +92,10 @@ https://www.physik.uzh.ch/~python/python_2018-06/lecture_analysis/Analytics_ex.p
 Los archivos requeridos para esta tarea se encuentran en los archivos `.tar.gz` (descomprímalos) que están en:
 https://www.physik.uzh.ch/~python/python_2018-06/lecture_analysis/
 
-## `09.py`
+## `6.py`
 Hacer el ejercicio 4 de https://www.physik.uzh.ch/~python/python_2018-06/lecture_analysis/Analytics_ex.pdf
 
-## `10.py`
+## `7.py`
 El archivo `routes.txt` contiene una lista de casi todos las conexiones aéreas comerciales conocidas. Esta lista incluye información sobre la aerolínea, el punto de partida y el destino.
 
 Determine e imprima cuales son las cuatro aerolíneas con más conexiones aéreas en Colombia. Haga para cada una de esas aerolíneas un mapa similar a http://www.paisatours.com/images/avianca_route_map_l.jpg con las conexiones que cubren.
@@ -111,5 +104,20 @@ Ver los archivos `airports.txt`, `airlines.txt` y `planes.txt`; la página https
 
 ---
 
+# Ejercicios eliminados
+No hacer los siguientes ejercicios:
+
+<strike>
+## `02_np.py`
+
+## `07_np.py`
+
+## `08.py`
+Descargar el archivo de MS EXCEL de los índices de precios de vivienda nueva del Banco de la República:
+* https://en.wikipedia.org/wiki/House_price_index
+* http://www.banrep.gov.co/es/indice-precios-vivienda-nueva-ipvnbr
+Sin alterar el archivo de MS EXCEL original, haga un gráfico que ilustre la serie de tiempo contenida en dicha tabla. El eje de las abscisas debe mostrar la fecha cada 4 meses de modo similar a como se muestra [aquí](https://i.stack.imgur.com/MUXMz.png), pero solo colocando el mes y el año.
+
 ## `11.ipynb`
 Crear un notebook de `jupyter` que ilustre paso a paso el diseño de una viga de concreto reforzado a flexión y cortante, haciendo las referencias respectivas a la norma NSR-10, colocando ecuaciones, figuras ilustrando la teoría, gráficos y por supuesto, el código de Python que ayude en el diseño mismo.
+</strike>
