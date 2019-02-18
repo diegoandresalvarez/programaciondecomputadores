@@ -107,8 +107,9 @@ El archivo `routes.txt` contiene una lista de casi todos las conexiones aéreas 
 
 Determine e imprima cuales son las cuatro aerolíneas con más conexiones aéreas en Colombia. Haga para cada una de esas aerolíneas un mapa similar a http://www.paisatours.com/images/avianca_route_map_l.jpg con las conexiones que cubren.
 
-Ver los archivos `airports.txt`, `airlines.txt` y `planes.txt` y la página https://openflights.org/data.html podría ayudarle a entender los datos.
+Ver los archivos `airports.txt`, `airlines.txt` y `planes.txt`; la página https://openflights.org/data.html podría ayudarle a entender los datos.
 
+---
 
 ## `11.ipynb`
 Crear un notebook de `jupyter` que ilustre paso a paso el diseño de una viga de concreto reforzado a flexión y cortante, haciendo las referencias respectivas a la norma NSR-10, colocando ecuaciones, figuras ilustrando la teoría, gráficos y por supuesto, el código de Python que ayude en el diseño mismo.
