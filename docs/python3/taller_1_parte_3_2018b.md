@@ -108,6 +108,7 @@ Ver los archivos `airports.txt`, `airlines.txt` y `planes.txt`; la página https
 No hacer los siguientes ejercicios:
 
 <strike>
+
 ## `02_np.py`
 
 ## `07_np.py`
