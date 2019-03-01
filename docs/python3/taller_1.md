@@ -8,7 +8,7 @@ Fuente: <http://xkcd.com/323/>
 * **Parte 1**: Septiembre 23, 2018 a las 11:59pm 
 * **Parte 2**: ~~Octubre 21, 2018~~ Febrero 3, 2019 a las 11:59pm
 * **Parte 3**: ~~Noviembre 11, 2018~~ Febrero 24, 2019 a las 11:59pm
-* **Parte 4 (opcional)**: ~~Noviembre 18, 2018~~ Marzo 3, 2019 a las 11:59pm. La parte 4 de este taller es opcional y reemplaza la nota más baja de las entregas 1, 2 y 3.
+* **Parte 4 (opcional)**: ~~Noviembre 18, 2018~~ Marzo 7, 2019 a las 11:59pm. La parte 4 de este taller es opcional y reemplaza la nota más baja de las entregas 1, 2 y 3. Es requisito presentar este taller para poder realizar de nuevo la sustentación.
 
 Cada entrega del taller debe enviarse a <daalvarez@unal.edu.co>. Sin excepción, por cada día de retraso en la entrega, se rebajarán 3 décimas de la nota de esa entrega del Taller 1. 
 
@@ -16,7 +16,7 @@ Cada entrega del taller debe enviarse a <daalvarez@unal.edu.co>. Sin excepción,
 - [Taller 1, Parte 1](taller_1_parte_1.md)
 - [Taller 1, Parte 2](taller_1_parte_2_2018b.md)
 - [Taller 1, Parte 3](taller_1_parte_3_2018b.md)
-
+- [Taller 1, Parte 4](taller_1_parte_4_2018b.md)
 
 ## Parte 4
 <details><summary>Haga click para ver la parte 4</summary>
@@ -189,8 +189,8 @@ plt.show()
 Asumiendo que Nota 1, Nota 2 y Nota 3 se evalúan sobre 5.0. Con el factor de ponderación de la sustentación, podría obtenerse una nota mayor.
 
 ## Fecha y hora de la sustentación
-* Grupo 1: (POR DEFINIR)
-* Grupo 2: (POR DEFINIR)
+* Oportunidad 1: Marzo 1 de 2019, 6:00am.
+* Oportunidad 2: Marzo 8 de 2019, 6:00am.
 
 # Nota con respecto al Taller 2
 Para poder presentar el Taller 2 se deberán cumplir el siguiente requisito:
