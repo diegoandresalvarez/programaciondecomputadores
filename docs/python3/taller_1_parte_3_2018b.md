@@ -2,13 +2,13 @@
 
 Esta parte del taller, a diferencia de las partes anteriores requerirá de ustedes la habilidad de buscar en intenet información sobre librerías, funciones y métodos para realizar las tareas encomendadas y obviamente, aprenderlas a usar. Muchas de las funciones que requerirán para hacer el taller no se verán en clase, por lo que es necesario que complementen su conocimiento en foros, YouTube y tutoriales.
 
-Cada uno de los siguientes ejercicios debe realizarse utilizando las librerías `NumPy`, `SciPy`, `pandas` y/o `matplotlib`, a menos que se diga lo contrario. Únicamente el ejercicio 11 deberá realizarse utilizando `Jupyter`.
+Cada uno de los siguientes ejercicios debe realizarse utilizando las librerías `NumPy`, `SciPy`, `pandas` y/o `matplotlib`, a menos que se diga lo contrario. ~~~Únicamente el ejercicio 11 deberá realizarse utilizando `Jupyter`.~~~
 
 No use las listas de Python en caso que la librería NumPy permita hacer la misma operación con mayor claridad.
 
 En estos ejercicios no se deben utilizar listas de diccionarios, sino las utilidades provistas por las librerías `NumPy` (ver arrays estructurados) y `pandas`.
 
-Cuando el nombre del ejercicio termina con `_pd` quiere decir que se debe realizar utilizando `pandas`; si termina con `_np`, quiere decir que se debe realizar utilizando los arrays estructurados de `NumPy`.
+~~~Cuando el nombre del ejercicio termina con `_pd` quiere decir que se debe realizar utilizando `pandas`; si termina con `_np`, quiere decir que se debe realizar utilizando los arrays estructurados de `NumPy`.~~~~
 
 No olvide adjuntar los archivos de MS EXCEL (`.xlsx`), en formato CSV (`.csv`) o cualquier otro archivo que contienen datos de entrada del ejercicio referido. El programa debe advertir en caso dado que esos archivos no existan. Tenga en cuenta que MS EXCEL también puede abrir los archivos CSV, en caso que necesite visualizarlos.
 

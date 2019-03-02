@@ -1,0 +1,46 @@
+# Taller 1, Parte 4: 7 ejercicios
+
+### ```1.py```
+Lea dos polinomios de grado entre 0 y 9 con respecto a la variable *x*; imprima su suma y multiplicación. No usar las funcionalidades de `NumPy` o `SymPy` para realizar este ejercicio. Utilice como exponentes los superíndices ⁰¹²³⁴⁵⁶⁷⁸⁹. Adicionalmente, no deben existir espacios entre el coeficiente y la variable *x*, pero si pueden existir varios espacios entre el signo y los números o la *x* (en caso que dicha *x* represente *x*¹). Finalmente los exponentes 1 y 0 son opcionales. Por ejemplo:
+```
+Entre el polinomio 1: 3x² +10x- 1
+Entre el polinomio 2: 125x⁹+10x² -   1x¹     +32x⁰
+La suma de los dos polinomios es: 125x⁹ + 13x²  + 9x + 31
+La multiplicación de los dos polinomios es: 375x¹¹ + 1250x¹⁰ - 125x⁹ + 30x⁴ + 97x³ + 76x² + 321x - 32 
+```
+* PISTA 1: se recomienda utilizar **expresiones regulares** para realizar este ejercicio. De este modo, es super fácil. Aprendan ese tema con YouTube (librería python: `import re`)
+* PISTA 2: la multiplicación se hace fácilmente con una operación vectorial llamada la [convolución discreta](https://en.wikipedia.org/wiki/Convolution).
+
+### ```2.py```
+Repita el ejercicio ```1.py```, pero esta vez utilizando la librería `SymPy` y las funcionalidades de dicha librería para el manejo de polinomios. Haga que `SymPy` muestre los polinomios entrados y los resultados utilizando `LaTeX`. Ejecute por ejemplo en el spyder:
+```python
+from IPython.display import display, Latex
+from sympy import *
+
+x = symbols('x')
+
+int_x = Integral(cos(x)*exp(x), x)
+result = "$${} = {}$$".format(latex(int_x), latex(int_x.doit()))
+display(Latex(result))
+
+derv_x = Derivative(cos(x)*exp(x), x)
+result = "$${} = {}$$".format(latex(derv_x), latex(derv_x.doit()))
+display(Latex(result))
+```
+### ```3.py```
+Considere un triángulo rectángulo de lados *a*, *b*, *c* (tres números enteros) cuyo perímetro es *p*=*a+b+c*. Por ejemplo, si *p*=120, los lados que satisfacen dicha desigualdad son: {20,48,52}, {24,45,51}, {30,40,50}. ¿Para qué valor de *p* ≤ 1000 tenemos que el núméro de lados que cumplen el postulado se maximiza? 
+PISTA: Use las ecuaciones *a*² + *b*² = *c*²  y *p* = *a+b+c*, redúzcalas a una sola ecuación y trabaje con esta. 
+
+### ```4.py```
+Haga un programa que tome una matriz de tamaño *m*x*n* y la rote implementando su propia versión de la función `numpy.rot90()`; dicha función debe función igual que `rot90()` para matrices. Utilice para ello la librería `numpy`, pero obviamente, no se debe usar la función referida.
+
+### ```5.py```
+Haga un algoritmo que lea dos números, los almacene dígito a dígito en dos listas y los resta tal y como a usted le enseñaron en segundo de primaria (tomando prestado, etc). Imprima la resta en pantalla tal y como lo hacía usted en primaria, indicando con un alguna marca la columna donde le tocaba restar. Recuerde que en primaria le usted siempre ponía el número más grande en la fila de arriba.
+
+### ```6.py```
+**Utilizando colas**, elaborar un algoritmo que pregunte al usuario vectores de `n1` y `n2` elementos, los cuales, se sabe, están ordenados ascendentemente cada uno. Forme un tercer arreglo que quede ordenado en la medida que pasan los elementos de los dos arreglos iniciales. Imprimir el nuevo arreglo. No usar las utilidades que provee Python para ordenar listas: ejemplo `sorted()` o el método `sort()`, ni ninguna otra función de ordenamiento bajada de internet.
+* PISTA: ver en el PDF 4 la diapositiva **Usando una lista como una cola**.
+
+### ```7.py```
+Haga una simulación de Monte Carlo para estimar el número pi. Utilice `Numpy`. Para la generación de los números aleatorios implemente el algoritmo [Linear Congruential Generator](https://en.wikipedia.org/wiki/Linear_congruential_generator) (recuerde inicializar la semilla con el utilizando la función `time.time()`). Haga en `matplotlib` un gráfico que muestre como disminuye el error de estimación de pi a medida que usted aumenta las muestras desde 1000 hasta 100_000_000 simulaciones de Monte Carlo. El eje *x* de dicho gráfico se podría hacer con un `np.logspace(3,8,20)` y debe estar en escala logarítmica.
+Pistas: https://www.youtube.com/watch?v=VJTFfIqO4TU https://www.youtube.com/watch?v=9aJADZgNl18
