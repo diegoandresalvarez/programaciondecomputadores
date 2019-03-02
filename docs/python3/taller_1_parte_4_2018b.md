@@ -29,7 +29,7 @@ display(Latex(result))
 ```
 ### ```3.py```
 Considere un triángulo rectángulo de lados *a*, *b*, *c* (tres números enteros) cuyo perímetro es *p*=*a+b+c*. Por ejemplo, si *p*=120, los lados que satisfacen dicha desigualdad son: {20,48,52}, {24,45,51}, {30,40,50}. ¿Para qué valor de *p* ≤ 1000 tenemos que el núméro de lados que cumplen el postulado se maximiza? 
-PISTA: Use las ecuaciones *a*² + *b*² = *c*²  y *p* = *a+b+c*, redúzcalas a una sola ecuación y trabaje con esta. 
+* PISTA: Use las ecuaciones *a*² + *b*² = *c*²  y *p* = *a+b+c*, redúzcalas a una sola ecuación y trabaje con esta. 
 
 ### ```4.py```
 Haga un programa que tome una matriz de tamaño *m*x*n* y la rote implementando su propia versión de la función `numpy.rot90()`; dicha función debe función igual que `rot90()` para matrices. Utilice para ello la librería `numpy`, pero obviamente, no se debe usar la función referida.
@@ -43,4 +43,6 @@ Haga un algoritmo que lea dos números, los almacene dígito a dígito en dos li
 
 ### ```7.py```
 Haga una simulación de Monte Carlo para estimar el número pi. Utilice `Numpy`. Para la generación de los números aleatorios implemente el algoritmo [Linear Congruential Generator](https://en.wikipedia.org/wiki/Linear_congruential_generator) (recuerde inicializar la semilla con el utilizando la función `time.time()`). Haga en `matplotlib` un gráfico que muestre como disminuye el error de estimación de pi a medida que usted aumenta las muestras desde 1000 hasta 100_000_000 simulaciones de Monte Carlo. El eje *x* de dicho gráfico se podría hacer con un `np.logspace(3,8,20)` y debe estar en escala logarítmica.
-Pistas: https://www.youtube.com/watch?v=VJTFfIqO4TU https://www.youtube.com/watch?v=9aJADZgNl18
+* NOTA: Utilice las constantes a, c y m del glibc (ver [Wikipedia](https://en.wikipedia.org/wiki/Linear_congruential_generator))
+* NOTA: En la misma página de [Wikipedia](https://en.wikipedia.org/wiki/Linear_congruential_generator) está el código del LCG en Python. Si va a copiar dicho código, por favor explique en un bloque comentario como funciona la palabra reservada `yield`.
+* PISTA: https://www.youtube.com/watch?v=VJTFfIqO4TU https://www.youtube.com/watch?v=9aJADZgNl18
