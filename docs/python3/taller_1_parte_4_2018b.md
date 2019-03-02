@@ -29,7 +29,16 @@ display(Latex(result))
 ```
 ### ```3.py```
 Considere un triángulo rectángulo de lados *a*, *b*, *c* (tres números enteros) cuyo perímetro es *p*=*a+b+c*. Por ejemplo, si *p*=120, los lados que satisfacen dicha desigualdad son: {20,48,52}, {24,45,51}, {30,40,50}. ¿Para qué valor de *p* ≤ 1000 tenemos que el núméro de lados que cumplen el postulado se maximiza? 
-* PISTA: Use las ecuaciones *a*² + *b*² = *c*²  y *p* = *a+b+c*, redúzcalas a una sola ecuación y trabaje con esta. 
+* PISTA: Use las ecuaciones *a*² + *b*² = *c*²  y *p* = *a+b+c*, redúzcalas a una sola ecuación y trabaje con esta:
+```python
+from sympy import init_printing
+init_printing(use_latex=True)
+from sympy import symbols, Eq, solve
+
+a, b, c, p = symbols('a b c p')
+c = p - a - b
+solve(Eq(a**2 + b**2, c**2), b)
+```
 
 ### ```4.py```
 Haga un programa que tome una matriz de tamaño *m*x*n* y la rote implementando su propia versión de la función `numpy.rot90()`; dicha función debe función igual que `rot90()` para matrices. Utilice para ello la librería `numpy`, pero obviamente, no se debe usar la función referida.
