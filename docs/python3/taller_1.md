@@ -7,7 +7,7 @@ Fuente: <http://xkcd.com/323/>
 # Fecha y hora límite de entrega:
 * **Parte 1**: Septiembre 23, 2018 a las 11:59pm 
 * **Parte 2**: ~~Octubre 21, 2018~~ Febrero 3, 2019 a las 11:59pm
-* **Parte 3**: ~~Noviembre 11, 2018~~ Febrero 24, 2019 a las 11:59pm
+* **Parte 3**: ~~Noviembre 11, 2018~~ Marzo 1, 2019 a las 11:59pm
 * **Parte 4 (opcional)**: ~~Noviembre 18, 2018~~ Marzo 6, 2019 a las 11:59pm. La parte 4 de este taller es opcional y reemplaza la nota más baja de las entregas 1, 2 y 3. Es requisito presentar este taller para poder realizar de nuevo la sustentación.
 
 Cada entrega del taller debe enviarse a <daalvarez@unal.edu.co>. Sin excepción, por cada día de retraso en la entrega, se rebajarán 3 décimas de la nota de esa entrega del Taller 1. 
@@ -18,10 +18,11 @@ Cada entrega del taller debe enviarse a <daalvarez@unal.edu.co>. Sin excepción,
 - [Taller 1, Parte 3](taller_1_parte_3_2018b.md)
 - [Taller 1, Parte 4](taller_1_parte_4_2018b.md)
 
+<!---
 ## Parte 4
 <details><summary>Haga click para ver la parte 4</summary>
 <p>
-
+ 
 #### yes, even hidden code blocks!
 
 ```python
@@ -30,6 +31,7 @@ print("hello world!")
 
 </p>
 </details>
+-->
 
 # Forma de presentación
 * Individual
