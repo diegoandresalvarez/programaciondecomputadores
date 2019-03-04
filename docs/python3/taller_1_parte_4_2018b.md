@@ -51,6 +51,7 @@ Haga un programa que tome una matriz de tamaño *m*x*n* y la rote implementando 
 
 ### ```5.py```
 Haga un algoritmo que lea dos números, los almacene dígito a dígito en dos listas y los resta tal y como a usted le enseñaron en segundo de primaria (tomando prestado, etc). Imprima la resta en pantalla tal y como lo hacía usted en primaria, indicando con un alguna marca la columna donde le tocaba tomar prestado. Recuerde que en primaria le usted siempre ponía el número mayor en la fila de arriba. Además en primaria usted solo conocía los números naturales.
+* PISTA: este ejercicio se resuelve fácilmente utilizando funciones recursivas.
 
 ### ```6.py```
 **Utilizando colas**, elaborar un algoritmo que pregunte al usuario vectores de `n1` y `n2` elementos, los cuales, se sabe, están ordenados ascendentemente cada uno. Forme un tercer arreglo que quede ordenado en la medida que pasan los elementos de los dos arreglos iniciales. Imprimir el nuevo arreglo. No usar las utilidades que provee Python para ordenar listas: ejemplo `sorted()` o el método `sort()`, ni ninguna otra función de ordenamiento bajada de internet.
