@@ -50,7 +50,7 @@ Haga un programa que tome una matriz de tamaño *m*x*n* y la rote implementando 
 
 
 ### ```5.py```
-Haga un algoritmo que lea dos números, los almacene dígito a dígito en dos listas y los resta tal y como a usted le enseñaron en segundo de primaria (tomando prestado, etc). Imprima la resta en pantalla tal y como lo hacía usted en primaria, indicando con un alguna marca la columna donde le tocaba tomar prestado. Recuerde que en primaria le usted siempre ponía el número mayor en la fila de arriba.
+Haga un algoritmo que lea dos números, los almacene dígito a dígito en dos listas y los resta tal y como a usted le enseñaron en segundo de primaria (tomando prestado, etc). Imprima la resta en pantalla tal y como lo hacía usted en primaria, indicando con un alguna marca la columna donde le tocaba tomar prestado. Recuerde que en primaria le usted siempre ponía el número mayor en la fila de arriba. Además en primaria usted solo conocía los números naturales.
 
 ### ```6.py```
 **Utilizando colas**, elaborar un algoritmo que pregunte al usuario vectores de `n1` y `n2` elementos, los cuales, se sabe, están ordenados ascendentemente cada uno. Forme un tercer arreglo que quede ordenado en la medida que pasan los elementos de los dos arreglos iniciales. Imprimir el nuevo arreglo. No usar las utilidades que provee Python para ordenar listas: ejemplo `sorted()` o el método `sort()`, ni ninguna otra función de ordenamiento bajada de internet.
@@ -62,4 +62,7 @@ Haga una simulación de Monte Carlo para estimar el número pi. Utilice `Numpy`.
 * NOTA: Utilice las constantes *a*, *c* y *m* del `glibc` (ver [Wikipedia](https://en.wikipedia.org/wiki/Linear_congruential_generator))
 * NOTA: En la misma página de [Wikipedia](https://en.wikipedia.org/wiki/Linear_congruential_generator) está el código del LCG en Python. Si va a copiar dicho código, por favor explique en un bloque comentario como funciona la palabra reservada `yield`.
 * NOTA: En [Wikipedia](https://en.wikipedia.org/wiki/Linear_congruential_generator) dice: "*LCGs should be chosen very carefully for applications where high-quality randomness is critical. Any Monte Carlo simulation should use an LCG with a modulus greater and preferably much greater than the cube root of the number of random samples which are required. This means, for example, that a (good) 32-bit LCG can be used to obtain about a thousand random numbers; a 64-bit LCG is good for about 2^21 random samples which is a little over two million, etc. For this reason, LCGs are in practice not suitable for large scale Monte Carlo simulations".* Por dicha razón, en los cálculos científicos usualmente se utiliza el generador de números aleatorios [Mersenne Twister](https://en.wikipedia.org/wiki/Mersenne_Twister) por sus múltiples ventajas estadísticas y por su gran periodo de 2¹⁹⁹³⁷ − 1. Sin embargo, en este ejemplo continuaremos usando el generador LCG dada su simplicidad.
-* PISTA: https://www.youtube.com/watch?v=VJTFfIqO4TU https://www.youtube.com/watch?v=9aJADZgNl18
+* PISTA 1: https://www.youtube.com/watch?v=VJTFfIqO4TU https://www.youtube.com/watch?v=9aJADZgNl18
+* PISTA 2: por favor utilizar las propiedades de vectorización del código en Python. Si uno utiliza un ciclo for para hacer cada una de las simulaciones de Monte Carlo, la evaluación del taller demorará horas, mientras que si se vectoriza el código, se resolverá en segundos. Ver, por ejemplo: https://realpython.com/numpy-array-programming/#what-is-vectorization
+
+
