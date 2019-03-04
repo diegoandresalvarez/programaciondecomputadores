@@ -1,7 +1,7 @@
 # Taller 1, Parte 4: 7 ejercicios
 
 ### ```1.py```
-Lea dos polinomios de grado entre 0 y 9 con respecto a la variable *x*; imprima su suma y multiplicación. No usar las funcionalidades de `NumPy` o `SymPy` para realizar este ejercicio. Utilice como exponentes los superíndices ⁰¹²³⁴⁵⁶⁷⁸⁹. Adicionalmente, no deben existir espacios entre el coeficiente y la variable *x*, pero si pueden existir varios espacios entre el signo y los números o la *x* (en caso que dicha *x* represente *x*¹). Finalmente los exponentes 1 y 0 son opcionales. Por ejemplo:
+Lea dos polinomios de grado entre 0 y 9 con respecto a la variable *x*; imprima su suma y multiplicación. No usar las funcionalidades de `NumPy` o `SymPy` para realizar este ejercicio. Utilice como exponentes los superíndices ⁰¹²³⁴⁵⁶⁷⁸⁹. Adicionalmente, no deben existir espacios entre el coeficiente y la variable *x*, pero si pueden existir varios espacios entre el signo y los números o la *x* (en caso que dicha *x* represente *x*¹). Finalmente los exponentes 1 y 0 son opcionales y los coeficientes del polinomio son números enteros. Por ejemplo:
 ```
 Entre el polinomio 1: 3x² +10x- 1
 Entre el polinomio 2: 125x⁹+10x² -   1x¹     +32x⁰
