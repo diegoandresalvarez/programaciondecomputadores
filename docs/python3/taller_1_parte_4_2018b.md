@@ -16,18 +16,11 @@ La multiplicación de los dos polinomios es: 375x¹¹ + 1250x¹⁰ - 125x⁹ + 3
 ### ```2.py```
 Repita el ejercicio ```1.py```, pero esta vez utilizando la librería `SymPy` y las funcionalidades de dicha librería para el manejo de polinomios. Haga que `SymPy` muestre los polinomios entrados y los resultados utilizando `LaTeX`. Ejecute por ejemplo en el spyder:
 ```python
-from IPython.display import display, Latex
-from sympy import *
+import sympy as sp
+sp.init_printing()
 
-x = symbols('x')
-
-int_x = Integral(cos(x)*exp(x), x)
-result = "$${} = {}$$".format(latex(int_x), latex(int_x.doit()))
-display(Latex(result))
-
-derv_x = Derivative(cos(x)*exp(x), x)
-result = "$${} = {}$$".format(latex(derv_x), latex(derv_x.doit()))
-display(Latex(result))
+x = sp.symbols('x')
+display(sp.Poly([3, 2, 1],x).as_expr())
 ```
 
 
