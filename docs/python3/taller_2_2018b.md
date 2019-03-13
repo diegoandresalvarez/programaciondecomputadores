@@ -1,6 +1,6 @@
 # Taller de programación 2: (20% de la nota final)
 
-Se requiere elaborar una versión del legendario juego [SNAKE](http://es.wikipedia.org/wiki/Snake_(videojuego))  (también conocido como NIBBLES), utilizando como base el archivo [snake.py](../../codigo/python/juegos/snake.py) y la librería [`pygame`](https://www.pygame.org/).
+Se requiere elaborar una versión del legendario juego [SNAKE](http://es.wikipedia.org/wiki/Snake_(videojuego))  (también conocido como NIBBLES), utilizando como base el archivo [snake.py](../../codigo/python3/juegos/snake.py) y la librería [`pygame`](https://www.pygame.org/).
 
 ![Caricatura](http://i1.ytimg.com/vi/UmeKHtei0qo/maxresdefault.jpg)
 
@@ -8,7 +8,7 @@ Se requiere elaborar una versión del legendario juego [SNAKE](http://es.wikiped
 * Individual
 
 # Fecha y hora límite de entrega: 
-Marzo 29 de 2019; enviar a <daalvarez@unal.edu.co>. Sin excepción, por cada **HORA** de retraso en la entrega se rebajará **1.0 unidad** de la nota. 
+* Marzo 29 de 2019; enviar a <daalvarez@unal.edu.co>. Sin excepción, por cada **HORA** de retraso en la entrega se rebajará **1.0 unidad** de la nota. 
 
 # Fecha y hora de la sustentación
 * Marzo 29 de 2019, a partir de las 7:00 am, de acuerdo con el horario acordado con el profesor.
@@ -29,10 +29,12 @@ Los puntos obligatorios no otorgan unidades, solo las quitan, es decir un progra
 
 * Debe existir en el tablero una cápsula que incrementa la longitud de la serpiente que se come dicha cápsula (**si no se realiza -1.0 unidad**).
 
-## Puntos opcionales
-* En la parte superior del tablero debe haber un panel donde se muestren las vidas, el puntaje, un cronómetro que indique el tiempo de juego y cualquier otra información de relevancia para el juego (**1.0 unidad**).
+* Hacer un START, un PAUSE, un PERDISTE y un FELICITACIONES, COMPLETASTE EL NIVEL (encima del tablero tal y como aparece en el juego original (**si no se realiza -1.0 unidad**).
 
-* Implementar un menú previo al juego que permite las siguientes opciones (**1.0 unidad**):
+## Puntos opcionales
+* En la parte superior del tablero debe haber un panel donde se muestren las vidas, el puntaje, un cronómetro que indique el tiempo de juego y cualquier otra información de relevancia para el juego (**0.5 unidades**).
+
+* Implementar un menú previo al juego que permite las siguientes opciones (**0.5 unidades**):
   * Persona sola (maneja con las flechas y con las teclas ASDW o asdw).
   * Persona (flechas) vs Persona (maneja con las teclas ASDW o asdw).
   * Persona (flechas y teclas ASDW o asdw) vs computador.
@@ -42,12 +44,12 @@ Los puntos obligatorios no otorgan unidades, solo las quitan, es decir un progra
 
 * Implementar las siguientes cápsulas de poder (las cuales deben aparecer aleatoriamente en el tablero, en las posiciones libres):
   * Capsula que da una vida extra (**0.5 unidades**).
-  * Cápsulas que incrementa la velocidad de la serpiente que se la come (**0.5 unidades**).
-  * Cápsulas que reduce la velocidad de la serpiente que se la come (**0.5 unidades**).
-  * Cápsula que invierte la serpiente, es decir, la cabeza se vuelve la cola y la cola se vuelve la cabeza (**1.0 unidad**).
-  * Numerar las cápsulas que alargan con los números 1, 2, 3, ..., 9. Al comer la cápsula número 9  termina el nivel y continua al siguiente. Deben haber al menos 4 niveles de juego (cada tablero es más complejo) y 3 de velocidad (**2.0 unidades**)
+  * Cápsulas que incrementa la velocidad de la serpiente que se la come (**0.25 unidades**).
+  * Cápsulas que reduce la velocidad de la serpiente que se la come (**0.25 unidades**).
+  * Cápsula que invierte la serpiente, es decir, la cabeza se vuelve la cola y la cola se vuelve la cabeza (**0.5 unidades**).
+  * Etiquetar las cápsulas que alargan con los números 1, 2, 3, ..., 9. Al comer la cápsula número 9  termina el nivel y continua al siguiente. Deben haber al menos 4 niveles de juego (cada tablero es más complejo) y 3 de velocidad (**1.0 unidad**)
   * Cápsula que acorta la serpiente en cinco cuadros, siendo la longitud mínima de un cuadrito (**0.5 unidades**).
-  * Cápsula que congela a las otras serpientes por cinco segundos (**1.0 unidad**). Escribir en pantalla el tiempo que dura el efecto de esta cápsula de poder (**0.5 unidades**).
+  * Cápsula que congela a las otras serpientes por cinco segundos (**0.5 unidades**). Escribir en pantalla el tiempo que dura el efecto de esta cápsula de poder (**0.5 unidades**).
   * Cápsula de poder que se guarda en una bodega y que posteriormente se activa al presionar la tecla "INSERT". Dicha cápsula permitiría a la serpiente atravesar muros durante los 5 segundos siguientes (**1.0 unidad**). Escribir en pantalla el tiempo que dura el efecto de esta cápsula de poder (**0.5 unidades**).
 
 * Pueden estar simultáneamente en el tablero hasta dos cápsulas, ambas de diferente clase. Estas cápsulas sólo pueden aparecer una vez por nivel (**1.0 unidad**).
@@ -57,7 +59,6 @@ Los puntos obligatorios no otorgan unidades, solo las quitan, es decir un progra
 * Al presionar 'H' o 'h' aparece el manual de instrucciones del juego: (**0.5 unidades**).
 * Implementar el TOP 10 de los mejores jugadores del juego, guardarlo a disco y recuperarlo al iniciar el programa; Al presionar 'T' o 't' se hace una pausa y aparece el top 10 de los mejores jugadores del juego. (**1.0 unidad**)
 * Hacer introducción ANIMADA del juego: (**1.0 unidad**)
-* Hacer un START, un PAUSE, un PERDISTE y un FELICITACIONES, COMPLETASTE EL NIVEL (encima del tablero tal y como aparece en el juego original). Para esto se deben utilizar las funciones de ventanas que suministra la libreria `pygame` (**1.0 punto**).
 * Implementar una pausa al presionar la tecla espacio. En este caso, detener el cronómetro de juego y reanudarlo una vez se vuelva a presionar la tecla espacio (**0.5 unidades**).
 * Incluirle al juego sonidos: una pista musical al fondo del nivel y efectos especiales cuando la serpiente muere o se come una cápsula (**+1 punto**).
 * Hacer uno de los siguientes dos puntos:
