@@ -17,11 +17,15 @@ Se requiere elaborar una versión del legendario juego [SNAKE](http://es.wikiped
 El programa se calificará por objetivos de la siguiente forma:
 
 ## Puntos obligatorios
-Los puntos obligatorios no otorgan unidades, solo las quitan, es decir un programa que solo tiene los puntos oblitatorios tiene una nota de 0.0):
+Los puntos obligatorios no otorgan unidades, solo las quitan, es decir un programa que solo tiene los puntos obligatorios tiene una nota de 0.0):
 
 * La serpiente debe conservar su inercia (no se puede detener su movimiento), la serpiente se mueve horizontal/verticalmente utilizando las flechas o las teclas ASDW (**si no se realiza -1.0 unidad**).
 
-* Debe demostrar durante la sustentación que se sabe manejar el depurador (**si no se realiza -5.0 unidades**).
+* Debe demostrar durante la sustentación que se sabe manejar el depurador (**si no se realiza -5.0 unidades**). En YouTube encontrarán cientos de tutoriales al respecto. Busquen con las palabras clave  `buscando errores python`, `debugger python` y `depurador python`.
+  * Para el SPYDER sugiero, adicionalmente, los siguientes tutoriales:
+    - https://docs.spyder-ide.org/debugging.html
+    - https://docs.spyder-ide.org/variableexplorer.html
+    - https://realpython.com/python-debugging-pdb/
 
 * En el diálogo "Perdiste" debe identificarse claramente que serpiente/jugador perdió los puntos (**si no se realiza -1.0 unidad**).
 
@@ -31,9 +35,9 @@ Los puntos obligatorios no otorgan unidades, solo las quitan, es decir un progra
 
 * Hacer un START, un PAUSE, un PERDISTE y un FELICITACIONES, COMPLETASTE EL NIVEL (encima del tablero tal y como aparece en el juego original (**si no se realiza -1.0 unidad**).
 
-## Puntos opcionales
-* En la parte superior del tablero debe haber un panel donde se muestren las vidas, el puntaje, un cronómetro que indique el tiempo de juego y cualquier otra información de relevancia para el juego (**0.5 unidades**).
+* En la parte superior del tablero debe haber un panel donde se muestren las vidas, el puntaje, un cronómetro que indique el tiempo de juego y cualquier otra información de relevancia para el juego (**si no se realiza -1.0 unidad**).
 
+## Puntos opcionales
 * Implementar un menú previo al juego que permite las siguientes opciones (**0.5 unidades**):
   * Persona sola (maneja con las flechas y con las teclas ASDW o asdw).
   * Persona (flechas) vs Persona (maneja con las teclas ASDW o asdw).
@@ -55,12 +59,13 @@ Los puntos obligatorios no otorgan unidades, solo las quitan, es decir un progra
 * Pueden estar simultáneamente en el tablero hasta dos cápsulas, ambas de diferente clase. Estas cápsulas sólo pueden aparecer una vez por nivel (**1.0 unidad**).
 * Si se come la cápsula debe aparecer en pantalla, cerca al lugar en el que se comió la cápsula, el número de puntos obtenidos: (**0.5 unidades**)
 * El jugador solo tiene como tiempo máximo un minuto para completar el tablero. En el tablero deben aparecer los segundos faltantes (**1.0 unidad**).
+* Implementar el juego de modo que funcione con joysticks (**1.0 unidad**).
 * Implementación de túneles de modo que la serpiente pase por el borde izquierdo de la pantalla y salga por el derecho y viceversa y que se desplace entre los bordes superior e inferior: (**0.5 unidades**).
 * Al presionar 'H' o 'h' aparece el manual de instrucciones del juego: (**0.5 unidades**).
 * Implementar el TOP 10 de los mejores jugadores del juego, guardarlo a disco y recuperarlo al iniciar el programa; Al presionar 'T' o 't' se hace una pausa y aparece el top 10 de los mejores jugadores del juego. (**1.0 unidad**)
 * Hacer introducción ANIMADA del juego: (**1.0 unidad**)
 * Implementar una pausa al presionar la tecla espacio. En este caso, detener el cronómetro de juego y reanudarlo una vez se vuelva a presionar la tecla espacio (**0.5 unidades**).
-* Incluirle al juego sonidos: una pista musical al fondo del nivel y efectos especiales cuando la serpiente muere o se come una cápsula (**+1 punto**).
+* Incluirle al juego sonidos: una pista musical al fondo del nivel y efectos especiales cuando la serpiente muere o se come una cápsula (**+1 punto**). Cuando se presiona `M` se activa/desactiva la música y los sonidos (**0.5 unidades**).
 * Hacer uno de los siguientes dos puntos:
   * O dibujarle a la serpiente una carita y una colita que se modifiquen de acuerdo con su dirección (**1.0 punto**).
   * O hacer el juego en modo gŕafico utilizando alguno de los "sprites" mostrados en (**5.0 unidades**).:
@@ -81,7 +86,7 @@ Los puntos obligatorios no otorgan unidades, solo las quitan, es decir un progra
 
 
 # Consejos
-* Si quieren aprender en verdad a programar intenten ustedes mismos hacer los ejercicios de forma autónoma (sin ayuda de los compañeros de clase o de alguien más). Por lo tanto **eviten en lo posible los grupos de trabajo**. Se prohibe cualquier tipo de "colaboración" entre compañeros. Aprender a programar es como aprender a nadar. Uno no aprende a nadar viendo los campeonatos de natación en la TV. Hay que tirarse al agua para en verdad dominar la natación.
+* Si quieren aprender en verdad a programar intenten ustedes mismos hacer los ejercicios de forma autónoma (sin ayuda de los compañeros de clase o de alguien más). Por lo tanto **eviten en lo posible los grupos de trabajo**. Se prohíbe cualquier tipo de "colaboración" entre compañeros. Aprender a programar es como aprender a nadar. Uno no aprende a nadar viendo los campeonatos de natación en la TV. Hay que tirarse al agua para en verdad dominar la natación.
 * No esperen hasta el último minuto para empezar a trabajar en el proyecto; como ya probablemente se han dado cuenta, el desarrollo de software es una actividad que requiere tiempo. La mejor forma de asegurar un buen trabajo es repasar los conceptos vistos en clase, dar un vistazo general a las diferentes librerías con las que cuenta el lenguaje python.
 * Aprendan a manejar el debugger, ya que es una herramienta bastante eficiente para la captura de errores. En YouTube hay cientos de tutoriales de ello.
 * En internet se encuentre el código solicitado, sin embargo, no lo copien (fraude), sino que utilícenlo para adquirir ideas de cómo mejorar el suyo.
