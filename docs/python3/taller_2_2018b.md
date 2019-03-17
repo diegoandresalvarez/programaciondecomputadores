@@ -64,6 +64,7 @@ Los puntos obligatorios no otorgan unidades, solo las quitan, es decir un progra
 * Al presionar 'H' o 'h' aparece el manual de instrucciones del juego: (**0.5 unidades**).
 * Implementar el TOP 10 de los mejores jugadores del juego, guardarlo a disco y recuperarlo al iniciar el programa; Al presionar 'T' o 't' se hace una pausa y aparece el top 10 de los mejores jugadores del juego. (**1.0 unidad**)
 * Hacer introducción ANIMADA del juego: (**1.0 unidad**)
+* A una entrega que incluya sonidos, imágenes y fuentes especiales en: los menús, el tablero, el  marcador de juego, del top de los mejores jugadores, sonidos, etc., que hagan que la presentación sea muy profesional se le dará **+1.0 unidad** extra. Les recomiendo que descarguen a su celular programas similares al pedido para que encuentren inspiración en la presentación del programa.
 * Implementar una pausa al presionar la tecla espacio. En este caso, detener el cronómetro de juego y reanudarlo una vez se vuelva a presionar la tecla espacio (**0.5 unidades**).
 * Incluirle al juego sonidos: una pista musical al fondo del nivel y efectos especiales cuando la serpiente muere o se come una cápsula (**+1 punto**). Cuando se presiona `M` se activa/desactiva la música y los sonidos (**0.5 unidades**).
 * Hacer uno de los siguientes dos puntos:
