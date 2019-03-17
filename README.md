@@ -21,3 +21,4 @@ Fuente: <https://www.youtube.com/watch?v=mCDkxUbalCw>
 # Examenes y talleres
 - [Tema de los exámenes](docs/python3/examenes.md)
 - [Taller 1 de programación](docs/python3/taller_1.md)
+- [Taller 2 de programación](docs/python3/taller_2_2018b.md)
