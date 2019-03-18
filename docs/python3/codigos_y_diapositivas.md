@@ -100,8 +100,8 @@ Juegos:
 [Diapositivas](../../diapositivas/python3/07_-_Consejos_de_programacion_y_normas_de_estilo_con_Python_3.pdf)
 
 ## 08 - Encontrando errores en un código de Python 3 
-[Diapositivas](../../diapositivas/python3/08_-_Encontrando_errores_en_un_codigo de_Python_3.pdf)
-
+[Diapositivas](../../diapositivas/python3/08_-_Encontrando_errores_en_un_codigo_de_Python_3.pdf)
+                                        
 ## 09 - Entrada y salida en Python 3
 [Diapositivas](../../diapositivas/python3/09_-_Entrada_y_salida_en_Python_3.pdf)
 
@@ -173,6 +173,7 @@ Y en los videotutoriales de [Código Facilito](https://codigofacilito.com/videos
 - [Numpy](../../codigo/python3/jupyter/tutorial_numpy.ipynb)
 - [Matplotlib](../../codigo/python3/jupyter/tutorial_matplotlib.ipynb)
 - [Jupyter](../../codigo/python3/jupyter/tutorial_jupyter.ipynb)
-- [Pandas](https://pandas.pydata.org/)
+- [Pandas](../../codigo/python3/jupyter/tutorial_pandas.ipynb)
+
 
 
