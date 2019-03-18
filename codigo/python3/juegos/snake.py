@@ -115,7 +115,7 @@ def imprimir_casilla(pos, color):
     ''' imprima en la posición "pos" un recuadro de color "color"
     '''
     f,c = pos
-    casilla = pygame.Rect(c*ANCHO_CASILLA, f*ANCHO_CASILLA, 
+    casilla = pygame.Rect(c*ANCHO_CASILLA, f*ANCHO_CASILLA,
                           ANCHO_CASILLA, ANCHO_CASILLA)
     pygame.draw.rect(ventana, color, casilla)
 
@@ -198,8 +198,8 @@ def mover_serpiente(s, dir_sgte):
     ''' mueve la serpiente "s" en la dirección "dir_sgte"
     '''
     global capsula_alargamiento
-    
-    colision = False  # hubo colision contra una serpiente, o contra un muro 
+
+    colision = False  # hubo colisión contra una serpiente, o contra un muro
 
     # coordenadas de la cabeza de la serpiente
     f,c = s['cuerpo'][CABEZA]
@@ -207,10 +207,10 @@ def mover_serpiente(s, dir_sgte):
     # actualizar direcciones (teniendo en cuenta que no se puede retroceder)
     if dir_sgte == QUIETO:
         return # detener la serpiente
-    elif (dir_sgte == DERECHA   and s['dir'] != IZQUIERDA) or \
-         (dir_sgte == ARRIBA    and s['dir'] != ABAJO)     or \
-         (dir_sgte == IZQUIERDA and s['dir'] != DERECHA)   or \
-         (dir_sgte == ABAJO     and s['dir'] != ARRIBA):
+    elif ((dir_sgte == DERECHA   and s['dir'] != IZQUIERDA) or
+          (dir_sgte == ARRIBA    and s['dir'] != ABAJO)     or
+          (dir_sgte == IZQUIERDA and s['dir'] != DERECHA)   or
+          (dir_sgte == ABAJO     and s['dir'] != ARRIBA)):
             s['dir'] = dir_sgte
 
     # actualizar los movimientos
@@ -303,7 +303,7 @@ def poner_capsula(tipo_capsula):
 
 def mover_automaticamente(s):
     ''' mueve la serpiente "s" utilizando una búsqueda inteligente.
-    
+
     Aquí se esta implementando el algoritmo *Breadth-first search*, para
     encontrar el camino mas corto entre la cápsula y la cabeza de la serpiente,
     la cual se ubica en "pos_ini".
@@ -311,14 +311,14 @@ def mover_automaticamente(s):
     Ver: http://en.wikipedia.org/wiki/Breadth-first_search
     '''
     f_ini, c_ini = pos_ini = s['cuerpo'][CABEZA]
-    
+
     # se crea una copia del tablero
     L = mapa.copy()
-    
+
     # cree una array entero de NFIL x NCOL x 2 lleno de -100s
     referente = np.full((NFIL,NCOL,2), -100, dtype=int)
 
-    # si esta a una casilla de distancia ...    
+    # si esta a una casilla de distancia ...
     if capsula_alargamiento['pos'][F] == f_ini:
        if (capsula_alargamiento['pos'][C] - c_ini ==  1): return DERECHA
        if (capsula_alargamiento['pos'][C] - c_ini == -1): return IZQUIERDA
