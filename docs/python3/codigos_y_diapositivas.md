@@ -100,7 +100,7 @@ Juegos:
 [Diapositivas](../../diapositivas/python3/07_-_Consejos_de_programacion_y_normas_de_estilo_con_Python_3.pdf)
 
 ## 08 - Encontrando errores en un código de Python 3 
-Diapositivas
+[Diapositivas](../../diapositivas/python3/08_- Encontrando_errores_en_un_codigo de_Python_3.pdf)
 
 ## 09 - Entrada y salida en Python 3
 [Diapositivas](../../diapositivas/python3/09_-_Entrada_y_salida_en_Python_3.pdf)
