@@ -203,17 +203,22 @@ En caso que lo anterior no se cumpla se le asignarán 12 nuevos ejercicios; de d
 Imprimir el taller con el comando de consola de Linux:
 ```bash
 for f in MGG_240.py 09_20.py 10_50.py; do
+    echo " "
     echo "---------------------------------------------------------------------"
     echo "$f"
     echo "---------------------------------------------------------------------"    
     for dir in *; do
         if test -d "$dir"; then
-            echo ">>>> $dir <<<<"
             cd "$dir"        
-            iconv -c -f utf-8 -t ISO-8859-1 "$f" > "_$f"
-            a2ps "_$f" --prologue=fixed --highlight-level=normal --landscape --tabsize=4 --file-align=fill --header=%c --output="${f%.*}.pdf"
-            a2ps "_$f" --prologue=fixed --highlight-level=normal --landscape --tabsize=4 --file-align=fill --header=%c --sides=duplex
-            rm "_$f"
+            if [ -f $f ]; then
+                #echo ">>>> $dir <<<<"
+                iconv -c -f utf-8 -t ISO-8859-1 "$f" > "_$f"
+                #a2ps "_$f" --silent --prologue=fixed --highlight-level=normal --landscape --tabsize=4 --file-align=fill --header=%c --output="${f%.*}.pdf"
+                a2ps "_$f" --silent --prologue=fixed --highlight-level=normal --landscape --tabsize=4 --file-align=fill --header=%c --sides=duplex
+                rm "_$f"
+            else
+                echo "ERROR: El archivo $dir/$f no existe"
+            fi
             cd ..
         fi        
     done
