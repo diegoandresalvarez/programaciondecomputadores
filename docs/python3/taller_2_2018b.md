@@ -40,6 +40,7 @@ Los puntos obligatorios no otorgan unidades, solo las quitan, es decir un progra
 * En la parte superior del tablero debe haber un panel donde se muestren las vidas, el puntaje, un cronómetro que indique el tiempo de juego y cualquier otra información de relevancia para el juego (**si no se realiza -1.0 unidad**).
 
 ## Puntos opcionales
+* Al principio del juego, el programa pregunta el nombre de los jugadores y utiliza este nombre para referirse al jugador que ganó o perdió (**0.5 unidades**).
 * Implementar un menú previo al juego que permite las siguientes opciones (**0.5 unidades** cada una):
   * Persona sola (maneja con las flechas y con las teclas ASDW o asdw).
   * Persona (flechas) vs Persona (maneja con las teclas ASDW o asdw).
