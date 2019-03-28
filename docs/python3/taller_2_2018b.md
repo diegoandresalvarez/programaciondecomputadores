@@ -52,23 +52,23 @@ Los puntos obligatorios no otorgan unidades, solo las quitan, es decir un progra
   * Capsula que da una vida extra (**0.5 unidades**).
   * Cápsulas que incrementa la velocidad de la serpiente que se la come (**0.25 unidades**).
   * Cápsulas que reduce la velocidad de la serpiente que se la come (**0.25 unidades**).
-  * Cápsula que invierte la serpiente, es decir, la cabeza se vuelve la cola y la cola se vuelve la cabeza (**0.5 unidades**).
+  * Cápsula que invierte la serpiente, es decir, la cabeza se vuelve la cola y la cola se vuelve la cabeza (**1.5 unidades**).
   * Etiquetar las cápsulas que alargan con los números 1, 2, 3, ..., 9. Al comer la cápsula número 9  termina el nivel y continua al siguiente. Deben haber al menos 4 niveles de juego (cada tablero es más complejo) y 3 de velocidad (**1.0 unidad**)
   * Cápsula que acorta la serpiente en cinco cuadros, siendo la longitud mínima de un cuadrito (**0.5 unidades**).
-  * Cápsula que congela a las otras serpientes por cinco segundos (**0.5 unidades**). Escribir en pantalla el tiempo que dura el efecto de esta cápsula de poder (**0.5 unidades**).
+  * Cápsula que congela a las otras serpientes por cinco segundos (**1.5 unidades**). Escribir en pantalla el tiempo que dura el efecto de esta cápsula de poder (**0.5 unidades**).
   * Cápsula de poder que se guarda en una bodega y que posteriormente se activa al presionar la tecla "INSERT". Dicha cápsula permitiría a la serpiente atravesar muros durante los 5 segundos siguientes (**1.0 unidad**). Escribir en pantalla el tiempo que dura el efecto de esta cápsula de poder (**0.5 unidades**).
 
 * Pueden estar simultáneamente en el tablero hasta dos cápsulas, ambas de diferente clase. Estas cápsulas sólo pueden aparecer una vez por nivel (**1.0 unidad**).
-* Si se come la cápsula debe aparecer en pantalla, cerca al lugar en el que se comió la cápsula, el número de puntos obtenidos: (**0.5 unidades**)
-* El jugador solo tiene como tiempo máximo un minuto para completar el tablero. En el tablero deben aparecer los segundos faltantes (**1.0 unidad**).
+* Si se come la cápsula debe aparecer en pantalla, cerca al lugar en el que se comió la cápsula, el número de puntos obtenidos: (**1.0 unidad**)
+* El jugador solo tiene como tiempo máximo dos minutos para completar el tablero. En el tablero deben aparecer los segundos faltantes (**1.0 unidad**).
 * Implementar el juego de modo que funcione con joysticks (**1.0 unidad**).
 * Implementación de túneles de modo que la serpiente pase por el borde izquierdo de la pantalla y salga por el derecho y viceversa y que se desplace entre los bordes superior e inferior: (**0.5 unidades**).
 * Teclas especiales:
   * Al presionar 'H' o 'h' aparece el manual de instrucciones del juego: (**0.5 unidades**).
-  * Implementar el TOP 10 de los mejores jugadores del juego, guardarlo a disco y recuperarlo al iniciar el programa; Al presionar 'T' o 't' se hace una pausa y aparece el top 10 de los mejores jugadores del juego. (**1.0 unidad**)
+  * Implementar el TOP 10 de los mejores jugadores del juego, guardarlo a disco y recuperarlo al iniciar el programa; Al presionar 'T' o 't' se hace una pausa y aparece el top 10 de los mejores jugadores del juego. (**2.0 unidad**)
   * Implementar una pausa al presionar la tecla espacio. En este caso, detener el cronómetro de juego y reanudarlo una vez se vuelva a presionar la tecla espacio (**0.5 unidades**).
   * Incluirle al juego sonidos: una pista musical al fondo del nivel y efectos especiales cuando la serpiente muere o se come una cápsula (**1.0 unidad**). Cuando se presiona `M` se activa/desactiva la música y los sonidos (**0.5 unidades**).
-  * Crear una tecla para la serpiente de cada jugador humano que genere un modo turbo que triplique la velocidad de la serpiente. Dicho modo tendrá una duración máxima de 5 segundos. Y se recargará a una velocidad de 0.1 segundos por cada segundo de juego. Mostrar una barra con un porcentaje que muestre como se carga/descarga dicho modo a medida que se juega (**1.0 unidad**).
+  * Crear una tecla para la serpiente de cada jugador humano que genere un modo turbo que triplique la velocidad de la serpiente. Dicho modo tendrá una duración máxima de 5 segundos. Y se recargará a una velocidad de 0.1 segundos por cada segundo de juego. Mostrar una barra con un porcentaje que muestre como se carga/descarga dicho modo a medida que se juega (**2.0 unidad**).
 * Hacer introducción ANIMADA del juego: (**1.0 unidad**)
 * A una entrega que incluya sonidos, imágenes y fuentes especiales en: los menús, el tablero, el  marcador de juego, del top de los mejores jugadores, sonidos, etc., que hagan que la presentación sea muy profesional se le dará **+1.0 unidad** extra. Les recomiendo que descarguen a su celular programas similares al pedido para que encuentren inspiración en la presentación del programa.
 * Hacer uno de los siguientes dos puntos:
