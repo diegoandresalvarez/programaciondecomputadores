@@ -21,7 +21,7 @@ Los puntos obligatorios no otorgan unidades, solo las quitan, es decir un progra
 
 * La serpiente debe conservar su inercia (no se puede detener su movimiento), la serpiente se mueve horizontal/verticalmente utilizando las flechas o las teclas ASDW (**si no se realiza -5.0 unidades**).
 
-* La serpiente que se mueve en modo automático debe moverse de modo tal que se coma la cápsula más cercana; en caso que su movimiento esté dañado **-5.0 unidades**.
+* La serpiente que se mueve en modo automático debe moverse de modo tal que se coma la cápsula más cercana; en caso que su movimiento esté dañado se obtendrán **-5.0 unidades**.
 
 * Debe demostrar durante la sustentación que se sabe manejar el depurador (**si no se realiza -5.0 unidades**). En YouTube encontrarán cientos de tutoriales al respecto. Busquen con las palabras clave  `buscando errores python`, `debugger python` y `depurador python`.
   * Para el SPYDER sugiero, adicionalmente, los siguientes tutoriales:
