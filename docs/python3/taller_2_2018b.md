@@ -50,6 +50,8 @@ Los puntos obligatorios no otorgan unidades, solo las quitan, es decir un progra
 * Incluir en el menú anterior la opción:  
   * Persona vs 2 Serpientes manejadas por el computador (**1.0 unidad**).
 
+* Si en el menú anterior se pueden seleccionar las opciones utilizando el mouse se tendrá **1.0 unidad** adicional.
+
 * Implementar las siguientes cápsulas de poder (las cuales deben aparecer aleatoriamente en el tablero, en las posiciones libres):
   * Capsula que da una vida extra (**0.5 unidades**).
   * Cápsulas que incrementa la velocidad de la serpiente que se la come (**0.25 unidades**).
