@@ -8,7 +8,7 @@ Se requiere elaborar una versión del legendario juego [SNAKE](http://es.wikiped
 * Individual
 
 # Fecha y hora límite de entrega: 
-* Marzo 29 de 2019; enviar a <daalvarez@unal.edu.co>. Sin excepción, por cada **HORA** de retraso en la entrega se rebajará **1.0 unidad** de la nota. 
+* Marzo 29 de 2019 a las 7:00 am; enviar a <daalvarez@unal.edu.co>. Sin excepción, por cada **HORA** de retraso en la entrega se rebajará **1.0 unidad** de la nota.
 
 # Fecha y hora de la sustentación
 * Marzo 29 de 2019, a partir de las 7:00 am, de acuerdo con el horario acordado con el profesor.
@@ -41,6 +41,7 @@ Los puntos obligatorios no otorgan unidades, solo las quitan, es decir un progra
 
 ## Puntos opcionales
 * Al principio del juego, el programa pregunta el nombre de los jugadores y utiliza este nombre para referirse al jugador que ganó o perdió (**0.5 unidades**).
+
 * Implementar un menú previo al juego que permite las siguientes opciones (**0.5 unidades** cada una):
   * Persona sola (maneja con las flechas y con las teclas ASDW o asdw).
   * Persona (flechas) vs Persona (maneja con las teclas ASDW o asdw).
@@ -63,7 +64,7 @@ Los puntos obligatorios no otorgan unidades, solo las quitan, es decir un progra
 * Si se come la cápsula debe aparecer en pantalla, cerca al lugar en el que se comió la cápsula, el número de puntos obtenidos: (**1.0 unidad**)
 * El jugador solo tiene como tiempo máximo dos minutos para completar el tablero. En el tablero deben aparecer los segundos faltantes (**1.0 unidad**).
 * Implementar el juego de modo que funcione con joysticks (**1.0 unidad**).
-* Implementación de túneles de modo que la serpiente pase por el borde izquierdo de la pantalla y salga por el derecho y viceversa y que se desplace entre los bordes superior e inferior: (**0.5 unidades**).
+* Implementación de túneles de modo que la serpiente pase por el borde izquierdo de la pantalla y salga por el derecho y viceversa y que se desplace entre los bordes superior e inferior: (**0.5 unidades**). Si la serpiente del computador puede atravesar los túneles se tendrán **2.5 unidades** adicionales.
 * Teclas especiales:
   * Al presionar 'H' o 'h' aparece el manual de instrucciones del juego: (**0.5 unidades**).
   * Implementar el TOP 10 de los mejores jugadores del juego, guardarlo a disco y recuperarlo al iniciar el programa; Al presionar 'T' o 't' se hace una pausa y aparece el top 10 de los mejores jugadores del juego. Obviamente, el programa debe utilizar el nombre real del jugador. (**2.0 unidad**)
