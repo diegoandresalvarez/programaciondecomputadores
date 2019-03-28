@@ -19,7 +19,9 @@ El programa se calificará por objetivos de la siguiente forma:
 ## Puntos obligatorios
 Los puntos obligatorios no otorgan unidades, solo las quitan, es decir un programa que solo tiene los puntos obligatorios tiene una nota de 0.0):
 
-* La serpiente debe conservar su inercia (no se puede detener su movimiento), la serpiente se mueve horizontal/verticalmente utilizando las flechas o las teclas ASDW (**si no se realiza -1.0 unidad**).
+* La serpiente debe conservar su inercia (no se puede detener su movimiento), la serpiente se mueve horizontal/verticalmente utilizando las flechas o las teclas ASDW (**si no se realiza -5.0 unidades**).
+
+* La serpiente que se mueve en modo automático debe moverse de modo tal que se coma la cápsula más cercana; en caso que su movimiento esté dañado **-5.0 unidades**.
 
 * Debe demostrar durante la sustentación que se sabe manejar el depurador (**si no se realiza -5.0 unidades**). En YouTube encontrarán cientos de tutoriales al respecto. Busquen con las palabras clave  `buscando errores python`, `debugger python` y `depurador python`.
   * Para el SPYDER sugiero, adicionalmente, los siguientes tutoriales:
@@ -38,7 +40,7 @@ Los puntos obligatorios no otorgan unidades, solo las quitan, es decir un progra
 * En la parte superior del tablero debe haber un panel donde se muestren las vidas, el puntaje, un cronómetro que indique el tiempo de juego y cualquier otra información de relevancia para el juego (**si no se realiza -1.0 unidad**).
 
 ## Puntos opcionales
-* Implementar un menú previo al juego que permite las siguientes opciones (**0.5 unidades**):
+* Implementar un menú previo al juego que permite las siguientes opciones (**0.5 unidades** cada una):
   * Persona sola (maneja con las flechas y con las teclas ASDW o asdw).
   * Persona (flechas) vs Persona (maneja con las teclas ASDW o asdw).
   * Persona (flechas y teclas ASDW o asdw) vs computador.
