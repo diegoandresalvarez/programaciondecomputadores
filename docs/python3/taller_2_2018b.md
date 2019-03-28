@@ -66,7 +66,7 @@ Los puntos obligatorios no otorgan unidades, solo las quitan, es decir un progra
 * Implementación de túneles de modo que la serpiente pase por el borde izquierdo de la pantalla y salga por el derecho y viceversa y que se desplace entre los bordes superior e inferior: (**0.5 unidades**).
 * Teclas especiales:
   * Al presionar 'H' o 'h' aparece el manual de instrucciones del juego: (**0.5 unidades**).
-  * Implementar el TOP 10 de los mejores jugadores del juego, guardarlo a disco y recuperarlo al iniciar el programa; Al presionar 'T' o 't' se hace una pausa y aparece el top 10 de los mejores jugadores del juego. (**2.0 unidad**)
+  * Implementar el TOP 10 de los mejores jugadores del juego, guardarlo a disco y recuperarlo al iniciar el programa; Al presionar 'T' o 't' se hace una pausa y aparece el top 10 de los mejores jugadores del juego. Obviamente, el programa debe utilizar el nombre real del jugador. (**2.0 unidad**)
   * Implementar una pausa al presionar la tecla espacio. En este caso, detener el cronómetro de juego y reanudarlo una vez se vuelva a presionar la tecla espacio (**0.5 unidades**).
   * Incluirle al juego sonidos: una pista musical al fondo del nivel y efectos especiales cuando la serpiente muere o se come una cápsula (**1.0 unidad**). Cuando se presiona `M` se activa/desactiva la música y los sonidos (**0.5 unidades**).
   * Crear una tecla para la serpiente de cada jugador humano que genere un modo turbo que triplique la velocidad de la serpiente. Dicho modo tendrá una duración máxima de 5 segundos. Y se recargará a una velocidad de 0.1 segundos por cada segundo de juego. Mostrar una barra con un porcentaje que muestre como se carga/descarga dicho modo a medida que se juega (**2.0 unidad**).
