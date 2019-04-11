@@ -132,7 +132,8 @@ Y en los videotutoriales de [Código Facilito](https://codigofacilito.com/videos
 - Tutoriales PYGAME en YOUTUBE:
   - [Código Facilito](https://codigofacilito.com/cursos/pygame)
   - [Chelín Tutorials](http://chelintutorials.blogspot.com/p/pygame.html)
-  - <a href="https://www.youtube.com/playlist?list=PLPOv7bTzpLUsHikz39jnTnL0DYMVFiVt4">Hackers e Ingenieros</a>
+  - [Hackers e Ingenieros](https://www.youtube.com/playlist?list=PLPOv7bTzpLUsHikz39jnTnL0DYMVFiVt4)
+  - [Game Development in Python 3 With PyGame](https://www.youtube.com/playlist?list=PLQVvvaa0QuDdLkP8MrOXLe_rKuf6r80KO)
   
 - Un buen lugar para aprender es [Program Arcade Games](http://programarcadegames.com/).
 
