@@ -176,14 +176,21 @@ Si quieren aprender en verdad a programar intenten ustedes mismos hacer los ejer
 ```python
 import matplotlib.pyplot as plt
 plt.figure()
-plt.plot([0, 60, 120, 180, 240],[1.2, 1.2, 1, 0, 0], linewidth = 6)
-plt.axis([0, 240, -0.05, 1.25])
+plt.plot([0, 160], [1.5, 1.2], linewidth=3, label='Intento 1')
+plt.plot([0, 160], [1.3, 1.0], linewidth=3, label='Intento 2')
+plt.plot([0, 160], [1.1, 0.8], linewidth=3, label='Intento 3')
+plt.plot([0, 160], [0.9, 0.6], linewidth=3, label='Intento 4')
+plt.axis([0, 160, -0.05, 1.55])
 plt.title('Factor de ponderación obtenido en la sustentación', fontsize=16)
 plt.xlabel('Tiempo utilizado para resolver la sustentación (minutos)', fontsize=12)
 plt.ylabel('Factor de ponderación', fontsize=12)
+plt.legend()
 plt.grid()
+plt.savefig("ponderacion_taller1.svg")
 plt.show()
 ```
+
+Habrán 4 intentos para la sustentación. Cada una de ellas durará 160 minutos. En cada intento, el profesor propondrá 3 ejercicios diferentes. La sustentación se considerará aprobada cuando el estudiante resuelva tres de los ejercicios propuestos entre todas las sustentaciones. Por ejemplo usted en el primer intento pudo hacer un ejercicio y en el segundo intento no fue capaz de hacer ningún ejercicio; en el tercer intento hizo dos ejercicios en 80 minutos. Su coeficiente de ponderación será por lo tanto 0.75 ya que así completa los tres ejercicios solicitados.
 
 * La nota del taller estará dada por la siguiente ecuación: 
 ![Imagen](https://i.imgur.com/6O1iVTE.png)
