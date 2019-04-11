@@ -171,7 +171,7 @@ Si quieren aprender en verdad a programar intenten ustedes mismos hacer los ejer
 # Sustentación
 * Habrá sustentación de los ejercicios. La sustentación será un examen basado en los ejercicios presentados (no necesariamente los seleccionados anteriormente). Incluso si se hizo el ejercicio para el taller y funciona bien, pero no se pudo resolver LA TOTALIDAD de los ejercicios en la sustentación, se tendrá una nota en el Taller 1 de CERO. La nota de la sustentación básicamente un coeficiente de ponderación de la nota del trabajo, dado por la siguiente figura:
 
-![Imagen](../imagenes/ponderacion_taller1.png)
+![Imagen](../imagenes/ponderacion_taller1.svg)
 
 ```python
 import matplotlib.pyplot as plt
