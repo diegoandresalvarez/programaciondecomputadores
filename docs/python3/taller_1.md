@@ -169,7 +169,7 @@ Si lo escrito a continuación no se cumple EXACTAMENTE se rebajará una unidad e
 Si quieren aprender en verdad a programar intenten ustedes mismos hacer los ejercicios de forma autónoma (sin ayuda de los compañeros de clase o de alguien más). Por lo tanto <span style="color: #ff0000;">eviten en lo posible los grupos de trabajo</span>. Se prohíbe cualquier tipo de "colaboración" externa. Aprender a programar es como aprender a nadar. Uno no aprende a nadar viendo los campeonatos de natación en la TV. Hay que tirarse al agua para en verdad volverse un nadador. De alguna forma la sustentación es tan estricta porque solo le otorga los puntos obtenidos si usted le muestra al profesor que adquirió la habilidad para programar.
 
 # Sustentación
-* Habrá sustentación de los ejercicios. La sustentación será un examen basado en los ejercicios presentados (no necesariamente los seleccionados anteriormente). Incluso si se hizo el ejercicio para el taller y funciona bien, pero no se pudo resolver LA TOTALIDAD de los ejercicios en la sustentación, se tendrá una nota en el Taller 1 de CERO. La nota de la sustentación básicamente un coeficiente de ponderación de la nota del trabajo, dado por la siguiente figura:
+* Habrá sustentación de los ejercicios. La sustentación será un examen basado en los ejercicios presentados (no necesariamente los seleccionados anteriormente). La nota de la sustentación básicamente un coeficiente de ponderación de la nota del trabajo, dado por la siguiente figura:
 
 ![Imagen](../imagenes/ponderacion_taller1.svg)
 
@@ -189,8 +189,9 @@ plt.grid()
 plt.savefig("ponderacion_taller1.svg")
 plt.show()
 ```
-
 Habrán 4 intentos para la sustentación. Cada una de ellas durará 160 minutos. En cada intento, el profesor propondrá 3 ejercicios diferentes. La sustentación se considerará aprobada cuando el estudiante resuelva tres de los ejercicios propuestos entre todas las sustentaciones. Por ejemplo usted en el primer intento pudo hacer un ejercicio y en el segundo intento no fue capaz de hacer ningún ejercicio; en el tercer intento hizo dos ejercicios en 80 minutos. Su coeficiente de ponderación será por lo tanto 0.75 ya que así completa los tres ejercicios solicitados.
+
+Si en el caso de terminar los 4 intentos, el estudiante solo hizo dos ejercicios, obtendrá un coeficiente de ponderación de 0.4, si hizo un solo ejercicio, obtendrá un coeficiente de ponderación de 0.2 y si no hizo ninguno, obtendrá un coeficiente de ponderación de CERO. En estos tres casos, no podrá presentar el Taller 2 y obtendrá como nota del Taller 2, la misma nota que obtuvo en el Taller 1.
 
 * La nota del taller estará dada por la siguiente ecuación: 
 ![Imagen](https://i.imgur.com/6O1iVTE.png)
