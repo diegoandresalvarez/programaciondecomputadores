@@ -10,21 +10,21 @@
 Se harán exámenes sorpresa que comprenderán el tema/diapositivas enseñadas en las últimas 4 clases y/o el material que el profesor haya puesto a leer antes de clase. Cada 8 clases se seleccionarán al azar 2 de los exámenes realizados en dicho periodo y la nota obtenida será la nota de ese corte. Duración del quiz: 40 minutos.
 
 - Examen 1: 12% (mayo 3 de 2019)
-<details><summary>Haga click para ver el temario para el examen 1</summary>
+  - <details><summary>Haga click para ver el temario para el examen 1</summary>
 <p>
 
-* Todo el libro: [Trejos, Omar. La esencia de la lógica de programación](https://ingenieriadesistemasunc.blogspot.com/2016/11/la-esencia-de-la-logica-de-programacion.html)
-* Aritmética básica con números en base 2 (binarios), 8 (octales) y 16 (hexadecimales). Conversión de estos números a base 10 (decimal) y de base 10 a otras bases. Suma y resta de números en otras bases.
-* Aprender los siguientes conceptos de programación (GOOGLE es tu amigo. No se conformen con las diapositivas):
-  - Arquitectura de un computador
-  - Sistema Operativo
-  - Linux
-  - Qué es un bit, un byte, megabyte, terabyte, etc.
-  - Tipos de lenguajes de programación: lenguaje de máquina, lenguaje ensamblador, lenguaje de bajo nivel, lenguaje de nivel intermedio, lenguaje de alto nivel, comparación entre ellos.
-  - Compiladores (en el contexto de lenguajes de programación)
-  - Intérpretes (en el contexto de lenguajes de programación)
-  - Entorno de desarrollo integrado (IDE Integrated Development Environment)
-  - **NOTA: la pregunta del examen será: escriba todo lo que sabe con respecto al tema _XXX_.**
+  * Todo el libro: [Trejos, Omar. La esencia de la lógica de programación](https://ingenieriadesistemasunc.blogspot.com/2016/11/la-esencia-de-la-logica-de-programacion.html)
+  * Aritmética básica con números en base 2 (binarios), 8 (octales) y 16 (hexadecimales). Conversión de estos números a base 10 (decimal) y de base 10 a otras bases. Suma y resta de números en otras bases.
+  * Aprender los siguientes conceptos de programación (GOOGLE es tu amigo. No se conformen con las diapositivas):
+    - Arquitectura de un computador
+    - Sistema Operativo
+    - Linux
+    - Qué es un bit, un byte, megabyte, terabyte, etc.
+    - Tipos de lenguajes de programación: lenguaje de máquina, lenguaje ensamblador, lenguaje de bajo nivel, lenguaje de nivel intermedio, lenguaje de alto nivel, comparación entre ellos.
+    - Compiladores (en el contexto de lenguajes de programación)
+    - Intérpretes (en el contexto de lenguajes de programación)
+    - Entorno de desarrollo integrado (IDE Integrated Development Environment)
+    - **NOTA: la pregunta del examen será: escriba todo lo que sabe con respecto al tema _XXX_.**
 
 </p>
 </details>
