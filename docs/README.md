@@ -15,6 +15,6 @@ Fuente: <https://www.youtube.com/watch?v=mCDkxUbalCw>
 - [Aprendiendo GNU/LINUX](python3/gnu_linux.md)
 - [Recursos](python3/recursos.md)
 
-# Talleres
+## Talleres
 - [Taller 1 de programación](python3/taller_1.md)
 - [Taller 2 de programación](python3/taller_2_2018b.md)
