@@ -16,5 +16,5 @@ Fuente: <https://www.youtube.com/watch?v=mCDkxUbalCw>
 - [Recursos](python3/recursos.md)
 
 ## Talleres
-- [Taller 1 de programación](python3/taller_1.md)
-- [Taller 2 de programación](python3/taller_2_2018b.md)
+- [Taller 1](python3/taller_1.md)
+- [Taller 2](python3/taller_2_2018b.md)
