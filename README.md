@@ -1,4 +1,4 @@
-# 4200686 - G1 - Programación de computadores aplicados a la ingeniería civil
+# 4200686 - G1 - Programación de computadores aplicada a la ingeniería civil
 
 ![Image](docs/imagenes/steve_jobs_on_computer_programming.jpg)
 Fuente: <https://www.youtube.com/watch?v=mCDkxUbalCw>
