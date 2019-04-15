@@ -105,7 +105,7 @@ Se enseñará Python 3 ya que a diferencia de otros lenguajes de programación c
    - numpy, pygame, sys, etc.
 
 ## Bibliografía
-* [Trejos, Omar. La esencia de la lógica de programación](http://biblioteca.inu.edu.sv/?wpfb_dl=263)
+* [Trejos, Omar. La esencia de la lógica de programación](https://ingenieriadesistemasunc.blogspot.com/2016/11/la-esencia-de-la-logica-de-programacion.html)
 * [Marzal Varó, Andrés; Gracia Luengo, Isabel; García Sevilla, Pedro (2014). Introducción a la programación con Python 3](http://dx.doi.org/10.6035/Sapientia93)
 
 ## Observaciones que se quieren dejar por escrito:
@@ -118,6 +118,6 @@ Siempre que usted falte a un examen, debe haber algún documento que lo exonere 
 
 ### Fraude en los exámenes o trabajos
 Estos se penalizarán así:
-* Nota cero en el trabajo/examen en cuestión
-* Carta a la Dirección del Departamento de Ingeniería Civil reportando el suceso 
+* Nota cero en el trabajo/examen en cuestión.
+* Carta a la Dirección del Departamento de Ingeniería Civil reportando el suceso.
 * Se pierden adicionalmente todos los privilegios que se tienen de una calificación con notas mayores a 5.0 en todas las notas obtenidas en el semestre actual y futuros.
