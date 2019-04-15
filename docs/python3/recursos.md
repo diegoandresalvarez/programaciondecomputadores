@@ -6,7 +6,7 @@
 Muchos de ustedes quisieran aprender a programar, pero lo encuentran muy difícil. La razón, es que antes de aprender a programar, es conveniente leer un libro que enseñe a pensar algorítmicamente. Se recomienda leer por lo tanto el siguiente libro antes de tratar de aprender a programar. Una vez ustedes lo hayan leído y hecho los ejercicios pueden aprender a programar en MATLAB, PYTHON o en C/C++ en cuestión de días.
 
 Libros recomendados:
-* [Trejos, Omar. La esencia de la lógica de programación](http://biblioteca.inu.edu.sv/?wpfb_dl=263)
+* [Trejos, Omar. La esencia de la lógica de programación](https://ingenieriadesistemasunc.blogspot.com/2016/11/la-esencia-de-la-logica-de-programacion.html)
 * [Oviedo, Efrain. Lógica de Programación](http://www.uneweb.com/tutoriales/Logica-de-Programacion-Efrain-Oviedo.pdf) (algunas de las gráficas que faltan en el libro se encuentran [aquí](http://books.google.co.ve/books?id=Z_n5lbyJfrQC&pg=PR3&hl=es&source=gbs_selected_pages&cad=2#v=onepage&q&f=false))
 * [Marzal Varó, Andrés; Gracia Luengo, Isabel; García Sevilla, Pedro (2014). Introducción a la programación con Python 3](http://dx.doi.org/10.6035/Sapientia93)
 
@@ -15,7 +15,7 @@ Libros recomendados:
 * [Oualline, Steve (1992) - C elements of style](http://www.oualline.com/style/index.html)
 
 ## Programas para primiparos en programación
-* <http://pseint.sourceforge.net>
+* <https://es.wikipedia.org/wiki/PSeInt>
 * <http://www.alice.org/index.php>
 * <http://dfd.softonic.com>
 

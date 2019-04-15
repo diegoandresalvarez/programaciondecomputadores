@@ -1,16 +1,38 @@
 # Observaciones generales y temario del curso
 
 ![Caricatura](../imagenes/programmer_vs_nonprogrammer.jpg)
+![Caricatura](../imagenes/programming_is_fun.jpg)
 
 ## Citas para preguntas
 Únicamente solicitándolas previamente, ya sea por correo electrónico o antes/después de la clase.
 
 ## Criterio de evaluación
-- Examen 1: 12%
-- Examen 2: 12%
-- Examen 3: 12%
-- Examen 4: 12%
-- Examen 5: 12%
+Se harán exámenes sorpresa que comprenderán el tema/diapositivas enseñadas en las últimas 4 clases y/o el material que el profesor haya puesto a leer antes de clase. Cada 8 clases se seleccionarán al azar 2 de los exámenes realizados en dicho periodo y la nota obtenida será la nota de ese corte. Duración del quiz: 40 minutos.
+
+- Examen 1: 12% (mayo 3 de 2019)
+<details><summary>Haga click para ver el temario para el examen 1</summary>
+<p>
+
+* Todo el libro: [Trejos, Omar. La esencia de la lógica de programación](https://ingenieriadesistemasunc.blogspot.com/2016/11/la-esencia-de-la-logica-de-programacion.html)
+* Aritmética básica con números en base 2 (binarios), 8 (octales) y 16 (hexadecimales). Conversión de estos números a base 10 (decimal) y de base 10 a otras bases. Suma y resta de números en otras bases.
+* Aprender los siguientes conceptos de programación (GOOGLE es tu amigo. No se conformen con las diapositivas):
+  - Arquitectura de un computador
+  - Sistema Operativo
+  - Linux
+  - Qué es un bit, un byte, megabyte, terabyte, etc.
+  - Tipos de lenguajes de programación: lenguaje de máquina, lenguaje ensamblador, lenguaje de bajo nivel, lenguaje de nivel intermedio, lenguaje de alto nivel, comparación entre ellos.
+  - Compiladores (en el contexto de lenguajes de programación)
+  - Intérpretes (en el contexto de lenguajes de programación)
+  - Entorno de desarrollo integrado (IDE Integrated Development Environment)
+  - **NOTA: la pregunta del examen será: escriba todo lo que sabe con respecto al tema _XXX_.**
+
+</p>
+</details>
+
+- Examen 2: 12% -> Fecha de corte: mayo 10
+- Examen 3: 12% -> Fecha de corte: junio 7
+- Examen 4: 12% -> Fecha de corte: julio 5
+- Examen 5: 12% -> Fecha de corte: agosto 2
 - Taller de programación 1 + sustentación: 20% 
 - Taller de programación 2 + sustentación: 20%
 
