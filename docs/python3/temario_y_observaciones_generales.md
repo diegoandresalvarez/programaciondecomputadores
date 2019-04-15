@@ -29,10 +29,10 @@ Se harán exámenes sorpresa que comprenderán el tema/diapositivas enseñadas e
 </p>
 </details>
 
-- Examen 2: 12% -> Fecha de corte: mayo 10
-- Examen 3: 12% -> Fecha de corte: junio 7
-- Examen 4: 12% -> Fecha de corte: julio 5
-- Examen 5: 12% -> Fecha de corte: agosto 2
+- Examen 2: 12% (fecha de corte: mayo 10 de 2019)
+- Examen 3: 12% (fecha de corte: junio 7 de 2019)
+- Examen 4: 12% (fecha de corte: julio 5 de 2019)
+- Examen 5: 12% (fecha de corte: agosto 2 de 2019)
 - Taller de programación 1 + sustentación: 20% 
 - Taller de programación 2 + sustentación: 20%
 
