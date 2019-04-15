@@ -105,6 +105,7 @@ Se enseñará Python 3 ya que a diferencia de otros lenguajes de programación c
    - numpy, pygame, sys, etc.
 
 ## Bibliografía
+* [Real Python](https://realpython.com/): en mi opinión, uno de los mejores portales sobre el tema.
 * [Trejos, Omar. La esencia de la lógica de programación](https://ingenieriadesistemasunc.blogspot.com/2016/11/la-esencia-de-la-logica-de-programacion.html)
 * [Marzal Varó, Andrés; Gracia Luengo, Isabel; García Sevilla, Pedro (2014). Introducción a la programación con Python 3](http://dx.doi.org/10.6035/Sapientia93)
 
