@@ -101,8 +101,8 @@ Se enseñará Python 3 ya que a diferencia de otros lenguajes de programación c
 7. Tipos definidos por el usuario
    - tuplas, conjuntos, diccionarios
  
-9. Librerías varias de Python
-   - numpy, pygame, sys, etc.
+9. Librerías y utilizades varias de Python
+   - numpy, scipy, pandas, jupyter, pygame, sys, matplotlib, uso del depurador, etc.
 
 ## Bibliografía
 * [Real Python](https://realpython.com/): en mi opinión, uno de los mejores portales sobre el tema.
