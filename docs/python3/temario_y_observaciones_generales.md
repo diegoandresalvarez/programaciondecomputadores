@@ -15,7 +15,7 @@ Se harán exámenes sorpresa que comprenderán el tema/diapositivas enseñadas e
 
 * Todo el libro: [Trejos, Omar. La esencia de la lógica de programación](https://ingenieriadesistemasunc.blogspot.com/2016/11/la-esencia-de-la-logica-de-programacion.html)
 * Aritmética básica con números en base 2 (binarios), 8 (octales) y 16 (hexadecimales). Conversión de estos números a base 10 (decimal) y de base 10 a otras bases. Suma y resta de números en otras bases.
-* Aprender los siguientes conceptos de programación (GOOGLE es tu amigo. No se conformen con las diapositivas):
+* Aprender los siguientes conceptos de programación (GOOGLE es tu amigo. No se conformen con las diapositivas. A continuación pongo algunos videos recomendados):
   - Arquitectura de un computador
     - https://www.youtube.com/watch?v=A2XQiGToQu0
     - https://www.youtube.com/watch?v=8gc_-CxjguQ
@@ -30,7 +30,8 @@ Se harán exámenes sorpresa que comprenderán el tema/diapositivas enseñadas e
   - Intérpretes (en el contexto de lenguajes de programación)
   - Entorno de desarrollo integrado (IDE Integrated Development Environment)
   - **NOTA: la pregunta del examen será: escriba todo lo que sabe con respecto al tema _XXX_.**
-
+* Diapositivas 1
+* Diapositivas 2
 </p>
 </details>
 
