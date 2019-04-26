@@ -2,6 +2,8 @@
 
 Se requiere elaborar una versión del legendario juego [SNAKE](http://es.wikipedia.org/wiki/Snake_(videojuego))  (también conocido como NIBBLES), utilizando como base el archivo [snake.py](../../codigo/python3/juegos/snake.py) y la librería [`pygame`](https://www.pygame.org/).
 
+NOTA: en caso que encuentren un error en el programa suministrado, repórtenlo tan pronto sea posible para corregirlo.
+
 ![Caricatura](http://i1.ytimg.com/vi/UmeKHtei0qo/maxresdefault.jpg)
 
 # Forma de presentación
