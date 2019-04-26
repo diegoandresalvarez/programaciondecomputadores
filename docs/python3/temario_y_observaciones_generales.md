@@ -9,7 +9,7 @@
 ## Criterio de evaluación
 Se harán exámenes sorpresa que comprenderán el tema/diapositivas enseñadas en las últimas 4 clases y/o el material que el profesor haya puesto a leer antes de clase. Cada 8 clases se seleccionarán al azar 2 de los exámenes realizados en dicho periodo y la nota obtenida será la nota de ese corte. Duración del quiz: 40 minutos.
 
-- Examen 1: 12% (mayo 3 de 2019)
+- Examen 1: 15% (mayo 10 de 2019)
 <details><summary>Haga click para ver el temario para el examen 1</summary>
 <p>
 
@@ -17,9 +17,14 @@ Se harán exámenes sorpresa que comprenderán el tema/diapositivas enseñadas e
 * Aritmética básica con números en base 2 (binarios), 8 (octales) y 16 (hexadecimales). Conversión de estos números a base 10 (decimal) y de base 10 a otras bases. Suma y resta de números en otras bases.
 * Aprender los siguientes conceptos de programación (GOOGLE es tu amigo. No se conformen con las diapositivas):
   - Arquitectura de un computador
+    - https://www.youtube.com/watch?v=A2XQiGToQu0
+    - https://www.youtube.com/watch?v=8gc_-CxjguQ
   - Sistema Operativo
+    - https://www.youtube.com/playlist?list=PLH9AYXxUslqocwqqiCz0oQY_oZJH-bF_p (los primeros 2 videos)
   - Linux
+    - https://www.youtube.com/watch?v=hpWQNfei6kc
   - Qué es un bit, un byte, megabyte, terabyte, etc.
+    - https://www.youtube.com/watch?v=thoGwqjPHRM
   - Tipos de lenguajes de programación: lenguaje de máquina, lenguaje ensamblador, lenguaje de bajo nivel, lenguaje de nivel intermedio, lenguaje de alto nivel, comparación entre ellos.
   - Compiladores (en el contexto de lenguajes de programación)
   - Intérpretes (en el contexto de lenguajes de programación)
@@ -29,10 +34,9 @@ Se harán exámenes sorpresa que comprenderán el tema/diapositivas enseñadas e
 </p>
 </details>
 
-- Examen 2: 12% (fecha de corte: mayo 10 de 2019)
-- Examen 3: 12% (fecha de corte: junio 7 de 2019)
-- Examen 4: 12% (fecha de corte: julio 5 de 2019)
-- Examen 5: 12% (fecha de corte: agosto 2 de 2019)
+- Examen 2: 15% (fecha de corte: junio 7 de 2019)
+- Examen 3: 15% (fecha de corte: julio 5 de 2019)
+- Examen 4: 15% (fecha de corte: agosto 2 de 2019)
 - Taller de programación 1 + sustentación: 20% 
 - Taller de programación 2 + sustentación: 20%
 
