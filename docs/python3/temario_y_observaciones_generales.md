@@ -40,7 +40,7 @@ Se harán exámenes sorpresa que comprenderán el tema/diapositivas enseñadas e
 - Taller de programación 1 + sustentación: 20% 
 - Taller de programación 2 + sustentación: 20%
 
-NOTA: a partir del Examen 2, cuando el profesor lo autorice, podrán traer para el examen una hoja tamaño CARTA en la cual ustedes pueden escribir (POR UN SOLO LADO) lo que deseen. Dicha hoja debe ser de elaboración personal (no se pueden traer las hojas hechas por compañeros de este o semestres pasados) y debe hacerse a mano (se prohíbe explícitamente traer fotocopias/impresiones/reducciones). El profesor recogerá la hoja después del examen y, eventualmente, no la devolverá.
+**NOTA:** a partir del Examen 2, cuando el profesor lo autorice, podrán traer para el examen una hoja tamaño CARTA en la cual ustedes pueden escribir (POR UN SOLO LADO) lo que deseen. Dicha hoja debe ser de elaboración personal (no se pueden traer las hojas hechas por compañeros de este o semestres pasados) y debe hacerse a mano (se prohíbe explícitamente traer fotocopias/impresiones/reducciones). El profesor recogerá la hoja después del examen y, eventualmente, no la devolverá.
 
 ## Justificación
 La naturaleza de la profesión del ingeniero requiere hacer cálculos con la ayuda del computador. Si bien el empleo de hojas de cálculo como MS EXCEL es frecuente para esta tarea, dicho tipo de software no es el mejor para realizar tareas complicadas y repetitivas que requieren de toma de decisiones, por lo que se requiere que el estudiante aprenda a utilizar efectivamente un lenguaje de programación. Este es de hecho la única puerta que existe para entender y aplicar efectivamente los algoritmos que se encuentran en las teorías de modernas de la ingeniería.
