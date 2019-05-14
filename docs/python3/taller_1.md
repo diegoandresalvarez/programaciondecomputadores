@@ -5,19 +5,21 @@
 Fuente: <http://xkcd.com/323/>
 
 # Fecha y hora límite de entrega:
-* **Parte 1**: Septiembre 23, 2018 a las 11:59pm 
-* **Parte 2**: ~~Octubre 21, 2018~~ Febrero 3, 2019 a las 11:59pm
-* **Parte 3**: ~~Noviembre 11, 2018~~ Marzo 1, 2019 a las 11:59pm
-* **Parte 4 (opcional)**: ~~Noviembre 18, 2018~~ Marzo 13, 2019 a las 11:59pm. La parte 4 de este taller es opcional y reemplaza la nota más baja de las entregas 1, 2 y 3. Es requisito presentar este taller para poder realizar de nuevo la sustentación.
+* **Parte 1**: Mayo 21, 2018 a las 11:59pm 
+* **Parte 2**: Por definir
+* **Parte 3**: Por definir
+* **Parte 4 (opcional)**: Por definir. La parte 4 de este taller es opcional y reemplaza la nota más baja de las entregas 1, 2 y 3. Es requisito presentar este taller para poder realizar de nuevo la sustentación.
 
 Cada entrega del taller debe enviarse a <daalvarez@unal.edu.co>. Sin excepción, por cada día de retraso en la entrega, se rebajarán 3 décimas de la nota de esa entrega del Taller 1. 
 
 # Los ejercicios a realizar
-- [Taller 1, Parte 1](taller_1_parte_1_2018b.md)
-- [Taller 1, Parte 2](taller_1_parte_2_2018b.md)
-- [Taller 1, Parte 3](taller_1_parte_3_2018b.md)
-- [Taller 1, Parte 4](taller_1_parte_4_2018b.md)
+- [Taller 1, Parte 1](taller_1_parte_1_2019a.md)
 
+<!---
+- [Taller 1, Parte 2](taller_1_parte_2_2019a.md)
+- [Taller 1, Parte 3](taller_1_parte_3_2019a.md)
+- [Taller 1, Parte 4](taller_1_parte_4_2019a.md)
+-->
 <!---
 ## Parte 4
 <details><summary>Haga click para ver la parte 4</summary>
@@ -47,22 +49,17 @@ print("hello world!")
 Si lo escrito a continuación no se cumple EXACTAMENTE se rebajará una unidad en la entrega. Seré estricto con respecto a esto.
 
 * Se deben entregar archivos `.py` empaquetados en un solo archivo `.zip` (no `.rar` u otro formato) y en una única carpeta.
-* La forma de nombrar los archivos será por ejemplo `09_03.py`, lo cual quiere decir que se está entregando el ejercicio 3 del capítulo 9 (observe los ceros). Todos los archivos deben ir en una carpeta cuyo nombre es su código+nombre; algo así como:
+* La forma de nombrar los archivos será por ejemplo `03.py` (observe los ceros). Todos los archivos deben ir en una carpeta cuyo nombre es su código+nombre; algo así como:
 ```
 107011_Pepito_Perez (nombre de la carpeta con guión bajo en vez de espacio)
  |
- |- 07_01.py        (Nombrar de esta forma los archivos del libro de Trejos)
- |- 07_03.py        (OJO al 0 que antecede al 1)
- |- 07_05.py        (observe que son dos dígitos no tres)
- |- 07_07.py
- |- 07_09.py
- |- ...
- |- OVI_011.py      (Nombrar de esta forma los archivos del libro de Oviedo)
- |- OVI_013.py
- |- ...
- |- MGG_090.py      (Nombrar de esta forma los archivos del libro de Marzal-Gracia-García)
- |- MGG_091.py      (OJO al 0 que antecede al 9)
- \- MGG_130.py      (observe que son tres dígitos)
+ |- 01.py       
+ |- 02.py        (OJO al 0 que antecede al 1)
+ |- 03.py      
+ | ...
+ |- 18.py
+ |- 19.py      
+ \- 20.py      
 ```
 
 # Criterios de calificación
