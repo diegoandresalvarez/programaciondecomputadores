@@ -1,12 +1,13 @@
 # Taller 1, Parte 1: 20 ejercicios
 * No utilizar en la solución de estos problemas listas.
 * No convertir los números a cadenas para poderlos descomponer.
-* Cuando se pregunta por ejemplo un número entero de tres dígitos, se está refiriendo a los números enteros -999, -998, ..., -2, -1, 0, 1, 2, ..., 998 y 999.
+* Cuando se pregunta por ejemplo un número entero de tres dígitos, se está refiriendo a los números enteros -999, -998, ..., -101, -100, 100, 101, ..., 998 y 999.
+* Cuando se pregunta por ejemplo un número entero de máximo tres dígitos, se está refiriendo a los números enteros -999, -998, ..., -2, -1, 0, 1, 2, ..., 998 y 999.
 * Los números primos son los números naturales 2, 3, 5, 7, 11, 13, 17, 19, 23, ...
 * La serie de Fibonacci está dada por: 0, 1, 1, 2, 3, 5, 8, 13, 21, ...
 * Tener en cuenta que muchos de los ejercicios solicitan cálculos sobre los números enteros; no sobre los números naturales; por lo tanto es necesario tener en cuenta los números enteros negativos, cuando sea del caso.
 * Se dice que 3, 4, 5 y 6 son los números enteros comprendidos entre el 3 y el 6.
-* Del número 349857 se puede decir que el 1 es su primer dígito, el 4 es su segundo dígito, el 5 es su penúltimo dígito y el 7 es su último dígito.
+* Del número 349857 se puede decir que el 3 es su primer dígito, el 4 es su segundo dígito, el 5 es su penúltimo dígito y el 7 es su último dígito.
  
 ---
 
