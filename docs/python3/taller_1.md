@@ -85,7 +85,7 @@ Si lo escrito a continuación no se cumple EXACTAMENTE se rebajará una unidad e
   * Se deben alinear los comentarios, cuando estos se encuentren en filas consecutivas.  
 
 * Cualquier violación a las siguientes reglas o si el programa hace una de las cosas nombradas a continuación se descontarán **20%** en la nota obtenida del ejercicio:
-  * Independientemente del libro y del capítulo del libro, utilizar siempre funciones para realizar actividades como detectar el primer dígito, verificar si un número entero es primo, verificar si un número entero es Fibonacci, etc.
+  * Independientemente del ejercicio, utilizar siempre funciones para realizar actividades como detectar el primer dígito, verificar si un número entero es primo, verificar si un número entero es Fibonacci, etc.
   * Cuando utilice funciones, estas deben retornar algún valor; el único lugar donde está permitido imprimir los resultados es en el bloque principal del programa. Se exceptúa el caso que se hace una función que explícitamente está diseñada para imprimir resultados o datos, algo así como `imprimir_matriz(M)`.
   * No se deben utilizar de nombres de identificadores (variables, funciones, listas, etc) inapropiados o sin mucho sentido para quien lo lee (a excepción del programador) y sin comentarios apropiados.  
   * El programa no debe imprimir información sin contexto alguno.
