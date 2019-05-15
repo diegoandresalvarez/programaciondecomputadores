@@ -13,52 +13,52 @@
 
 ## Decisiones y ciclos
 
-## `01.py`
+### `01.py`
 Leer un número entero de 3 dígitos y determinar si contiene el dígito 1.
 
-## `02.py`
+### `02.py`
 Leer un número entero de seis dígitos y determinar si el segundo dígito es igual al penúltimo.
 
-## `03.py`
+### `03.py`
 Lea un número entero positivo y determine la suma de sus dígitos pares.
 
-## `04.py`
+### `04.py`
 Lea un número entero positivo de máximo 5 dígitos y determine cual de sus dígitos es el mayor.
 
-## `05.py`
+### `05.py`
 Leer tres números enteros y determinar si el penúltimo dígito de los tres números es igual.
 
-## `06.py`
+### `06.py`
 Leer dos números enteros y determinar si la diferencia entre los dos es un número primo.
 
-## `07.py`
+### `07.py`
 Lea un número entero positivo y determine si existen en el número dígitos repetidos. Reporte cuales son los dígitos repetidos.
 
-## `08.py`
+### `08.py`
 Leer un número entero y determinar si la suma de sus dígitos es un número de Fibonacci.
 
-## `09.py`
+### `09.py`
 Leer un número entero y determine el número de cincos que están consecutivos en un número. Por ejemplo, en 5512355551 hay 6 cincos consecutivos.
 
-## `10.py`
+### `10.py`
 10. Escriba un programa que lea un número *n* y calcule la suma de los números de múltiplos de 3 desde 0 hasta *n* utilizando: 
    * a) un ciclo **para**; 
    * b) un ciclo **mientras**; 
    * c) un ciclo **repita-hasta que**.
 
-## `11.py`
+### `11.py`
 Escriba un programa que lea un número de días y lo convierta a semanas (7 días), meses (30 días) y años (365 días). Por ejemplo 1234 representa 3 años, 4 meses y 19 días. Resuelva este ejercicio utilizando los operadores `//`, `%` y/o la función `divmod()`. Vuelva a resolver el ejercicio sin utilizar dichos comandos.
 
-## `12.py`
+### `12.py`
 Sin utilizar las funcionalidades de fechas de PYTHON, haga un programa que lea una fecha entre Enero 1 de 2000 y Mayo 7 de 2019 y determine el número de días desde ese día hasta Enero 1 de 2020. Tenga en cuenta los años bisiestos.
 
-## `13.py`
+### `13.py`
 Los números naturales entre 1 y 10 que son múltiplos de 3 y 5 son 3, 5, 6 y 9. La suma de dichos dígitos es 23. Calcule la suma de todos los múltiplos de 3 y 5 que hay entre 101 y 1001.
 
-## `14.py`
+### `14.py`
 Haga un programa que lea las coordenadas *(x1,y1,r1)* y *(x2,y2,r2)* que corresponden al centro y al radio de dos círculos. Lea un punto de coordenadas *(a,b)*. Determina si *(a,b)* está contenido dentro del círculo 1, dentro del círculo 2 o dentro de ambos círculos.
 
-## `15.py`
+### `15.py`
 Lea una matriz cuadrada y determine su traza y el promedio de los números en ella contenida. Recuerde que no puede utilizar listas para la solución de este problema. Tampoco puede utilizar el módulo `numpy` o similares.
 
 ---
@@ -99,3 +99,5 @@ Escriba un programa que lea una cadena de texto y la imprima como un triángulo.
 deellosnoserealizó-
    ElPrincipito
 ```
+
+Observe que la última cadena queda centrada con respecto a la base del triángulo.
