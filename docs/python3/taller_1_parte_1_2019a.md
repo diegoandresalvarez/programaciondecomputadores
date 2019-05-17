@@ -47,7 +47,7 @@ Escriba un programa que lea un número *n* y calcule la suma de los números de 
    * c) un ciclo **repita-hasta que**.
 
 ### `11.py`
-Escriba un programa que lea un número de días y lo convierta a semanas (7 días), meses (30 días) y años (365 días). Por ejemplo 1234 representa 3 años, 4 meses y 19 días. Resuelva este ejercicio utilizando los operadores `//`, `%` y/o la función `divmod()`. Vuelva a resolver el ejercicio sin utilizar dichos comandos.
+Escriba un programa que lea un número de días y lo convierta a días, semanas (7 días), meses (30 días) y años (365 días). Por ejemplo 1234 representa 3 años, 4 meses, 2 semanas y 5 días. Resuelva este ejercicio utilizando los operadores `//`, `%` y/o la función `divmod()`. Vuelva a resolver el ejercicio sin utilizar dichos comandos.
 
 ### `12.py`
 Sin utilizar las funcionalidades de fechas de PYTHON, haga un programa que lea una fecha entre Enero 1 de 2000 y Mayo 7 de 2019 y determine el número de días desde ese día hasta Enero 1 de 2020. Tenga en cuenta los años bisiestos.
@@ -67,7 +67,7 @@ Lea una matriz cuadrada y determine su traza y el promedio de los números en el
 ## Cadenas
 
 ### `16.py`
-Haga un programa que lea una cadena de texto e informe al usuario cuales son las palabras más largas y mas cortas en dicho texto.
+Haga un programa que lea una cadena de texto e informe al usuario cuales son las palabras más largas y mas cortas en dicho texto. NOTA: no se puede utilizar el comando `split()` ya que este utiliza listas y las listas no están permitidas para este taller.
 
 ### `17.py`
 Sin utilizar el método `.upper()` para cadenas, escriba un programa que lea una cadena de texto y la imprima en mayúscula. Tenga en cuenta que el programa debe aceptar las letras con tilde, la ñ y la ü.
