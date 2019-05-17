@@ -57,9 +57,10 @@ Los números naturales entre 1 y 10 que son múltiplos de 3 y 5 son 3, 5, 6 y 9.
 
 ### `14.py`
 Haga un programa que lea las coordenadas *(x1,y1,r1)* y *(x2,y2,r2)* que corresponden al centro y al radio de dos círculos. Lea un punto de coordenadas *(a,b)*. Determina si *(a,b)* está contenido:
-  * sobre la circunferencia del círculo 1 o dentro del círculo 1
-  * sobre la circunferencia del círculo 2 o dentro del círculo 2 
-  * sobre la intersección de ambas circunferencias o dentro de ambos círculos
+  * dentro del círculo 1;
+  * dentro del círculo 2;
+  * dentro de ambos círculos.
+  Recordemos que el *círculo* es la región del plano delimitada por una circunferencia. Para este ejercicio, dicha área incluirá la circunferencia.
 
 ### `15.py`
 Lea una matriz cuadrada y determine su traza y el promedio de los números en ella contenida. Recuerde que no puede utilizar listas para la solución de este problema. Tampoco puede utilizar el módulo `numpy` o similares.
