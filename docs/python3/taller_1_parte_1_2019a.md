@@ -1,5 +1,5 @@
 # Taller 1, Parte 1: 20 ejercicios
-* No utilizar en la solución de estos problemas listas.
+* No utilizar en la solución de estos problemas listas (pero si se pueden utilizar tuplas).
 * No convertir los números a cadenas para poderlos descomponer.
 * Cuando se pregunta por ejemplo un número entero de tres dígitos, se está refiriendo a los números enteros -999, -998, ..., -101, -100, 100, 101, ..., 998 y 999.
 * Cuando se pregunta por ejemplo un número entero de máximo tres dígitos, se está refiriendo a los números enteros -999, -998, ..., -2, -1, 0, 1, 2, ..., 998 y 999.
