@@ -29,7 +29,7 @@ Lea un número entero positivo de máximo 5 dígitos y determine cual de sus dí
 Leer tres números enteros y determinar si el penúltimo dígito de los tres números es igual.
 
 ### `06.py`
-Leer dos números enteros y determinar si la diferencia entre los dos es un número primo.
+Leer dos números enteros y determinar si la magnitud de la diferencia entre los dos es un número primo.
 
 ### `07.py`
 Lea un número entero positivo y determine si existen en el número dígitos repetidos. Reporte cuales son los dígitos repetidos.
@@ -38,7 +38,7 @@ Lea un número entero positivo y determine si existen en el número dígitos rep
 Leer un número entero y determinar si la suma de sus dígitos es un número de Fibonacci.
 
 ### `09.py`
-Leer un número entero y determine el número de cincos que están consecutivos en un número. Por ejemplo, en 5512355551 hay 6 cincos consecutivos.
+Leer un número entero y determine el número de cincos que están consecutivos en un número. Por ejemplo, en 5512355551 hay 6 cincos consecutivos. Ahora, en 234555234512 solo hay 3 cincos consecutivos.
 
 ### `10.py`
 10. Escriba un programa que lea un número *n* y calcule la suma de los números de múltiplos de 3 desde 0 hasta *n* utilizando: 
