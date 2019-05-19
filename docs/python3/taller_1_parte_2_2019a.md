@@ -124,16 +124,17 @@ Cree una función que retorne listas con las coordenadas (x_i, y_i) de los nodos
 dichas coordenadas deben estar especificadas en sentido antihorario. Uno de los parámetros de la figura son las coordenadas (x0,y0) del origen de coordenadas.
 
 Adicionalmente, implemente funciones que calculen:
+* el perímetro
 * el área A
 * la posición del centro de gravedad: (Cx, Cy)
 * los segundos momentos de inercia: Ix, Iy, Ixy
 
 de un polígono; para tal fin utilice las ecuaciones especificadas en los siguientes enlaces:
-* http://richardson.eng.ua.edu/Former_Courses/CE_331_fa09/Projects/A_and_I_of_Polygon.pdf
+* Hally, David (1987). [Calculation of the Moments of Polygons](https://apps.dtic.mil/dtic/tr/fulltext/u2/a183444.pdf). (Technical report). Canadian National Defense. Technical Memorandum 87/209.
 * https://en.wikipedia.org/wiki/Polygon#Area
 * https://en.wikipedia.org/wiki/Polygon#Centroid
 * https://en.wikipedia.org/wiki/Second_moment_of_area#Any_polygon
 
-Haga un programa que le pregunte al usuario las dimensiones asociadas a la figura anterior y las coordenadas (x0,y0) correpondientes a la esquina inferior izquierda de la figura; todas esas dimensiones estarán especificadas en centímetros. Finalmente, grafíque el polígono utilizando `matplotlib`. Ubique en ella la posición del centro de gravedad, los ejes y las medidas mostradas en la figura. Imprima en la misma figura el área, las coordenadas del centro de gravedad y los segundos momentos de inercia estimados con respecto a las coordenadas (x0,y0).
+Haga un programa que le pregunte al usuario las dimensiones asociadas a la figura anterior y las coordenadas (x0,y0) correpondientes a la esquina inferior izquierda de la figura; todas esas dimensiones estarán especificadas en centímetros. Finalmente, grafíque el polígono utilizando `matplotlib`. Ubique en ella la posición del centro de gravedad, los ejes y las medidas mostradas en la figura. Imprima en la misma figura el perímetro, área, las coordenadas del centro de gravedad y los segundos momentos de inercia estimados con respecto a las coordenadas (x0,y0).
 
 Si lo desea, para el cálculo anterior puede utilizar el módulo `numpy`.
