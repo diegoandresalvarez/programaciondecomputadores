@@ -138,7 +138,8 @@ Si lo escrito a continuación no se cumple EXACTAMENTE se rebajará una unidad e
     * Todas las funciones deben tener un docstring asociado. Estas deben estar contenidas entre `'''` y `'''`. Las `'''` deben ir en reglones separados y estar perfectamente lineadas.  
     * No se debe mezclar o alternar las definiciones de función, importación de módulos y sentencias del programa principal.
     * El programa se debe escribir con secciones perfectamente definidas. Por ejemplo, una sección de entrada de datos, otra de procesamiento de datos y otra de presentación de resultados. Estas secciones se pueden mezclar únicamente cuando la legibilidad del programa se mejore.  
-    * No se debe usar la palabra reservada `pass` "indiscriminadamente". Si se utiliza en ciertas construcciones con el objeto de mejorar la claridad del código, esa bien.      
+    * No se debe usar la palabra reservada `pass` "indiscriminadamente". Si se utiliza en ciertas construcciones con el objeto de mejorar la claridad del código, esa bien.
+    * Todo bloque `try`-`except` debe especificar explícitamente el tipo de excepción que desea capturar.
 
   * REGLAS VALIDAS A PARTIR DE LA *TERCERA ENTREGA*:
     * No escribir código innecesario.
@@ -196,8 +197,10 @@ Si en el caso de terminar los 4 intentos, el estudiante solo hizo dos ejercicios
 Asumiendo que Nota 1, Nota 2 y Nota 3 se evalúan sobre 5.0. Con el factor de ponderación de la sustentación, podría obtenerse una nota mayor.
 
 ## Fecha y hora de la sustentación
-* Oportunidad 1: Marzo 1 de 2019, 6:00am.
-* Oportunidad 2: Marzo 8 de 2019, 6:00am (fecha y hora tentativa).
+* Intento 1: POR DEFINIR.
+* Intento 2: POR DEFINIR
+* Intento 3: POR DEFINIR
+* Intento 4: POR DEFINIR
 
 # Nota con respecto al Taller 2
 Para poder presentar el Taller 2 se deberán cumplir el siguiente requisito:
