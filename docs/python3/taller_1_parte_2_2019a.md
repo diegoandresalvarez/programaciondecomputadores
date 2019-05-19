@@ -72,10 +72,10 @@ el vector solicitado es el `[26, 85, 51, 63, 45, 40, 63, 59, 99, 95, 12, 88, 73,
 Lea una matriz cuadrada A, obtenga su [matriz triangular superior](https://es.wikipedia.org/wiki/Matriz_triangular) asociada U y determine qué fila de U contiene la mayor cantidad de unos.
 
 ### `08.py`
-Lea una matriz y determine cual es el número que más se repite en ella. Identifique las posiciones en las cuales se encuentra dicho número. Para tal fin utilice el comando `.index()`
+Lea una matriz y determine cual es el número que más se repite en ella. Identifique las posiciones en las cuales se encuentra dicho número. Para tal fin utilice el método `index()` de listas.
 
 ### `09.py`
-Lea una lista e identifique la sublista más larga dentro de dicha lista que se encuentra ordernada ascendentemente. Imprima dicha sublista. Por ejemplo en la lista `[5, 6, 5, 1, 2, 6, 9, 2, 4, 1]` la mayor sublista ordenada es la `[1, 2, 6, 9]`.
+Lea una lista e identifique la sublista más larga dentro de dicha lista que se encuentra ordernada ascendentemente. Por ejemplo en la lista `[5, 6, 5, 1, 2, 6, 9, 2, 4, 1]` la mayor sublista ordenada es la `[1, 2, 6, 9]`.
 
 ### `10.py`
 Haga un programa que lea una matriz y la rote 90 grados en sentido antihorario. Imprima la matriz resultante. Por ejemplo, dada la matriz
@@ -96,7 +96,7 @@ la matriz solicitada es la:
 Repita el mismo ejercicio utilizando el módulo `numpy`.
 
 ### `11.py` (tiene una probabilidad dos veces más alta de salir)
-Haga un programa que lea n parejas de coordenadas (x_i, y_i) y calcule el correspondiente [polinomio de Lagrange](https://en.wikipedia.org/wiki/Lagrange_polynomial) que pasa por dichos puntos. Grafique dicho polinomio y los puntos leídos utilizando el módulo `matplotlib`. Investigue que funciones de interpolación tiene python en sus módulos `numpy` y `scipy` y utilice el comando `legend()` de `matplotlib` para comparar gráficamente las diferentes interpolaciones con dichos puntos.
+Haga un programa que lea n parejas de coordenadas (x_i, y_i) y calcule el correspondiente [polinomio de Lagrange](https://en.wikipedia.org/wiki/Lagrange_polynomial) que pasa por dichos puntos. Grafique dicho polinomio y los puntos leídos utilizando el módulo `matplotlib`. Investigue que funciones de interpolación tiene python en sus módulos `numpy` y `scipy` y utilice el comando `legend()` de `matplotlib` para comparar gráficamente las diferentes interpolaciones con dichos puntos. ¿Cuál de todos esos algoritmos, cree usted, que provee la mejor interpolación de los datos? Aprenda a utilizar dichas funciones leyendo la documentación.
 
 
 ## Funciones
@@ -117,22 +117,23 @@ Lea una cadena de texto que contenga paréntesis, corchetes y llaves. Verifique 
 Cree un programa que mediante una función recursiva invierta una cadena de texto entrada por el usuario.
 
 ### `17.py` (tiene una probabilidad tres veces más alta de salir)
-Implemente funciones que calculen:
-* el área A
-* la posición del centro de gravedad: (Cx, Cy)
-* los segundos momentos de inercia: Ix, Iy, Ixy
-de la figura mostrada:
+Cree una función que retorne listas con las coordenadas (x_i, y_i) de los nodos del polígono mostrado teniendo como base las variables dimensiones de la figura:
 
 <img src="https://www.engineeringtoolbox.com/docs/documents/1328/geometric_sections_nonsymmetrical_shape-Model.png" width="500">
 
-para tal fin utilice las ecuaciones especificadas en los siguientes enlaces:
+dichas coordenadas deben estar especificadas en sentido antihorario. Uno de los parámetros de la figura son las coordenadas (x0,y0) del origen de coordenadas.
+
+Adicionalmente, implemente funciones que calculen:
+* el área A
+* la posición del centro de gravedad: (Cx, Cy)
+* los segundos momentos de inercia: Ix, Iy, Ixy
+
+de un polígono; para tal fin utilice las ecuaciones especificadas en los siguientes enlaces:
 * http://richardson.eng.ua.edu/Former_Courses/CE_331_fa09/Projects/A_and_I_of_Polygon.pdf
 * https://en.wikipedia.org/wiki/Polygon#Area
 * https://en.wikipedia.org/wiki/Polygon#Centroid
 * https://en.wikipedia.org/wiki/Second_moment_of_area#Any_polygon
 
-Cree adicionalmente otra función que grafique retorne listas con las coordenadas (x_i, y_i) de los nodos de la región. 
-
-Finalmente, grafiquela utilizando `matplotlib`. Ubique en ella la posición del centro de gravedad. Asuma que el borde inferior izquierdo tiene coordenadas (0,0).
+Finalmente, grafíque el polígono utilizando `matplotlib`. Ubique en ella la posición del centro de gravedad. Asuma que el borde inferior izquierdo tiene coordenadas (x0,y0) especificadas por el usuario e imprima en la misma figura el área, las coordenadas del centro de gravedad y los segundos momentos de inercia estimados con respecto a las coordenadas (x0,y0).
 
 Si lo desea, para el cálculo anterior puede utilzar el módulo `numpy`.
