@@ -127,7 +127,8 @@ Adicionalmente, implemente funciones que calculen:
 * el perímetro
 * el área A
 * la posición del centro de gravedad: (Cx, Cy)
-* los segundos momentos de inercia: Ix, Iy, Ixy
+* los primeros momentos de área: Qx, Qy
+* los segundos momentos de área (o inercia): Ix, Iy, Ixy
 
 de un polígono; para tal fin utilice las ecuaciones especificadas en los siguientes enlaces:
 * Hally, David (1987). [Calculation of the Moments of Polygons](https://apps.dtic.mil/dtic/tr/fulltext/u2/a183444.pdf). (Technical report). Canadian National Defense. Technical Memorandum 87/209.
