@@ -134,6 +134,6 @@ de un polígono; para tal fin utilice las ecuaciones especificadas en los siguie
 * https://en.wikipedia.org/wiki/Polygon#Centroid
 * https://en.wikipedia.org/wiki/Second_moment_of_area#Any_polygon
 
-Finalmente, grafíque el polígono utilizando `matplotlib`. Ubique en ella la posición del centro de gravedad. Asuma que el borde inferior izquierdo tiene coordenadas (x0,y0) especificadas por el usuario e imprima en la misma figura el área, las coordenadas del centro de gravedad y los segundos momentos de inercia estimados con respecto a las coordenadas (x0,y0).
+Finalmente, grafíque el polígono utilizando `matplotlib`. Ubique en ella la posición del centro de gravedad y las medidas entradas por el usuario. Asuma que el borde inferior izquierdo tiene coordenadas (x0,y0) especificadas por el usuario e imprima en la misma figura el área, las coordenadas del centro de gravedad y los segundos momentos de inercia estimados con respecto a las coordenadas (x0,y0).
 
 Si lo desea, para el cálculo anterior puede utilzar el módulo `numpy`.
