@@ -75,7 +75,7 @@ Lea una matriz cuadrada A, obtenga su [matriz triangular superior](https://es.wi
 Lea una matriz y determine cual es el número que más se repite en ella. Identifique las posiciones en las cuales se encuentra dicho número. Para tal fin utilice el método `index()` de listas.
 
 ### `09.py`
-Lea una lista e identifique la sublista más larga dentro de dicha lista que se encuentra ordernada ascendentemente. Por ejemplo en la lista `[5, 6, 5, 1, 2, 6, 9, 2, 4, 1]` la mayor sublista ordenada es la `[1, 2, 6, 9]`.
+Lea una lista e identifique la sublista más larga dentro de dicha lista que se encuentra ordenada ascendentemente. Por ejemplo en la lista `[5, 6, 5, 1, 2, 6, 9, 2, 4, 1]` la mayor sublista ordenada es la `[1, 2, 6, 9]`.
 
 ### `10.py`
 Haga un programa que lea una matriz y la rote 90 grados en sentido antihorario. Imprima la matriz resultante. Por ejemplo, dada la matriz
@@ -134,6 +134,6 @@ de un polígono; para tal fin utilice las ecuaciones especificadas en los siguie
 * https://en.wikipedia.org/wiki/Polygon#Centroid
 * https://en.wikipedia.org/wiki/Second_moment_of_area#Any_polygon
 
-Finalmente, grafíque el polígono utilizando `matplotlib`. Ubique en ella la posición del centro de gravedad y las medidas entradas por el usuario. Asuma que el borde inferior izquierdo tiene coordenadas (x0,y0) especificadas por el usuario e imprima en la misma figura el área, las coordenadas del centro de gravedad y los segundos momentos de inercia estimados con respecto a las coordenadas (x0,y0).
+Haga un programa que le pregunte al usuario las dimensiones asociadas a la figura anterior y las coordenadas (x0,y0) correpondientes a la esquina inferior izquierda de la figura. Finalmente, grafíque el polígono utilizando `matplotlib`. Ubique en ella la posición del centro de gravedad, los ejes y las medidas mostradas en la figura. Imprima en la misma figura el área, las coordenadas del centro de gravedad y los segundos momentos de inercia estimados con respecto a las coordenadas (x0,y0).
 
-Si lo desea, para el cálculo anterior puede utilzar el módulo `numpy`.
+Si lo desea, para el cálculo anterior puede utilizar el módulo `numpy`.
