@@ -53,7 +53,7 @@ Escriba un programa que lea un número de días (número entero no negativo) y l
 Sin utilizar las funcionalidades de fechas de PYTHON, haga un programa que lea una fecha entre Enero 1 de 2000 y Mayo 7 de 2019 y determine el número de días desde ese día hasta Enero 1 de 2020. Tenga en cuenta los años bisiestos.
 
 ### `13.py`
-Los números naturales entre 1 y 10 que son múltiplos de 3 y 5 son 3, 5, 6 y 9. La suma de dichos dígitos es 23. Calcule la suma de todos los múltiplos de 3 y 5 que hay entre 101 y 1001.
+Calcule la suma de todos los múltiplos de 3 y de 5 que hay entre 101 y 1001. Tenga en cuenta que los números naturales entre 1 y 15 que son múltiplos de 3 y de 5 son 3, 5, 6 y 9, 12 y 15. La suma de dichos dígitos es 50. Adicionalmente, note que aunque 15 es múltiplo tanto de 3 como de 5 se sumo una única vez.
 
 ### `14.py`
 Haga un programa que lea las coordenadas *(x1,y1,r1)* y *(x2,y2,r2)* que corresponden al centro y al radio de dos círculos. Lea un punto de coordenadas *(a,b)*. Determina si *(a,b)* está contenido: a) dentro del círculo 1; b) dentro del círculo 2; c) dentro de ambos círculos; d) fuera de ambos círculos. Recordemos que el *círculo* es el lugar geométrico de los puntos del plano cuya distancia a otro punto fijo, llamado centro, es menor o igual que una cantidad constante, llamada radio.
