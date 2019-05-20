@@ -41,7 +41,7 @@ Leer un número entero y determinar si la suma de sus dígitos es un número de 
 Leer un número entero y determine el número de cincos que están consecutivos en un número. Por ejemplo, en `5512355551` hay 6 cincos consecutivos. Ahora, en `234555234512` solo hay 3 cincos consecutivos.
 
 ### `10.py`
-Escriba un programa que lea un número entero *n* y calcule la suma de los números de múltiplos de 3 desde 0 hasta *n* utilizando: 
+Escriba un programa que lea un número natural *n* y calcule la suma de los números de múltiplos de 3 desde 0 hasta *n* utilizando: 
    * a) un ciclo **para**; 
    * b) un ciclo **mientras**; 
    * c) un ciclo **repita-hasta que**.
@@ -56,7 +56,7 @@ Sin utilizar las funcionalidades de fechas de PYTHON, haga un programa que lea u
 Los números naturales entre 1 y 10 que son múltiplos de 3 y 5 son 3, 5, 6 y 9. La suma de dichos dígitos es 23. Calcule la suma de todos los múltiplos de 3 y 5 que hay entre 101 y 1001.
 
 ### `14.py`
-Haga un programa que lea las coordenadas *(x1,y1,r1)* y *(x2,y2,r2)* que corresponden al centro y al radio de dos círculos. Lea un punto de coordenadas *(a,b)*. Determina si *(a,b)* está contenido: a) dentro del círculo 1; b) dentro del círculo 2; c) dentro de ambos círculos. Recordemos que el *círculo* es el lugar geométrico de los puntos del plano cuya distancia a otro punto fijo, llamado centro, es menor o igual que una cantidad constante, llamada radio.
+Haga un programa que lea las coordenadas *(x1,y1,r1)* y *(x2,y2,r2)* que corresponden al centro y al radio de dos círculos. Lea un punto de coordenadas *(a,b)*. Determina si *(a,b)* está contenido: a) dentro del círculo 1; b) dentro del círculo 2; c) dentro de ambos círculos; d) fuera de ambos círculos. Recordemos que el *círculo* es el lugar geométrico de los puntos del plano cuya distancia a otro punto fijo, llamado centro, es menor o igual que una cantidad constante, llamada radio.
 
 
 ### `15.py`
