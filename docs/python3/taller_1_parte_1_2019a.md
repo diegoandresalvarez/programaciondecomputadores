@@ -41,13 +41,13 @@ Leer un número entero y determinar si la suma de sus dígitos es un número de 
 Leer un número entero y determine el número de cincos que están consecutivos en un número. Por ejemplo, en `5512355551` hay 6 cincos consecutivos. Ahora, en `234555234512` solo hay 3 cincos consecutivos.
 
 ### `10.py`
-Escriba un programa que lea un número *n* y calcule la suma de los números de múltiplos de 3 desde 0 hasta *n* utilizando: 
+Escriba un programa que lea un número entero *n* y calcule la suma de los números de múltiplos de 3 desde 0 hasta *n* utilizando: 
    * a) un ciclo **para**; 
    * b) un ciclo **mientras**; 
    * c) un ciclo **repita-hasta que**.
 
 ### `11.py`
-Escriba un programa que lea un número de días y lo convierta a días, semanas (7 días), meses (30 días) y años (365 días). Por ejemplo 1234 representa 3 años, 4 meses, 2 semanas y 5 días. Resuelva este ejercicio utilizando los operadores `//`, `%` y/o la función `divmod()`. Vuelva a resolver el ejercicio sin utilizar dichos comandos.
+Escriba un programa que lea un número de días (número entero no negativo) y lo convierta a días, semanas (7 días), meses (30 días) y años (365 días). Por ejemplo 1234 representa 3 años, 4 meses, 2 semanas y 5 días. Resuelva este ejercicio utilizando los operadores `//`, `%` y/o la función `divmod()`. Vuelva a resolver el ejercicio sin utilizar dichos comandos.
 
 ### `12.py`
 Sin utilizar las funcionalidades de fechas de PYTHON, haga un programa que lea una fecha entre Enero 1 de 2000 y Mayo 7 de 2019 y determine el número de días desde ese día hasta Enero 1 de 2020. Tenga en cuenta los años bisiestos.
