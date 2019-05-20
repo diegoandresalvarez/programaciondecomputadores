@@ -6,7 +6,7 @@ Fuente: <http://xkcd.com/323/>
 
 # Fecha y hora límite de entrega:
 * **Parte 1**: Mayo 23, 2019 a las 11:59pm 
-* **Parte 2**: Por definir
+* **Parte 2**: Junio 9, 2019 a las 11:59pm 
 * **Parte 3**: Por definir
 * **Parte 4 (opcional)**: Por definir. La parte 4 de este taller es opcional y reemplaza la nota más baja de las entregas 1, 2 y 3. Es requisito presentar este taller para poder realizar de nuevo la sustentación.
 
@@ -14,9 +14,9 @@ Cada entrega del taller debe enviarse a <daalvarez@unal.edu.co>. Sin excepción,
 
 # Los ejercicios a realizar
 - [Taller 1, Parte 1](taller_1_parte_1_2019a.md)
+- [Taller 1, Parte 2](taller_1_parte_2_2019a.md)
 
 <!---
-- [Taller 1, Parte 2](taller_1_parte_2_2019a.md)
 - [Taller 1, Parte 3](taller_1_parte_3_2019a.md)
 - [Taller 1, Parte 4](taller_1_parte_4_2019a.md)
 -->
