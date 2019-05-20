@@ -105,7 +105,7 @@ Haga un programa que lea n parejas de coordenadas (x_i, y_i) y calcule el corres
 Haga un programa que lea dos cadenas de texto y determine cual es la subcadena más larga común a ambas cadenas de texto.
 
 ### `13.py`
-Cree una función que haga lo mismo que el método `index()` de listas.
+Cree una función que haga **exactamente** lo mismo que el [método `list.index(x[, start[, end]])`](https://docs.python.org/3/tutorial/datastructures.html?highlight=index#more-on-lists). La función incluso debe fallar igual que la función original, debe mostrar una ayuda similar, pero en español, y debe implementar los parámetros opcionales `start` y `end`. ¿Qué pasa por ejemplo cuando le pasa parámetros negativos?
 
 ### `14.py`
 Haga una función que lea un número entero y lo convierta a una cadena de texto. No puede para ello utilizar la función `str()` o similar de python para convertir dicho número a cadena.
