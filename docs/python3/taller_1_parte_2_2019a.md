@@ -111,7 +111,7 @@ Cree una función que haga **exactamente** lo mismo que el [método `list.index(
 Haga una función que lea un número entero y lo convierta a una cadena de texto. No puede para ello utilizar la función `str()` o similar de python para convertir dicho número a cadena.
 
 ### `15.py`
-Lea una cadena de texto que contenga paréntesis, corchetes y llaves. Verifique que los paréntesis estén perfectamente balanceados. Por ejemplo, en la cadena `[(xyz)ee]{rr}ww{ff[(123)()](abc)}` los paréntesis, corchetes y llaves están bien balanceados, pero en la cadena ``[aa(123]6)` no lo están. PISTA: para ello se podría emplear el concepto de pilas visto en clase.
+Lea una cadena de texto que contenga paréntesis, corchetes y llaves. Verifique que los paréntesis estén perfectamente balanceados. Por ejemplo, en la cadena `[(xyz)ee]{rr}ww{ff[(123)()](abc)}` los paréntesis, corchetes y llaves están bien balanceados, pero en la cadena `[aa(123]6)` no lo están. PISTA: para ello se podría emplear el concepto de pilas visto en clase.
 
 ### `16.py`
 Cree un programa que mediante una función recursiva invierta una cadena de texto entrada por el usuario.
@@ -131,7 +131,7 @@ Adicionalmente, implemente funciones que calculen:
 * los segundos momentos de área (o inercia): Ix, Iy, Ixy
 
 de un polígono; para tal fin utilice las ecuaciones especificadas en los siguientes enlaces:
-* Hally, David (1987). [Calculation of the Moments of Polygons](https://apps.dtic.mil/dtic/tr/fulltext/u2/a183444.pdf). (Technical report). Canadian National Defense. Technical Memorandum 87/209.
+* Hally, David (1987). [Calculation of the Moments of Polygons](https://apps.dtic.mil/dtic/tr/fulltext/u2/a183444.pdf). Canadian National Defense. Technical Memorandum 87/209.
 * https://en.wikipedia.org/wiki/Polygon#Area
 * https://en.wikipedia.org/wiki/Polygon#Centroid
 * https://en.wikipedia.org/wiki/Second_moment_of_area#Any_polygon
