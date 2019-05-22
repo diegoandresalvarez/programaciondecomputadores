@@ -20,7 +20,7 @@ Leer un número entero de 3 dígitos y determinar si contiene el dígito 1.
 Leer un número entero de seis dígitos y determinar si el segundo dígito es igual al penúltimo.
 
 ### `03.py`
-Lea un número entero positivo y determine la suma de sus dígitos pares.
+Lea un número entero positivo y determine la suma de sus dígitos pares. Por ejemplo en el número 124, los dígitos pares son el 2 y el 4 y su suma vale 6.
 
 ### `04.py`
 Lea un número entero positivo de máximo 5 dígitos y determine cual de sus dígitos es el mayor.
