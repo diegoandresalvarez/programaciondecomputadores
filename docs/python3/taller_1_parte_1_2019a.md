@@ -67,7 +67,9 @@ Lea una matriz cuadrada y determine su traza y el promedio de los números en el
 ## Cadenas
 
 ### `16.py`
-Haga un programa que lea una cadena de texto e informe al usuario cuales son las palabras más largas y mas cortas en dicho texto. NOTA: no se puede utilizar el comando `split()` ya que este utiliza listas y las listas no están permitidas para este taller. Por ejemplo, dada la cadena *"Vive como si fueras a morir mañana, aprende como si fueras a vivir para siempre"*, las palabras más cortas son >>"a", "y", "a"<< y las más largas son >>"aprende", "siempre"<<. NOTA: se recomienda utilizar el comando [`str.isalpha()`](https://docs.python.org/3.7/library/stdtypes.html#string-methods) para determinar si el caracter analizado es una letra.
+Haga un programa que lea una cadena de texto e informe al usuario cuales son las palabras más largas y mas cortas en dicho texto. NOTA: no se puede utilizar el comando `split()` ya que este utiliza listas y las listas no están permitidas para este taller. Por ejemplo, dada la cadena *"Vive como si fueras a morir mañana, aprende como si fueras a vivir para siempre"*, las palabras más cortas son >>"a", "y", "a"<< y las más largas son >>"aprende", "siempre"<<. NOTA: se recomienda utilizar el comando [`str.isalpha()`](https://docs.python.org/3.7/library/stdtypes.html#string-methods) para determinar si el caracter analizado es una letra. 
+
+OPCIONAL: si lo desea tenga en cuenta la siguiente regla (lo hago para que aquellas personas que ya tienen el código no lo tengan que rehacer): la cadena solo estará formada por letras y espacios: no contendrá números, ni signos de puntuación. Se utilizará un solo espacio para separar las palabras.
 
 ### `17.py`
 Sin utilizar el método `.upper()` para cadenas, escriba un programa que lea una cadena de texto y la imprima en mayúscula. Tenga en cuenta que el programa debe aceptar las letras con tilde, la ñ y la ü.
