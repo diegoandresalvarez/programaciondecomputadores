@@ -87,7 +87,7 @@ Escriba un programa que reciba una cadena de texto y reporte:
 Utilice para ello los métodos de cadenas especializados como `.isupper()`, `.isdigit()`,  etc. y la palabra reservada `in`. Consulte [la ayuda de PYTHON](https://docs.python.org/3.7/library/stdtypes.html?highlight=islower#string-methods) para verificar que comandos especializados le pueden servir.
 
 ### `19.py`
-Haga un programa que lea dos palabras (podrían estar en mayúscula o minúscula) y determine cual está primero en el diccionario. El programa debe soportar letras con tilde y la ü.
+Haga un programa que lea dos palabras (podrían estar en mayúscula o minúscula) y determine cual está primero en el diccionario. El programa debe soportar letras con tilde, la ü y la ñ.
 
 ### `20.py`
 Escriba un programa que lea una cadena de texto y la imprima como un triángulo. Por ejemplo, si la cadena entrada es: *"Es una locura odiar a todas las rosas porque una te pinchó: renunciar a todos tus sueños porque uno de ellos no se realizó - El Principito"*, el programa debe imprimir:
