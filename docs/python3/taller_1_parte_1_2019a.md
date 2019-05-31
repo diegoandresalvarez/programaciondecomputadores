@@ -23,7 +23,9 @@ Leer un número entero de seis dígitos y determinar si el segundo dígito es ig
 Lea un número entero positivo y determine la suma de sus dígitos pares. Por ejemplo en el número 124, los dígitos pares son el 2 y el 4 y su suma vale 6.
 
 ### `04.py`
-Lea un número entero positivo de máximo 5 dígitos y determine cual de sus dígitos es el mayor. Por ejemplo, en el número 18850, el dígito mayor es el 8 y está en las posiciones 2 y 3.
+Lea un número entero positivo de máximo 5 dígitos y determine cual de sus dígitos es el mayor. Por ejemplo, en el número 18850, el dígito mayor es el 8.
+OPCIONAL: si lo desea tenga en cuenta las siguientes reglas (lo hago para que aquellas personas que ya tienen el código no lo tengan que rehacer):
+* Reporte adcionalmente la posición del máximo. El dígito mayor es el 8 y está en las posiciones 2 y 3.
 
 ### `05.py`
 Leer tres números enteros y determinar si el penúltimo dígito de los tres números es igual.
