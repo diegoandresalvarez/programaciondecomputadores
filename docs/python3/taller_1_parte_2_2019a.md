@@ -21,7 +21,7 @@
 Lea una lista de números enteros y enumere cuantos elementos se repiten exactamente dos veces. Utilizar para tal fin el método `count()` de listas.
 
 ### `02.py`
-Sin utilizar las funcionalidades de conjuntos de python, lea dos matrices A y B y determine los elementos que:
+Sin utilizar las funcionalidades de conjuntos de python, lea dos matrices A y B, las cuales tienen el mismo tamaño, y determine los elementos que:
    * son comunes a A y B.
    * están en A pero no están en B (esto se escribe en matemáticas como A\B); en este caso, imprima unas matrices que identifiquen los elementos solicitados; por ejemplo, dadas las matrices:
 ```
@@ -43,11 +43,11 @@ el programa debe imprimir en este segundo caso:
 ```
 A\B =
    19    2    2    *    *
-    *    *    *   19    *   
-   19    *    *    *    *                  
-    *    *    2    6    *  
+    *    *    *   19    *
+   19    *    *    *    *
+    *    *    2    6    *
 ```
-Repita el mismo ejercicio utilizando las funcionalidades de conjuntos de python. 
+Repita el mismo ejercicio utilizando las funcionalidades de conjuntos de python.
 
 ### `03.py`
 Lea una lista de números ya ordenados de forma ascendente y verifique que dicha lista está ordenada. Luego, lea un número e insértelo en la lista en la posición que le corresponde a dicho número.
