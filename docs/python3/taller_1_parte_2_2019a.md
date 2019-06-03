@@ -17,6 +17,8 @@
 
 *NOTA 3:* En cada ejercicio se deben imprimir de forma "bonita" cada matriz una vez entrados los datos, utilizando las funcionalidades de impresión asociadas a la función `print()` que se encuentran en las diapositivas [09_-_Entrada_y_salida_en_Python_3.pdf](../../diapositivas/python3/09_-_Entrada_y_salida_en_Python_3.pdf). Por forma "bonita" me refiero que los números deben estar perfectamente alineados por sus unidades y la impresión debe ser agradable a la vista.
 
+*NOTA 4:* Cuando no se especifique el tipo de número a leer asuma que se deben leer números enteros.
+
 ### `01.py`
 Lea una lista de números enteros y enumere cuantos elementos se repiten exactamente dos veces. Utilizar para tal fin el método `count()` de listas.
 
