@@ -56,7 +56,7 @@ Repita el mismo ejercicio utilizando las funcionalidades de conjuntos de python.
 Lea una lista de números ya ordenados de forma ascendente y verifique que dicha lista está ordenada. Luego, lea un número e insértelo en la lista en la posición que le corresponde a dicho número.
 
 ### `04.py`
-Lea una lista de números enteros y determine cual es el segundo elemento mayor de dicha lista. No utilice ningún tipo de algoritmo de ordenamiento para realizar este ejercicio. Por ejemplo, en la lista `[11, 22, 3, 4, 22]`, el segundo número mayor sería el 11.
+Lea una lista de números enteros y determine cual es el segundo elemento mayor de dicha lista. No utilice ningún tipo de algoritmo de ordenamiento para realizar este ejercicio. Por ejemplo, en la lista `[11, 22, 3, 4, 22]`, el segundo número mayor sería el 11; de otro lado, en la lista [1, 1, 1, 1, 1] no existe un segundo elemento mayor.
 
 ### `05.py`
 Lea dos matrices A y B. Determine la suma de cada una de las filas de la matriz A. Determine si alguna de dichas sumas tiene un valor igual a la multiplicación de los elementos de alguna de las columnas de la matriz B. Imprima el número de las filas de A y de las columnas B que cumplen dicha igualdad. Imprima también el valor de la suma referida.
