@@ -17,6 +17,8 @@
 
 *NOTA 3:* En cada ejercicio se deben imprimir de forma "bonita" cada matriz una vez entrados los datos, utilizando las funcionalidades de impresión asociadas a la función `print()` que se encuentran en las diapositivas [09_-_Entrada_y_salida_en_Python_3.pdf](../../diapositivas/python3/09_-_Entrada_y_salida_en_Python_3.pdf). Por forma "bonita" me refiero que los números deben estar perfectamente alineados por sus unidades y la impresión debe ser agradable a la vista.
 
+*NOTA 4:* Cuando no se especifique el tipo de número a leer asuma que se deben leer números enteros.
+
 ### `01.py`
 Lea una lista de números enteros y enumere cuantos elementos se repiten exactamente dos veces. Utilizar para tal fin el método `count()` de listas.
 
@@ -54,7 +56,7 @@ Repita el mismo ejercicio utilizando las funcionalidades de conjuntos de python.
 Lea una lista de números ya ordenados de forma ascendente y verifique que dicha lista está ordenada. Luego, lea un número e insértelo en la lista en la posición que le corresponde a dicho número.
 
 ### `04.py`
-Lea una lista y determine cual es el segundo elemento más grande de dicha lista. No utilice ningún tipo de algoritmo de ordenamiento para realizar este ejercicio.
+Lea una lista de números enteros y determine cual es el segundo elemento más grande de dicha lista. No utilice ningún tipo de algoritmo de ordenamiento para realizar este ejercicio.
 
 ### `05.py`
 Lea dos matrices A y B. Determine la suma de cada una de las filas de la matriz A. Determine si alguna de dichas sumas tiene un valor igual a la multiplicación de los elementos de alguna de las columnas de la matriz B. Imprima el número de las filas de A y de las columnas B que cumplen dicha igualdad. Imprima también el valor de la suma referida.
@@ -70,7 +72,7 @@ Lea una matriz e imprima el vector que aparece cuando la matriz se desenreda en 
 el vector solicitado es el `[26, 85, 51, 63, 45, 40, 63, 59, 99, 95, 12, 88, 73, 6, 78, 62, 28, 32, 49, 4]`.
 
 ### `07.py`
-Lea una matriz cuadrada A, obtenga su [matriz triangular superior](https://es.wikipedia.org/wiki/Matriz_triangular) asociada U y determine qué fila de U contiene la mayor cantidad de unos.
+Lea una matriz cuadrada A, obtenga su [matriz triangular superior](https://es.wikipedia.org/wiki/Matriz_triangular) asociada U y determine qué fila de U contiene la mayor cantidad de unos. La función debe funcionar de forma similar al comando [numpy.triu](https://docs.scipy.org/doc/numpy/reference/generated/numpy.triu.html) para `k=0`.
 
 ### `08.py`
 Lea una matriz y determine cual es el número que más se repite en ella. Identifique las posiciones en las cuales se encuentra dicho número. Para tal fin utilice el método `index()` de listas.
