@@ -13,7 +13,7 @@
 ## Listas
 *NOTA 1:* No utilizar el método `count()` de listas, a menos que se diga lo contrario.
 
-*NOTA 2:* Cuando se reporten posiciones dentro de una matriz, considere como si esta se encontrara dentro de una hoja de cálculo. Por ejemplo, si se tiene una matriz de 4x6, las filas se numerarían 1 a 4 y las columnas de A a F.
+*NOTA 2:* Cuando se reporten posiciones dentro de una matriz, considere como si esta se encontrara dentro de una hoja de cálculo. Por ejemplo, si se tiene una matriz de 4x6, las filas se numerarían 1 a 4 y las columnas de A a F. Asuma que máximo se tendrán 26 columnas, que comprenden las letras de la A a la Z sin contar la Ñ.
 
 *NOTA 3:* En cada ejercicio se deben imprimir de forma "bonita" cada matriz una vez entrados los datos, utilizando las funcionalidades de impresión asociadas a la función `print()` que se encuentran en las diapositivas [09_-_Entrada_y_salida_en_Python_3.pdf](../../diapositivas/python3/09_-_Entrada_y_salida_en_Python_3.pdf). Por forma "bonita" me refiero que los números deben estar perfectamente alineados por sus unidades y la impresión debe ser agradable a la vista.
 
