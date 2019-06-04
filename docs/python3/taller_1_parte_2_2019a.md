@@ -56,7 +56,7 @@ Repita el mismo ejercicio utilizando las funcionalidades de conjuntos de python.
 Lea una lista de números ya ordenados de forma ascendente y verifique que dicha lista está ordenada. Luego, lea un número e insértelo en la lista en la posición que le corresponde a dicho número.
 
 ### `04.py`
-Lea una lista de números enteros y determine cual es el segundo elemento mayor de dicha lista. No utilice ningún tipo de algoritmo de ordenamiento para realizar este ejercicio. Por ejemplo, en la lista `[11, 22, 3, 4, 22]`, el segundo número mayor sería el 11; de otro lado, en la lista [1, 1, 1, 1, 1] no existe un segundo elemento mayor.
+Lea una lista de números enteros y determine cual es el segundo elemento mayor de dicha lista. No utilice ningún tipo de algoritmo de ordenamiento para realizar este ejercicio. Por ejemplo, en la lista `[11, 22, 3, 4, 22]`, el segundo número mayor sería el 11; de otro lado, en la lista `[1, 1, 1, 1, 1]` no existe un segundo elemento mayor.
 
 ### `05.py`
 Lea dos matrices A y B. Determine la suma de cada una de las filas de la matriz A. Determine si alguna de dichas sumas tiene un valor igual a la multiplicación de los elementos de alguna de las columnas de la matriz B. Imprima el número de las filas de A y de las columnas B que cumplen dicha igualdad. Imprima también el valor de la suma referida.
@@ -111,7 +111,7 @@ Haga un programa que lea dos cadenas de texto y determine cual es la subcadena m
 Cree una función que haga **exactamente** lo mismo que el [método `list.index(x[, start[, end]])`](https://docs.python.org/3/tutorial/datastructures.html?highlight=index#more-on-lists). La función incluso debe fallar igual que la función original, debe mostrar una ayuda similar, pero en español, y debe implementar los parámetros opcionales `start` y `end`. ¿Qué pasa por ejemplo cuando le pasa parámetros negativos?
 
 ### `14.py`
-Haga una función que lea un número entero y lo convierta a una cadena de texto. No puede para ello utilizar la función `str()` o similar de python para convertir dicho número a cadena.
+Haga un programa que contenga una función que tome como argumento un número entero y lo convierta a una cadena de texto. No puede para ello utilizar la función `str()` o similar de python para convertir dicho número a cadena.
 
 ### `15.py`
 Lea una cadena de texto que contenga paréntesis, corchetes y llaves. Verifique que los paréntesis estén perfectamente balanceados. Por ejemplo, en la cadena `[(xyz)ee]{rr}ww{ff[(123)()](abc)}` los paréntesis, corchetes y llaves están bien balanceados, pero en la cadena `[aa(123]6)` no lo están. PISTA: para ello se podría emplear el concepto de pilas visto en clase.
