@@ -6,7 +6,7 @@ Fuente: <http://xkcd.com/323/>
 
 # Fecha y hora límite de entrega:
 * **Parte 1**: Mayo 24, 2019 a las 11:59pm 
-* **Parte 2**: Junio 9, 2019 a las 11:59pm 
+* **Parte 2**: Junio 16, 2019 a las 11:59pm 
 * **Parte 3**: Por definir
 * **Parte 4 (opcional)**: Por definir. La parte 4 de este taller es opcional y reemplaza la nota más baja de las entregas 1, 2 y 3. Es requisito presentar este taller para poder realizar de nuevo la sustentación.
 
