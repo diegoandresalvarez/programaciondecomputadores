@@ -99,13 +99,13 @@ la matriz solicitada es la:
 Repita el mismo ejercicio utilizando el módulo `numpy`.
 
 ### `11.py` (tiene una probabilidad dos veces más alta de salir)
-Haga un programa que lea n parejas de coordenadas (x_i, y_i) y calcule el correspondiente [polinomio de Lagrange](https://en.wikipedia.org/wiki/Lagrange_polynomial) que pasa por dichos puntos. Grafique dicho polinomio y los puntos leídos utilizando el módulo `matplotlib`. Investigue que funciones de interpolación tiene python en sus módulos `numpy` y `scipy` y utilice el comando `legend()` de `matplotlib` para comparar gráficamente las diferentes interpolaciones con dichos puntos. ¿Cuál de todos esos algoritmos, cree usted, que provee la mejor interpolación de los datos? Aprenda a utilizar dichas funciones leyendo la documentación.
+Haga un programa que lea *n* parejas de coordenadas (x_i, y_i), las cuales son números flotantes, y calcule el correspondiente [polinomio de Lagrange](https://en.wikipedia.org/wiki/Lagrange_polynomial) que pasa por dichos puntos. Grafique dicho polinomio y los puntos leídos utilizando el módulo `matplotlib`. Investigue que funciones de interpolación tiene python en sus módulos `numpy` y `scipy` y utilice el comando `legend()` de `matplotlib` para comparar gráficamente las diferentes interpolaciones con dichos puntos. ¿Cuál de todos esos algoritmos, cree usted, que provee la mejor interpolación de los datos? Aprenda a utilizar dichas funciones leyendo la documentación.
 
 
 ## Funciones
 
 ### `12.py`
-Haga un programa que lea dos cadenas de texto y determine cual es la subcadena más larga común a ambas cadenas de texto.
+Haga un programa que lea dos cadenas de texto y determine cual es la subcadena más larga común a ambas cadenas de texto. Si existen varias subcadenas más largas de igual longitud, solo imprima la primera.
 
 ### `13.py`
 Cree una función que haga **exactamente** lo mismo que el [método `list.index(x[, start[, end]])`](https://docs.python.org/3/tutorial/datastructures.html?highlight=index#more-on-lists). La función incluso debe fallar igual que la función original, debe mostrar una ayuda similar, pero en español, y debe implementar los parámetros opcionales `start` y `end`. ¿Qué pasa por ejemplo cuando le pasa parámetros negativos?
