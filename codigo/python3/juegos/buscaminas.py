@@ -89,6 +89,7 @@ def destapar(f, c):
 
 
 # %% Programa principal
+# %% Inicializar el modo curses
 stdscr = curses.initscr()       # entrada al modo curses
 
 if not curses.has_colors():
@@ -105,7 +106,7 @@ stdscr.keypad(True)
 curses.noecho()        # no muestre el caracter en pantalla cuando use getch()
 curses.curs_set(0)     # hacer el cursor invisible
 
-# inicializar el tablero
+# %% Inicializar el tablero
 for i in range(MAXFIL):
     for j in range(MAXCOL):
         stdscr.addch(i, j, '.')
@@ -116,12 +117,12 @@ stdscr.refresh()
 
 random.seed()  # active la semilla del generador de números aleatorios
 
-# Crear minas
+# %% Crear minas
 for k in range(NMINAS):
     i, j = random.randrange(MAXFIL), random.randrange(MAXCOL)
     esmina[i, j] = True
 
-# procesar entrada del teclado
+# %% Procesar entrada del teclado
 while True:
     # se almacena al posición del cursor antes de moverlo
     fcur, ccur = f, c         # se guarda la posición actual del cursor
@@ -172,6 +173,7 @@ while True:
     if todas_minas_marcadas:
         break
 
+# %% Finalizar el modo curses
 stdscr.attron(curses.A_BLINK)
 stdscr.addstr(MAXFIL, 0, "Ganaste :-)")
 stdscr.attroff(curses.A_BLINK)
