@@ -72,7 +72,7 @@ Lea una matriz e imprima el vector que aparece cuando la matriz se desenreda en 
 el vector solicitado es el `[26, 85, 51, 63, 45, 40, 63, 59, 99, 95, 12, 88, 73, 6, 78, 62, 28, 32, 49, 4]`.
 
 ### `07.py`
-Lea una matriz cuadrada A, obtenga su [matriz triangular superior](https://es.wikipedia.org/wiki/Matriz_triangular) asociada U y determine qué fila de U contiene la mayor cantidad de números 20. La función debe funcionar de forma similar al comando [numpy.triu](https://docs.scipy.org/doc/numpy/reference/generated/numpy.triu.html) para `k=0`.
+Lea una matriz cuadrada A, obtenga su [matriz triangular superior](https://es.wikipedia.org/wiki/Matriz_triangular) asociada U y determine qué fila de U contiene la mayor cantidad de números 20. Si dos filas, tienen la misma cantidad de 20s, debe reportar ambas. La función debe funcionar de forma similar al comando [numpy.triu](https://docs.scipy.org/doc/numpy/reference/generated/numpy.triu.html) para `k=0`. 
 
 ### `08.py`
 Lea una matriz y determine cual es el número que más se repite en ella. Identifique las posiciones en las cuales se encuentra dicho número. Para tal fin utilice el método `index()` de listas.
