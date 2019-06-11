@@ -75,7 +75,7 @@ el vector solicitado es el `[26, 85, 51, 63, 45, 40, 63, 59, 99, 95, 12, 88, 73,
 Lea una matriz cuadrada A, obtenga su [matriz triangular superior](https://es.wikipedia.org/wiki/Matriz_triangular) asociada U y determine qué fila de U contiene la mayor cantidad de números 20. Si dos filas, tienen la misma cantidad de 20s, debe reportar ambas. La función debe funcionar de forma similar al comando [numpy.triu](https://docs.scipy.org/doc/numpy/reference/generated/numpy.triu.html) para `k=0`. 
 
 ### `08.py`
-Lea una matriz y determine cual es el número que más se repite en ella. Identifique las posiciones en las cuales se encuentra dicho número. Para tal fin utilice el método `index()` de listas.
+Lea una matriz y determine cual o cuales son los números que más se repiten en ella. Identifique las posiciones en las cuales se encuentra dicho(s) número(s). Para tal fin utilice el método `index()` de listas.
 
 ### `09.py`
 Lea una lista e identifique la primera sublista más larga dentro de dicha lista que se encuentra ordenada ascendentemente. Por ejemplo en la lista `[5, 6, 5, 1, 2, 6, 9, 2, 4, 1, 3, 4, 5]` la mayor sublista ordenada es la `[1, 2, 6, 9]`.
