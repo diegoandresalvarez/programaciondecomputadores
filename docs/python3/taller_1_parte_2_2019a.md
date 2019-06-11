@@ -44,7 +44,13 @@ B =
    14    8    5   20   18
    12    7   14   18   13
 ```
-el programa debe imprimir en este segundo caso:
+el programa debe imprimir:
+
+* En el primer caso:
+```
+Los elementos comunes a A y B son = [ 3, 5, 7, 8, 12, 13, 14, 17 ]
+```
+* En el segundo caso:
 ```
 A\B =
    19    2    2    *    *
