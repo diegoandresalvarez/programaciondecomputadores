@@ -111,7 +111,7 @@ Haga un programa que lea dos cadenas de texto y determine cual es la subcadena m
 Cree una función que haga **exactamente** lo mismo que el [método `list.index(x[, start[, end]])`](https://docs.python.org/3/tutorial/datastructures.html?highlight=index#more-on-lists). La función incluso debe fallar igual que la función original, debe mostrar una ayuda similar, pero en español, y debe implementar los parámetros opcionales `start` y `end`. ¿Qué pasa por ejemplo cuando le pasa parámetros negativos?
 
 ### `14.py`
-Haga un programa que contenga una función que tome como argumento un número entero y lo convierta a una cadena de texto. No puede para ello utilizar la función `str()` o similar de python para convertir dicho número a cadena.
+Haga un programa que contenga una función que tome como argumento un número entero y lo convierta a una cadena de texto. No puede para ello utilizar la función `str()` o similar de python para convertir dicho número a cadena. Al final del programa, muestre el uso de la función solicitada.
 
 ### `15.py`
 Lea una cadena de texto que contenga paréntesis, corchetes y llaves. Verifique que los paréntesis estén perfectamente balanceados. Por ejemplo, en la cadena `[(xyz)ee]{rr}ww{ff[(123)()](abc)}` los paréntesis, corchetes y llaves están bien balanceados, pero en la cadena `[aa(123]6)` no lo están. PISTA: para ello se podría emplear el concepto de pilas visto en clase.
