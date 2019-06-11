@@ -19,6 +19,8 @@
 
 *NOTA 4:* Cuando no se especifique el tipo de número a leer asuma que se deben leer números enteros.
 
+*NOTA 5:* Cuando se pida implementar alguna función, se debe incluir algunas líneas que ilustren la función que se creó.
+
 ### `01.py`
 Lea una lista de números enteros y enumere cuantos elementos se repiten exactamente dos veces. Utilizar para tal fin el método `count()` de listas.
 
