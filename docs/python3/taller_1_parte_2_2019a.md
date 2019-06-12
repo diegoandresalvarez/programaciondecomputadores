@@ -113,7 +113,7 @@ Haga un programa que lea *n* parejas de coordenadas (x_i, y_i), las cuales son n
 ## Funciones
 
 ### `12.py`
-Haga un programa que lea dos cadenas de texto y determine cual es la subcadena más larga común a ambas cadenas de texto. Si existen varias subcadenas más largas de igual longitud, solo imprima la primera.
+Haga un programa que lea dos cadenas de texto y determine cual es la subcadena más larga común a ambas cadenas de texto. Si existen varias subcadenas más largas de igual longitud, solo imprima la primera. Por ejemplo, suponga que usted tiene dos cadenas: ```cad1 = 'La vida es una película que vuelve a empezar cada mañana al despertarnos.'``` y ```cad2 = 'Cada mañana al despertarme, me veo una película.'``` La subcadena común a ambas cadenas es ```'ada mañana al despertar'```.
 
 ### `13.py`
 Cree una función que haga **exactamente** lo mismo que el [método `list.index(x[, start[, end]])`](https://docs.python.org/3/tutorial/datastructures.html?highlight=index#more-on-lists). La función incluso debe fallar igual que la función original, debe mostrar una ayuda similar, pero en español, y debe implementar los parámetros opcionales `start` y `end`. ¿Qué pasa por ejemplo cuando le pasa parámetros negativos?
