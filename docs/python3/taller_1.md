@@ -146,7 +146,7 @@ Si lo escrito a continuación no se cumple EXACTAMENTE se rebajará una unidad e
     * No escribir código ineficiente.
 
 * Cualquier violación a las siguientes reglas o si el programa hace una de las cosas nombradas a continuación se descontarán **50%** en la nota obtenida del ejercicio:
-  * El programa deberá estar **super comentado**, explicando las razones del porqué de su código, no las implementaciones de su código. Se recomienda leer: 
+  * El programa deberá estar **super comentado**, explicando las razones del porqué de su código, no las implementaciones de su código; en otras palabras, usted debería explicar qué hace cierto procedimiento, no como lo hace. Se recomienda leer: 
     * <http://www.variablenotfound.com/2007/12/13-consejos-para-comentar-tu-cdigo.html> 
     *   <https://www.genbeta.com/desarrollo/diez-consejos-para-mejorar-tus-comentarios-de-codigo-fuente>
 
