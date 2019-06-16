@@ -107,7 +107,7 @@ la matriz solicitada es la:
 Repita el mismo ejercicio utilizando el módulo `numpy`.
 
 ### `11.py` (tiene una probabilidad dos veces más alta de salir)
-Haga un programa que lea *n* parejas de coordenadas (x_i, y_i), las cuales son números flotantes, y calcule el correspondiente [polinomio de Lagrange](https://en.wikipedia.org/wiki/Lagrange_polynomial) que pasa por dichos puntos. Grafique dicho polinomio y los puntos leídos utilizando el módulo `matplotlib`. Investigue que funciones de interpolación tiene python en sus módulos `numpy` y `scipy` y utilice el comando `legend()` de `matplotlib` para comparar gráficamente las diferentes interpolaciones con dichos puntos. ¿Cuál de todos esos algoritmos, cree usted, que provee la mejor interpolación de los datos? Aprenda a utilizar dichas funciones leyendo la documentación.
+Haga un programa que lea *n* parejas de coordenadas (x_i, y_i), las cuales son números flotantes, y calcule el correspondiente [polinomio de Lagrange](https://en.wikipedia.org/wiki/Lagrange_polynomial) que pasa por dichos puntos (si quiere para este ejercicio utilice la librería `numpy`). Grafique dicho polinomio y los puntos leídos utilizando el módulo `matplotlib`. Investigue que funciones de interpolación tiene python en sus módulos `numpy` y `scipy` y utilice el comando `legend()` de `matplotlib` para comparar gráficamente las diferentes interpolaciones con dichos puntos. ¿Cuál de todos esos algoritmos, cree usted, que provee la mejor interpolación de los datos? Aprenda a utilizar dichas funciones leyendo la documentación.
 
 
 ## Funciones
