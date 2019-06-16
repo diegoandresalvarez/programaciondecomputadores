@@ -137,7 +137,7 @@ dichas coordenadas deben estar especificadas en sentido antihorario. Uno de los 
 Adicionalmente, implemente funciones que calculen:
 * el perímetro
 * el área A
-* la posición del centro de gravedad: (Cx, Cy)
+* la posición del centro de gravedad: (Cx, Cy). Tenga en cuenta que el centro de gravedad se denota en la figura como el punto `O`.
 * los primeros momentos de área: Qx, Qy
 * los segundos momentos de área (o inercia): Ix, Iy, Ixy
 
