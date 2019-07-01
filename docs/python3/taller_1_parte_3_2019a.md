@@ -1,6 +1,6 @@
 # Taller 1, Parte 3: 6 ejercicios
 
-Esta parte del taller, a diferencia de las partes anteriores requerirá de ustedes la habilidad de buscar en intenet información sobre librerías, funciones y métodos para realizar las tareas encomendadas y obviamente, aprenderlas a usar. Muchas de las funciones que requerirán para hacer el taller no se verán en clase, por lo que es necesario que complementen su conocimiento en foros, YouTube y tutoriales.
+Esta parte del taller, a diferencia de las partes anteriores, requerirá de ustedes la habilidad de buscar en intenet información sobre librerías, funciones y métodos para realizar las tareas encomendadas y obviamente, aprenderlas a usar. Muchas de las funciones que requerirán para hacer el taller no se verán en clase, por lo que es necesario que complementen su conocimiento en foros, YouTube y tutoriales.
 
 Cada uno de los siguientes ejercicios debe realizarse utilizando las librerías `NumPy`, `SciPy`, `pandas` y/o `matplotlib`, a menos que se diga lo contrario.
 
@@ -41,7 +41,7 @@ El polinomio debe ser calculado utilizando `NumPy`. No se puede especificar dire
 ## `03.py` (se recomienda utilizar `NumPy`)
 Descargar el archivo de MS EXCEL [Índice de precios de la vivienda nueva (IPVN) - Indices, según municipios y estratos 2010 - 2019 (datos trimestrales)](https://www.dane.gov.co/files/investigaciones/ipvn/IPVN_ind_mpi_estr_Itrim19_indice.xls) de la página del DANE.
 
-Sin alterar el archivo de MS EXCEL original, haga una figura que ilustre en el mismo gráfico la serie de tiempo *anual* contenida en dicha tabla para Manizales, Pereira y Armenia. Tenga en cuenta que los datos que se descargó son trimestrales.
+Sin alterar el archivo de MS EXCEL original, haga una figura que ilustre en el mismo gráfico la serie de tiempo *anual* contenida en dicha tabla para Manizales, Pereira y Armenia. Tenga en cuenta que los datos provistos en el archivo de MS EXCEL son trimestrales.
 
 Se recomienda al lector mirar la página https://en.wikipedia.org/wiki/House_price_index para entender qué es el *índice de precios de la vivienda*.
 
@@ -49,10 +49,12 @@ Se recomienda al lector mirar la página https://en.wikipedia.org/wiki/House_pri
 Repetir el ejercicio anterior utilizando esta vez el módulo `pandas`.
 
 ## `05.py` (se recomienda utilizar `pandas`)
-Descargue de la página del DANE la base de datos del [Censo de Habitantes de Calle - CHC- 2017 - Bogotá, D.C.](http://microdatos.dane.gov.co/index.php/catalog/548).
+Descargue de la página del DANE la base de datos del [Censo de Habitantes de Calle - CHC- 2017 - Bogotá, D.C.](http://microdatos.dane.gov.co/index.php/catalog/548)
 
 Utilizando esta base de datos:
-* Cree histogramas que muestren la distribución de edades de los encuestados, uno para cada sexo.
+* Cree una [pirámide poblacional](https://en.wikipedia.org/wiki/Population_pyramid) que muestre la distribución de edades de los encuestados por sexo. Ver por ejemplo:
+<img src="https://www.indexmundi.com/graphs/population-pyramids/colombia-population-pyramid-2016.gif" width="600">
+
 * Cree una torta que indique el nivel educativo más alto alcanzado.
 
 ## `06.py` (se recomienda utilizar `pandas` - tiene el doble de probabilidades de salir)
