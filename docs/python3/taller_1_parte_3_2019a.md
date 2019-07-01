@@ -55,6 +55,8 @@ Utilizando esta base de datos:
 * Cree una [pirámide poblacional](https://en.wikipedia.org/wiki/Population_pyramid) que muestre la distribución de edades de los encuestados por sexo. Ver por ejemplo:
 <img src="https://www.indexmundi.com/graphs/population-pyramids/colombia-population-pyramid-2016.gif" width="600">
 
+en este caso, el eje horizontal debe mostrar el porcentaje de personas entrevistadas.
+
 * Cree una torta que indique el nivel educativo más alto alcanzado.
 
 ## `06.py` (se recomienda utilizar `pandas` - tiene el doble de probabilidades de salir)
