@@ -61,6 +61,7 @@ Descargar de la Registraduría los datos de los [resultados para la primera vuel
 Procesar los datos mostrados y generar:
 * Un mapa de Colombia que indique el porcentaje de votos de cada candidato por departamento, de forma similar a:
 <img src="https://saintbrendansisland.files.wordpress.com/2014/05/colombia-20143.png" width="600">
+
 * Un mapa del departamento de Caldas que indique cual fue el candidato ganador por municipio.
 
 En un comentario, indicar cuales comandos tuvo que ejecutar en la consola para instalar la(s) librería(s) para dibujar los mapas y también los links de los archivos necesarios para tal final (shapefiles, etc.)
