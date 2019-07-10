@@ -8,7 +8,7 @@ Fuente: <http://xkcd.com/323/>
 * **Parte 1**: Mayo 24, 2019 a las 11:59pm
 * **Parte 2**: Junio 18, 2019 a las 11:59pm
 * **Parte 3**: Julio 18, 2019 a las 11:59pm
-* **Parte 4 (opcional)**: Por definir. La parte 4 de este taller es opcional y reemplaza la nota más baja de las entregas 1, 2 y 3. Es requisito presentar este taller para poder realizar de nuevo la sustentación.
+* **Parte 4**: Agosto 2, 2019 a las 11:59pm. La parte 4 de este taller es opcional para quienes en los dos primeros intentos de la sustentación hayan realizado al menos dos de los ejercicios propuestos. Este taller reemplaza la nota más baja de las entregas 1, 2 y 3.
 
 Cada entrega del taller debe enviarse a <daalvarez@unal.edu.co>. Sin excepción, por cada día de retraso en la entrega, se rebajarán 3 décimas de la nota de esa entrega del Taller 1.
 
