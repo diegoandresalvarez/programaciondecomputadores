@@ -196,11 +196,11 @@ Si en el caso de terminar los 4 intentos, el estudiante solo hizo dos ejercicios
 
 Asumiendo que Nota 1, Nota 2 y Nota 3 se evalúan sobre 5.0. Con el factor de ponderación de la sustentación, podría obtenerse una nota mayor.
 
-## Fecha y hora de la sustentación
-* Intento 1: POR DEFINIR.
-* Intento 2: POR DEFINIR
-* Intento 3: POR DEFINIR
-* Intento 4: POR DEFINIR
+## Fecha, hora y lugar de la sustentación
+* Intento 1: Martes, Julio 16 de 2019, 6:00am a 9:00am, Aula C105
+* Intento 2: Viernes, Julio 26 de 2019, 1:00pm a 4:00pm, Aula C206
+* Intento 3: Martes, Julio 30 de 2019, 6:00am a 9:00am, Aula C105
+* Intento 4: Viernes, Agosto 2 de 2019, 1:00pm a 4:00pm, Aula C206
 
 # Nota con respecto al Taller 2
 Para poder presentar el Taller 2 se deberán cumplir el siguiente requisito:
