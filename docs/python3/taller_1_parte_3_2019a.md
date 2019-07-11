@@ -45,8 +45,12 @@ Sin alterar el archivo de MS EXCEL original, haga una figura que ilustre en el m
 
 Se recomienda al lector mirar la página https://en.wikipedia.org/wiki/House_price_index para entender qué es el *índice de precios de la vivienda*.
 
+No se puede utilizar para la realización de este ejercicio el módulo `pandas`.
+
 ## `04.py` (se recomienda utilizar `pandas`)
 Repetir el ejercicio anterior utilizando esta vez el módulo `pandas`.
+
+No se puede utilizar para la realización de este ejercicio el módulo `Numpy`.
 
 ## `05.py` (se recomienda utilizar `pandas`)
 Descargue de la página del DANE la base de datos del [Censo de Habitantes de Calle - CHC- 2017 - Bogotá, D.C.](http://microdatos.dane.gov.co/index.php/catalog/548)
