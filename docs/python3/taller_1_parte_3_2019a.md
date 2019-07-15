@@ -67,10 +67,10 @@ en este caso, el eje horizontal debe mostrar el porcentaje de personas entrevist
 Descargar de la Registraduría los datos de los [resultados para la primera vuelta de las elecciones presidenciales para el 2014](https://www.registraduria.gov.co/-Historico-de-Resultados,3635-.html). Archivo: https://www.registraduria.gov.co/IMG/xlsx/PRE_1ERA_VUELTA_MMV_2014.xlsx
 
 Procesar los datos mostrados y generar:
-* Un mapa de Colombia que indique el porcentaje de votos de cada candidato por departamento, de forma similar a:
+* Un gráfico similar al mostrado a continuación:
 <img src="https://saintbrendansisland.files.wordpress.com/2014/05/colombia-20143.png" width="600">
 
-* Un mapa del departamento de Caldas que indique cual fue el candidato ganador por municipio.
+* Un mapa del departamento de Caldas que indique cual fue el candidato ganador por municipio (similar al mapa anterior superior izquierdo).
 
 En un comentario, indicar cuales comandos tuvo que ejecutar en la consola para instalar la(s) librería(s) para dibujar los mapas y también los links de los archivos necesarios para tal final (shapefiles, etc.)
 
