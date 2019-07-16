@@ -14,15 +14,15 @@ Si los datos vienen de un archivo, el programa debe leer dichos datos del archiv
 
 Cuando se solicite un gráfico, este debe hacerse con la mayor información posible. Si está incompleto se quitará una unidad; esto sucede por ejemplo si olvida el nombre de un eje, de un título, colocar una leyenda, o cualquier otra información necesaria para entender un gráfico. Explore todas posibilidades para que sus gráficos queden bien bonitos.
 
-## `01.ipynb` (utilizar `NumPy` - tiene el doble de probabilidades de salir)
-Estudiar a fondo el programa [12_rotar3d_pygame.zip](https://github.com/diegoandresalvarez/programaciondecomputadores/raw/master/codigo/python3/12_rotar3d_pygame.zip) y modificarlo de modo que no utilice listas sino arrays de `NumPy`. Todas las operaciones matemáticas deben hacerse también con `NumPy`.
+## `01.py` (utilizar `NumPy` - tiene el doble de probabilidades de salir)
+Estudiar a fondo el programa [12_rotar3d_pygame.zip](https://github.com/diegoandresalvarez/programaciondecomputadores/raw/master/codigo/python3/12_rotar3d_pygame.zip) y modificarlo de modo que no utilice listas sino arrays de `NumPy`. Todas las operaciones matemáticas deben hacerse también con `NumPy`. Organice el código en un solo archivo llamado `01.py`.
 
 El archivo principal de este programa es `rotar3d.py`. Para ejecutar dicho programa, primero debe instalar el módulo `pygame`, lo cual puede hacerse con el comando de consola:
 ```
 python -m pip install pygame
 ```
 
-## `02.py` (se recomienda utilizar `NumPy`)
+## `02.ipynb` (se recomienda utilizar `NumPy`)
 Haga una hoja de Jupyter que grafique [polinomios de Legendre](https://en.wikipedia.org/wiki/Legendre_polynomials).
 
 De forma similar a las siguientes figuras:
