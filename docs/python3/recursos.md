@@ -10,6 +10,9 @@ Libros recomendados:
 * [Oviedo, Efrain. Lógica de Programación](http://www.uneweb.com/tutoriales/Logica-de-Programacion-Efrain-Oviedo.pdf) (algunas de las gráficas que faltan en el libro se encuentran [aquí](http://books.google.co.ve/books?id=Z_n5lbyJfrQC&pg=PR3&hl=es&source=gbs_selected_pages&cad=2#v=onepage&q&f=false))
 * [Marzal Varó, Andrés; Gracia Luengo, Isabel; García Sevilla, Pedro (2014). Introducción a la programación con Python 3](http://dx.doi.org/10.6035/Sapientia93)
 
+## Video tutoriales de introducción a los computadores
+* [Crash Course: Computer Science](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)
+
 ## Algunos consejos de cómo programar bien
 * [Wilson, Greg et. al. (2014) - Best Practices for Scientific Computing](http://www.plosbiology.org/article/info%3Adoi%2F10.1371%2Fjournal.pbio.1001745)
 * [Oualline, Steve (1992) - C elements of style](http://www.oualline.com/style/index.html)
