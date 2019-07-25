@@ -17,4 +17,4 @@ Fuente: <https://www.youtube.com/watch?v=mCDkxUbalCw>
 
 ## Talleres
 - [Taller 1](docs/python3/taller_1.md)
-- [Taller 2](docs/python3/taller_2_2018b.md)
+- [Taller 2](https://github.com/diegoandresalvarez/bomberman)
