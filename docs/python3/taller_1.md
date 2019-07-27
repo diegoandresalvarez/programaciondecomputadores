@@ -16,10 +16,8 @@ Cada entrega del taller debe enviarse a <daalvarez@unal.edu.co>. Sin excepción,
 - [Taller 1, Parte 1](taller_1_parte_1_2019a.md)
 - [Taller 1, Parte 2](taller_1_parte_2_2019a.md)
 - [Taller 1, Parte 3](taller_1_parte_3_2019a.md)
-
-<!---
 - [Taller 1, Parte 4](taller_1_parte_4_2019a.md)
--->
+
 <!---
 ## Parte 4
 <details><summary>Haga click para ver la parte 4</summary>
