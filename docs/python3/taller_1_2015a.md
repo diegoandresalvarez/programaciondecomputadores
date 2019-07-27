@@ -125,20 +125,14 @@ etc. Simplemente usen su creatividad.
 
 =Parte 4 -- opcional para los que quieran mejorar su nota y obligatorio para los que quieran volver a repetir la sustentación (12 ejercicios)=
 
-MGG_178.py
-MGG_182.py
-MGG_210.py
-MGG_222.py No utilizar los métodos de cadenas lower(), split(), ni las utilidades de conjuntos para realizar este ejercicio.
-MGG_262.py En el postulado hay un error. Por ejemplo "ababab" es repetición de "ab" varias veces. Sin embargo "ababa" no lo es. Otro ejemplo sería: "123 123 123 123 " es repetición de "123 " pero "123 123 123 123" no lo sería (observe el espacio final).
-MGG_278.py ​Considere las palabras con tilde y sin tilde como palabras diferentes. Lo mismo aquellas escritas con mayúscula y con minúscula.
-MGG_310 No utilizar para ello las utilidades de conjuntos que suministra Python.
-EJE_1.py Dados dos vectores x e y de "n" elementos cada uno, calcular la ecuación de regresión lineal. Es decir, estimar las constantes m y b de y = m*x+b. Pista: http://www.cs.toronto.edu/~mbrubake/teaching/C11-Fall2014/Handouts/LinearRegression.pdf
-EJE_2.py Dado una lista L, que contiene números enteros repetidos y en desorden, imprimir una lista en la cual aparezcan dichos valores ordenados y una sola vez; por ejemplo si L = [2,1,7,1,3,4,-1,7,9,5,2,5], entonces el programa imprime [-1,1,2,3,4,5,7,9]. No usar las utilidades de conjuntos ni las utilidades para ordernar listas que provee Python (ejemplo: sorted() o el método sort()).
-EJE_3.py Elaborar un algoritmo que pregunte al usuario vectores de n1 y n2 elementos, los cuales, se sabe, están ordenados ascendentemente cada uno. Forme un tercer arreglo que quede ordenado en la medida que pasan los elementos de los dos arreglos iniciales. Imprimir el nuevo arreglo. No usar las utilidades que provee Python para ordenar listas: ejemplo sorted() o el método sort().
-EJE_4.py Sin utilizar las funcionalidades que provee Python para convertir un número de una base a otra, elabore un programa que lea un número de base 10 e imprima su equivalente en las bases 2 8 y 16.
-EJE_5.py Haga una simulación de Monte Carlo para estimar el número pi. No utilizar para ello las funciones suministradas por el módulo random, sino que debe implementar el algoritmo "Linear Congruential Generator". Imprima la estimación de pi para 1000, 10000, 10000 y 100000 simulaciones de Monte Carlo (junto con el respectivo error en porcentaje de la estimación). Pistas: https://www.youtube.com/watch?v=VJTFfIqO4TU https://www.youtube.com/watch?v=9aJADZgNl18
 
-<span style="color: #ffffff;
-font-size: 1%;">NOTA: si el correo que ustedes envían les rebota, revisen que no tengan archivos de extensiones diferentes al .c. Si ustedes por ejemplo envían la carpeta con un archivo .exe, el correo de gmail siempre rechazará el archivo adjunto que ustedes tratan de enviar.</span>
 
-* Por escribir o acceder a zonas de memoria no permitidas (esto sucede por ejemplo al utilizar incorrectamente las referencias a una lista o indexar incorrectamente una lista/tupla, etc), se tendrá 0 en la nota de ese punto, incluso si el programa aparentemente funciona bien.
+
+
+MGG_310 No utilizar para ello las utilidades de conjuntos que suministra Python. 
+
+EJE_2.py Dado una lista L, que contiene números enteros repetidos y en desorden, imprimir una lista en la cual aparezcan dichos valores ordenados y una sola vez; por ejemplo si L = [2,1,7,1,3,4,-1,7,9,5,2,5], entonces el programa imprime [-1,1,2,3,4,5,7,9]. No usar las utilidades de conjuntos ni las utilidades para ordernar listas que provee Python (ejemplo: sorted() o el método sort()). 
+
+EJE_3.py Elaborar un algoritmo que pregunte al usuario vectores de n1 y n2 elementos, los cuales, se sabe, están ordenados ascendentemente cada uno. Forme un tercer arreglo que quede ordenado en la medida que pasan los elementos de los dos arreglos iniciales. Imprimir el nuevo arreglo. No usar las utilidades que provee Python para ordenar listas: ejemplo sorted() o el método sort(). 
+
+EJE_4.py Sin utilizar las funcionalidades que provee Python para convertir un número de una base a otra, elabore un programa que lea un número de base 10 e imprima su equivalente en las bases 2 8 y 16. 
