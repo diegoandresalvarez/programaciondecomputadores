@@ -68,6 +68,8 @@ El curso se desarrollará teniendo en cuenta diferentes aspectos pedagógicos co
 Se enseñará Python 3 ya que a diferencia de otros lenguajes de programación como C o C++ este es un lenguaje con una sintaxis simple y mucho más fácil de aprender. Adicionalmente existe en internet mucho material educativo gratis y de excelente calidad sobre el tema.
 
 ## Contenido
+Ver: [SFIA-2362.pdf](SFIA-2362.pdf), [ANEXO_SFIA-2362.pdf](ANEXO_SFIA-2362.pdf)
+
 1. La esencia de la lógica de programación
    - Planteamiento, abordaje de problemas, estrategias de solución, análisis de problemas, entradas y salidas
    - Algoritmos
