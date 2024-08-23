@@ -170,7 +170,7 @@ Y en los videotutoriales de [Código Facilito](https://codigofacilito.com/videos
 - [13_staticmethods_classmethods.py](../../codigo/python3/13_staticmethods_classmethods.py)
 
 ## 14 - Programación científica en Python
-- [Scipy Lecture Notes](https://www.scipy-lectures.org/): documento principal de aprendizaje
+- [Scipy Lecture Notes](https://lectures.scientific-python.org/): documento principal de aprendizaje
 - [Numpy](../../codigo/python3/jupyter/tutorial_numpy.ipynb)
 - [Matplotlib](../../codigo/python3/jupyter/tutorial_matplotlib.ipynb)
 - [Jupyter](../../codigo/python3/jupyter/tutorial_jupyter.ipynb)
