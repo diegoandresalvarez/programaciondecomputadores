@@ -1,0 +1,10 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Jupyter
+.ipynb_checkpoints/
+.virtual_documents/
+
+# editors
+.vscode/
+
