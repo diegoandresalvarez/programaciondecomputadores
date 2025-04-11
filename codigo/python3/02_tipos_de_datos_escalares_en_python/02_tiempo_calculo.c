@@ -9,7 +9,7 @@ int main() {
    double x, dif, suma = 0;
 
    gettimeofday(&tic, NULL);   
-   for (int i=0; i < 10000000; i++)
+   for (int i=0; i < 100000000; i++)
       suma += 1.0/(2*i + 1) - 1.0/(2*i + 2);
    gettimeofday(&toc, NULL);
 

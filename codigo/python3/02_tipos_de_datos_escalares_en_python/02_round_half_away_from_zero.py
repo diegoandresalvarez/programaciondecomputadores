@@ -11,5 +11,5 @@ def mi_round(y):
     
 for i in range(-6,6):
     x = i + 0.5
-    print('% 3.1f ---> % 4.1f' % (x, mi_round(x)))
+    print(f'{x:4.1f} ---> {mi_round(x):4.1f}')
 

@@ -13,7 +13,7 @@ print(s1)
 print(s2)
 
 # se muestra la diferencia entre las representaciones
-print(''.join('1' if s1[i] == s2[i] else '0' for i in range(len(s1))))
+print(''.join('.' if s1[i] == s2[i] else 'x' for i in range(len(s1))))
 
 print("\nSe imprimen todos los decimales:")
 print(f'{0.2    :.25f}')
